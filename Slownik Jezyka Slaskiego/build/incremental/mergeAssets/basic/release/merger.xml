@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger>
+
+    <dataSet config="main" >
+        <source path="/home/rafal/Dropbox/Moje projekty/Android/Slownik Jezyka Slaskiego Project/Slownik Jezyka Slaskiego/src/main/assets" >
+            <file
+                name="dictionary.csv"
+                path="/home/rafal/Dropbox/Moje projekty/Android/Slownik Jezyka Slaskiego Project/Slownik Jezyka Slaskiego/src/main/assets/dictionary.csv" />
+        </source>
+    </dataSet>
+    <dataSet config="basic" >
+        <source path="/home/rafal/Dropbox/Moje projekty/Android/Slownik Jezyka Slaskiego Project/Slownik Jezyka Slaskiego/src/basic/assets" />
+    </dataSet>
+    <dataSet config="release" >
+        <source path="/home/rafal/Dropbox/Moje projekty/Android/Slownik Jezyka Slaskiego Project/Slownik Jezyka Slaskiego/src/release/assets" />
+    </dataSet>
+
+</merger>

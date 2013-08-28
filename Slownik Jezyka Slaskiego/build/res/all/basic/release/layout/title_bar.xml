@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/title_layout"
+                android:background="@color/topbar_grey" >
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+        <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="centerInside"
+                android:gravity="center_vertical"
+                android:id="@+id/imageView">
+
+            <ImageView
+                    android:id="@+id/header"
+                    android:src="@drawable/ic_launcher"
+                    android:layout_width="wrap_content"
+                    android:padding="10dip"
+                    android:layout_height="wrap_content"/>
+
+            <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:gravity="center_vertical"
+                    android:weightSum="1">
+
+                <EditText
+                        android:layout_width="0dip"
+                        android:layout_weight="0.9"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/darkergrey_titlebar"
+                        android:id="@+id/topbar_editText" 
+                        android:hint="@string/search"
+                        android:textSize="12sp" />
+                
+                <LinearLayout
+                        android:layout_width="0dip"
+                        android:layout_weight="0.1"
+                        android:gravity="center"
+                        android:layout_height="match_parent"
+                        android:padding="10dip" > 
+
+<!--                       <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/button"/>  -->
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/topbar_darkgrey"
+                android:paddingLeft="5dip"
+                >
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="3dip"
+                    android:textSize="12sp"
+                    android:textAllCaps="true"
+                    android:background="@color/topbar_darkgrey"
+                    android:textColor="@color/darkergrey_titlebar"
+                    android:text="@string/results" />
+                </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</RelativeLayout><!-- From: file:/home/rafal/Dropbox/Moje%20projekty/Android/Slownik%20Jezyka%20Slaskiego%20Project/Slownik%20Jezyka%20Slaskiego/src/main/res/layout/title_bar.xml -->

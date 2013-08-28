@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+        
+    <style name="ApplicationSearchbarTheme" parent="@android:style/Theme.Black.NoTitleBar" >
+        
+        <item name="android:textSize">0sp</item>
+		<item name="android:windowTitleSize">96dp</item> 
+		<item name="android:windowContentOverlay">@null</item>       
+        <item name="android:windowNoTitle">false</item>      
+        <item name="android:background">@color/topbar_grey</item>
+        <item name="android:windowTitleBackgroundStyle">@android:color/transparent</item>
+        <item name="android:textColor">@android:color/transparent</item>
+        
+    </style>
+    <style name="ApplicationTextbarTheme" parent="@android:style/Theme.Black.NoTitleBar" >
+        
+        <item name="android:textSize">0sp</item>
+		<item name="android:windowTitleSize">120dip</item> 
+		<item name="android:windowContentOverlay">@null</item>       
+        <item name="android:windowNoTitle">false</item>      
+        <item name="android:background">@color/topbar_grey</item>
+        <item name="android:windowTitleBackgroundStyle">@android:color/transparent</item>
+        <item name="android:textColor">@android:color/transparent</item>
+        
+    </style>
+
+    
+</resources> 

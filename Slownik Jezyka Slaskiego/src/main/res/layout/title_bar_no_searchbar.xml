@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/title_layout"
+                android:background="@color/topbar_grey" >
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+        <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="centerInside"
+                android:gravity="center_vertical"
+                android:id="@+id/imageView">
+
+            
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="5dip"
+                    android:textColor="@color/darkergrey_titlebar"
+                    android:textSize="12sp"
+                    android:background="@android:color/transparent" 
+                    android:text="Pomóż ulepszać słownik przez rozwijanie kolekcji haseł. Jeżeli znasz jakieś słowo, którego nie znalazłes w tym słowniku, to wypełnij formularz poniżej. Słowo zostanie dodane do słownika przy następnej aktualizacji (pod warunkiem, że takie słowo w języku śląskim istnieje)"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/topbar_darkgrey"
+                android:paddingLeft="5dip"
+                >
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="3dip"
+                    android:background="@color/topbar_darkgrey" />
+                </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
