@@ -6,11 +6,17 @@ package pl.rafalmanka.slownikjezykaslaskiego;
 public class Constants {
 
     public enum Database {
-        DATABASE("SlownikSlaski",11),
-        TABLE_DICTIONARY("Dictionary"),
-        COLUMN_DICTIONARY_ID("id_dictionary"),
-        COLUMN_DICTIONARY_TITLE("title_dictionary"),
-        COLUMN_DICTIONARY_TRANSLATION("translation_dictionary" );
+        DATABASE("SlownikSlaski",17),
+
+        TABLE_WORD("table_word"),
+        COLUMN_WORD_ID("word_id"),
+        COLUMN_WORD("word"),
+
+        TABLE_WORD_HAS_TRANSLATION("word_has_translation"),
+        COLUMN_TRANSLATION_ID("translation_id"),
+        COLUMN_WORD_HAS_TRANSLATION_ID("word_has_translation_id"),
+
+        ;
 
         String title;
         int version;

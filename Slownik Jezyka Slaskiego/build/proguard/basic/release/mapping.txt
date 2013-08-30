@@ -1246,7 +1246,7 @@ android.support.v4.widget.ViewDragHelper$Callback -> android.support.v4.widget.a
     boolean tryCaptureView(android.view.View,int) -> a
     int clampViewPositionHorizontal(android.view.View,int,int) -> a
     int clampViewPositionVertical(android.view.View,int,int) -> b
-com.appflood.AFBannerView -> com.appflood.a:
+com.appflood.AFBannerView -> a.a.a:
     com.appflood.d.a a -> a
     int b -> b
     boolean c -> c
@@ -1257,72 +1257,7 @@ com.appflood.AFBannerView -> com.appflood.a:
     int resolveAdjustedSize(int,int) -> a
     int myResolveSizeAndState(int,int,int) -> a
     void onMeasure(int,int) -> onMeasure
-com.appflood.AFFullScreenActivity -> com.appflood.AFFullScreenActivity:
-    com.appflood.d.a a -> a
-    android.widget.RelativeLayout b -> b
-    float c -> c
-    float d -> d
-    android.widget.ImageView e -> e
-    android.widget.TextView f -> f
-    android.widget.ImageView g -> g
-    android.widget.ImageView h -> h
-    android.widget.TextView i -> i
-    android.widget.TextView j -> j
-    android.widget.ImageView k -> k
-    android.widget.ImageView l -> l
-    android.widget.ImageView m -> m
-    android.view.View n -> n
-    float o -> o
-    int p -> p
-    int q -> q
-    int r -> r
-    boolean s -> s
-    void onCreate(android.os.Bundle) -> onCreate
-    void a(boolean) -> a
-    void a() -> a
-    boolean onKeyDown(int,android.view.KeyEvent) -> onKeyDown
-    void a(org.json.JSONObject) -> a
-com.appflood.AFFullScreenActivity$1 -> com.appflood.b:
-    com.appflood.AFFullScreenActivity a -> a
-    void onClick(android.view.View) -> onClick
-com.appflood.AFFullScreenActivity$2 -> com.appflood.c:
-    com.appflood.AFFullScreenActivity a -> a
-    void onClick(android.view.View) -> onClick
-com.appflood.AFInterstitialActivity -> com.appflood.AFInterstitialActivity:
-    android.widget.RelativeLayout c -> c
-    android.widget.Button d -> d
-    android.widget.Button a -> a
-    android.widget.ImageView e -> e
-    android.widget.LinearLayout b -> b
-    android.widget.ProgressBar f -> f
-    android.widget.TextView g -> g
-    com.appflood.d.a h -> h
-    float i -> i
-    float j -> j
-    boolean k -> k
-    int l -> l
-    int m -> m
-    int n -> n
-    int o -> o
-    int p -> p
-    int q -> q
-    int r -> r
-    int s -> s
-    int t -> t
-    void onCreate(android.os.Bundle) -> onCreate
-    void a(boolean) -> a
-    void a(org.json.JSONObject) -> a
-    void onClick(android.view.View) -> onClick
-    boolean onKeyDown(int,android.view.KeyEvent) -> onKeyDown
-    void a() -> a
-    void onDestroy() -> onDestroy
-com.appflood.AFInterstitialActivity$1 -> com.appflood.d:
-    com.appflood.AFInterstitialActivity a -> a
-    void run() -> run
-com.appflood.AFInterstitialActivity$1$1 -> com.appflood.e:
-    com.appflood.AFInterstitialActivity$1 a -> a
-    void run() -> run
-com.appflood.AFListActivity -> com.appflood.AFListActivity:
+com.appflood.AFListActivity -> a.a.b:
     float z -> z
     float a -> a
     float b -> b
@@ -1353,40 +1288,40 @@ com.appflood.AFListActivity -> com.appflood.AFListActivity:
     void onCreate(android.os.Bundle) -> onCreate
     void a() -> a
     void b() -> b
-com.appflood.AFListActivity$1 -> com.appflood.f:
+com.appflood.AFListActivity$1 -> a.a.c:
     com.appflood.AFListActivity a -> a
     void a(com.appflood.b.b) -> a
     void a(int) -> a
-com.appflood.AFListActivity$2 -> com.appflood.g:
+com.appflood.AFListActivity$2 -> a.a.d:
     com.appflood.AFListActivity a -> a
     void a(com.appflood.b.b) -> a
     void a(int) -> a
-com.appflood.AFListActivity$3 -> com.appflood.h:
+com.appflood.AFListActivity$3 -> a.a.e:
     com.appflood.AFListActivity a -> a
     void onClick(android.view.View) -> onClick
-com.appflood.AFListActivity$4 -> com.appflood.i:
+com.appflood.AFListActivity$4 -> a.a.f:
     com.appflood.AFListActivity a -> a
     android.view.View createTabContent(java.lang.String) -> createTabContent
-com.appflood.AFListActivity$5 -> com.appflood.j:
+com.appflood.AFListActivity$5 -> a.a.g:
     com.appflood.AFListActivity a -> a
     android.view.View createTabContent(java.lang.String) -> createTabContent
-com.appflood.AFListActivity$6 -> com.appflood.k:
+com.appflood.AFListActivity$6 -> a.a.h:
     com.appflood.AFListActivity a -> a
     void onTabChanged(java.lang.String) -> onTabChanged
-com.appflood.AFListActivity$7 -> com.appflood.l:
+com.appflood.AFListActivity$7 -> a.a.i:
     com.appflood.AFListActivity a -> a
     void onFinish(org.json.JSONObject) -> a
-com.appflood.AFListActivity$8 -> com.appflood.m:
+com.appflood.AFListActivity$8 -> a.a.j:
     com.appflood.AFListActivity a -> a
     void run() -> run
-com.appflood.AFListActivity$9 -> com.appflood.n:
+com.appflood.AFListActivity$9 -> a.a.k:
     com.appflood.AFListActivity a -> a
     void run() -> run
-com.appflood.AFListActivity$9$1 -> com.appflood.o:
+com.appflood.AFListActivity$9$1 -> a.a.l:
     com.appflood.AFListActivity$9 a -> a
     void run() -> run
-com.appflood.AFListActivity$a -> com.appflood.p:
-com.appflood.AFListActivity$b -> com.appflood.q:
+com.appflood.AFListActivity$a -> a.a.m:
+com.appflood.AFListActivity$b -> a.a.n:
     android.content.Context c -> c
     java.util.ArrayList a -> a
     com.appflood.AFListActivity b -> b
@@ -1394,65 +1329,25 @@ com.appflood.AFListActivity$b -> com.appflood.q:
     int getCount() -> getCount
     long getItemId(int) -> getItemId
     java.lang.Object getItem(int) -> getItem
-com.appflood.AFListActivity$b$1 -> com.appflood.r:
+com.appflood.AFListActivity$b$1 -> a.a.o:
     int a -> a
     com.appflood.AFListActivity$b b -> b
     void onClick(android.view.View) -> onClick
-com.appflood.AFListActivity$c -> com.appflood.s:
+com.appflood.AFListActivity$c -> a.a.p:
     android.widget.TextView a -> a
     android.widget.TextView b -> b
     android.widget.ImageView c -> c
     java.lang.String d -> d
-com.appflood.AFListActivity$c$1 -> com.appflood.t:
+com.appflood.AFListActivity$c$1 -> a.a.q:
     java.lang.String b -> b
     com.appflood.AFListActivity$c a -> a
     void a(com.appflood.b.b) -> a
     void a(int) -> a
-com.appflood.AFListActivity$c$1$1 -> com.appflood.u:
+com.appflood.AFListActivity$c$1$1 -> a.a.r:
     android.graphics.Bitmap a -> a
     com.appflood.AFListActivity$c$1 b -> b
     void run() -> run
-com.appflood.AFPanelActivity -> com.appflood.AFPanelActivity:
-    android.widget.RelativeLayout a -> a
-    com.appflood.f.e b -> b
-    com.appflood.f.f c -> c
-    android.widget.ImageView d -> d
-    android.widget.ImageView e -> e
-    android.widget.RelativeLayout f -> f
-    android.widget.RelativeLayout g -> g
-    float h -> h
-    float i -> i
-    int j -> j
-    int k -> k
-    int l -> l
-    int m -> m
-    float n -> n
-    float o -> o
-    int p -> p
-    int q -> q
-    int r -> r
-    float s -> s
-    float t -> t
-    int u -> u
-    int v -> v
-    boolean w -> w
-    boolean x -> x
-    void onCreate(android.os.Bundle) -> onCreate
-    void a() -> a
-    boolean onKeyDown(int,android.view.KeyEvent) -> onKeyDown
-    void a(com.appflood.AFPanelActivity) -> a
-    android.widget.RelativeLayout b(com.appflood.AFPanelActivity) -> b
-    android.widget.RelativeLayout c(com.appflood.AFPanelActivity) -> c
-com.appflood.AFPanelActivity$1 -> com.appflood.v:
-    com.appflood.AFPanelActivity a -> a
-    void onClick(android.view.View) -> onClick
-com.appflood.AFPanelActivity$2 -> com.appflood.w:
-    com.appflood.AFPanelActivity a -> a
-    void run() -> run
-com.appflood.AFPanelActivity$2$1 -> com.appflood.x:
-    com.appflood.AFPanelActivity$2 a -> a
-    void run() -> run
-com.appflood.AppFlood -> com.appflood.y:
+com.appflood.AppFlood -> a.a.s:
     int NOTIFICATION_STYLE_TEXT -> a
     int NOTIFICATION_STYLE_BANNER -> b
     int ICON_STYLE_SINGLE -> c
@@ -1460,28 +1355,25 @@ com.appflood.AppFlood -> com.appflood.y:
     void initialize(android.content.Context,java.lang.String,java.lang.String,int) -> a
     void initialize(android.content.Context,java.lang.String,java.lang.String,java.lang.String,java.lang.String,int,int) -> a
     boolean isConnected() -> a
-com.appflood.AppFlood$AFEventDelegate -> com.appflood.z:
+com.appflood.AppFlood$AFEventDelegate -> a.a.t:
     void onClick(org.json.JSONObject) -> a
     void onClose(org.json.JSONObject) -> b
     void onFinished(boolean,int) -> a
-com.appflood.AppFlood$AFRequestDelegate -> com.appflood.aa:
+com.appflood.AppFlood$AFRequestDelegate -> a.a.u:
     void onFinish(org.json.JSONObject) -> a
-com.appflood.a -> com.appflood.ab:
+com.appflood.a -> a.a.v:
     void a(org.json.JSONObject) -> a
     void a(boolean) -> a
-    int c(android.app.Activity) -> a
-    int a(android.content.Context) -> a
     android.graphics.Bitmap a(android.graphics.Bitmap,float) -> a
     android.graphics.Bitmap a(android.graphics.Bitmap) -> a
     void a(android.content.Context,android.content.Intent,java.lang.String,int) -> a
     int a(android.content.Context,java.lang.String) -> a
     int a(android.content.Context,java.lang.String,java.lang.String) -> a
-    void a(android.view.View,java.lang.String,java.lang.String) -> a
-com.appflood.a.a -> com.appflood.a.a:
+com.appflood.a.a -> a.a.a.a:
     java.io.File a -> a
     boolean a(java.lang.String,byte[]) -> a
     java.io.File a(java.lang.String) -> a
-com.appflood.b -> com.appflood.ac:
+com.appflood.b -> a.a.w:
     int a -> a
     int c -> c
     int b -> b
@@ -1493,10 +1385,10 @@ com.appflood.b -> com.appflood.ac:
     void onDestroy() -> onDestroy
     int onStartCommand(android.content.Intent,int,int) -> onStartCommand
     void a(com.appflood.b,boolean) -> a
-com.appflood.b$a -> com.appflood.ad:
+com.appflood.b$a -> a.a.x:
     com.appflood.b a -> a
     void run() -> run
-com.appflood.b.a -> com.appflood.b.a:
+com.appflood.b.a -> a.a.b.a:
     java.util.LinkedList c -> c
     java.util.ArrayList a -> a
     java.util.concurrent.ThreadPoolExecutor b -> b
@@ -1505,7 +1397,7 @@ com.appflood.b.a -> com.appflood.b.a:
     void c(com.appflood.b.b) -> c
     boolean a(java.net.URL) -> a
     void a() -> a
-com.appflood.b.b -> com.appflood.b.b:
+com.appflood.b.b -> a.a.b.b:
     java.net.URL a -> a
     com.appflood.b.b$a b -> b
     int d -> d
@@ -1525,20 +1417,20 @@ com.appflood.b.b -> com.appflood.b.b:
     void a(android.view.View,boolean,boolean) -> a
     com.appflood.a.a f() -> f
     com.appflood.b.a g() -> g
-com.appflood.b.b$1 -> com.appflood.b.c:
+com.appflood.b.b$1 -> a.a.b.c:
     boolean b -> b
     boolean c -> c
     android.view.View a -> a
     void a(com.appflood.b.b) -> a
     void a(int) -> a
-com.appflood.b.b$1$1 -> com.appflood.b.d:
+com.appflood.b.b$1$1 -> a.a.b.d:
     android.graphics.Bitmap a -> a
     com.appflood.b.b$1 b -> b
     void run() -> run
-com.appflood.b.b$a -> com.appflood.b.e:
+com.appflood.b.b$a -> a.a.b.e:
     void a(int) -> a
     void a(com.appflood.b.b) -> a
-com.appflood.c.a -> com.appflood.c.a:
+com.appflood.c.a -> a.a.c.a:
     com.appflood.c.a a -> a
     int[] b -> b
     boolean c -> c
@@ -1552,7 +1444,7 @@ com.appflood.c.a -> com.appflood.c.a:
     void a(android.content.Context) -> a
     void a(android.content.Context,org.json.JSONObject) -> a
     void a(android.content.Context,java.lang.String) -> a
-com.appflood.d.a -> com.appflood.d.a:
+com.appflood.d.a -> a.a.d.a:
     org.json.JSONObject[] a -> a
     org.json.JSONObject b -> b
     android.view.View c -> c
@@ -1567,39 +1459,38 @@ com.appflood.d.a -> com.appflood.d.a:
     int a(int) -> a
     void a() -> a
     void a(android.graphics.Bitmap) -> a
-    void b() -> b
-com.appflood.d.a$1 -> com.appflood.d.b:
+com.appflood.d.a$1 -> a.a.d.b:
     com.appflood.d.a a -> a
     void a() -> a
-com.appflood.d.a$2 -> com.appflood.d.c:
+com.appflood.d.a$2 -> a.a.d.c:
     com.appflood.d.a a -> a
     void onFinish(org.json.JSONObject) -> a
-com.appflood.d.a$3 -> com.appflood.d.d:
+com.appflood.d.a$3 -> a.a.d.d:
     com.appflood.d.a a -> a
     void run() -> run
-com.appflood.d.a$4 -> com.appflood.d.e:
+com.appflood.d.a$4 -> a.a.d.e:
     com.appflood.d.a a -> a
     void a(int) -> a
     void a(com.appflood.b.b) -> a
-com.appflood.d.a$5 -> com.appflood.d.f:
+com.appflood.d.a$5 -> a.a.d.f:
     com.appflood.d.a a -> a
     void run() -> run
-com.appflood.d.a$6 -> com.appflood.d.g:
+com.appflood.d.a$6 -> a.a.d.g:
     com.appflood.d.a a -> a
     void run() -> run
-com.appflood.d.a$7 -> com.appflood.d.h:
+com.appflood.d.a$7 -> a.a.d.h:
     android.graphics.Bitmap a -> a
     com.appflood.d.a b -> b
     void run() -> run
-com.appflood.d.a$8 -> com.appflood.d.i:
+com.appflood.d.a$8 -> a.a.d.i:
     java.lang.String a -> a
     java.lang.String b -> b
     com.appflood.d.a c -> c
     void onClick(android.view.View) -> onClick
-com.appflood.d.a$a -> com.appflood.d.j:
+com.appflood.d.a$a -> a.a.d.j:
     void a(boolean) -> a
     void a(org.json.JSONObject) -> a
-com.appflood.d.b -> com.appflood.d.k:
+com.appflood.d.b -> a.a.d.k:
     boolean a -> a
     java.lang.String b -> b
     java.lang.String c -> c
@@ -1663,14 +1554,14 @@ com.appflood.d.b -> com.appflood.d.k:
     void f() -> c
     java.util.concurrent.Semaphore g() -> d
     void a(org.json.JSONObject) -> a
-com.appflood.d.b$1 -> com.appflood.d.l:
+com.appflood.d.b$1 -> a.a.d.l:
     void a(int) -> a
     void a(com.appflood.b.b) -> a
-com.appflood.d.b$1$1 -> com.appflood.d.m:
+com.appflood.d.b$1$1 -> a.a.d.m:
     void run() -> run
-com.appflood.d.b$a -> com.appflood.d.n:
+com.appflood.d.b$a -> a.a.d.n:
     void a() -> a
-com.appflood.d.c -> com.appflood.d.o:
+com.appflood.d.c -> a.a.d.o:
     com.appflood.d.c c -> c
     com.appflood.AppFlood$AFEventDelegate a -> a
     boolean b -> b
@@ -1678,12 +1569,12 @@ com.appflood.d.c -> com.appflood.d.o:
     void a(android.content.Context,java.lang.String,java.lang.String,java.lang.String,java.lang.String,int,int) -> a
     void a(boolean,org.json.JSONObject) -> a
     void a(boolean,int) -> a
-com.appflood.d.c$12 -> com.appflood.d.p:
+com.appflood.d.c$12 -> a.a.d.p:
     boolean a -> a
     org.json.JSONObject b -> b
     com.appflood.d.c c -> c
     void run() -> run
-com.appflood.d.d -> com.appflood.d.q:
+com.appflood.d.d -> a.a.d.q:
     java.lang.String a -> a
     java.util.Timer b -> b
     android.os.Handler c -> c
@@ -1703,9 +1594,9 @@ com.appflood.d.d -> com.appflood.d.q:
     void a(android.content.Context,android.content.Intent) -> a
     android.content.Context f() -> e
     void a(android.content.Context) -> a
-com.appflood.d.d$1 -> com.appflood.d.r:
+com.appflood.d.d$1 -> a.a.d.r:
     void a() -> a
-com.appflood.d.e -> com.appflood.d.s:
+com.appflood.d.e -> a.a.d.s:
     org.json.JSONObject[] a -> a
     org.json.JSONObject[] b -> b
     org.json.JSONObject[][] j -> j
@@ -1725,7 +1616,7 @@ com.appflood.d.e -> com.appflood.d.s:
     void a(org.json.JSONArray) -> a
     void a(org.json.JSONObject) -> a
     void a(int,com.appflood.AppFlood$AFRequestDelegate) -> a
-com.appflood.d.e$1 -> com.appflood.d.t:
+com.appflood.d.e$1 -> a.a.d.t:
     boolean c -> c
     boolean d -> d
     int e -> e
@@ -1735,24 +1626,24 @@ com.appflood.d.e$1 -> com.appflood.d.t:
     com.appflood.d.e g -> g
     void a(com.appflood.b.b) -> a
     void a(int) -> a
-com.appflood.d.e$1$1 -> com.appflood.d.u:
+com.appflood.d.e$1$1 -> a.a.d.u:
     com.appflood.d.e$1 a -> a
     void run() -> run
-com.appflood.d.e$2 -> com.appflood.d.v:
+com.appflood.d.e$2 -> a.a.d.v:
     com.appflood.d.e a -> a
     void a(com.appflood.b.b) -> a
     void a(int) -> a
-com.appflood.d.e$2$1 -> com.appflood.d.w:
+com.appflood.d.e$2$1 -> a.a.d.w:
     void run() -> run
-com.appflood.d.e$3 -> com.appflood.d.x:
+com.appflood.d.e$3 -> a.a.d.x:
     int a -> a
     com.appflood.AppFlood$AFRequestDelegate b -> b
     com.appflood.d.e c -> c
     void a(com.appflood.b.b) -> a
     void a(int) -> a
-com.appflood.d.f -> com.appflood.d.y:
+com.appflood.d.f -> a.a.d.y:
     void onReceive(android.content.Context,android.content.Intent) -> onReceive
-com.appflood.e.a -> com.appflood.e.a:
+com.appflood.e.a -> a.a.e.a:
     byte[] a -> a
     boolean a(java.io.File,byte[]) -> a
     byte[] a(java.io.File) -> a
@@ -1770,11 +1661,7 @@ com.appflood.e.a -> com.appflood.e.a:
     java.lang.String a(android.content.Context,java.lang.String) -> a
     void a(android.content.Context,java.lang.String,java.lang.String) -> a
     int a(java.lang.String) -> a
-com.appflood.e.b -> com.appflood.e.b:
-    float a -> a
-    float b -> b
-    void a(float) -> a
-com.appflood.e.c -> com.appflood.e.c:
+com.appflood.e.c -> a.a.e.b:
     java.lang.String a -> a
     java.lang.String b -> b
     java.lang.String c -> c
@@ -1801,27 +1688,7 @@ com.appflood.e.c -> com.appflood.e.c:
     java.lang.String w -> w
     void a(android.content.Context) -> a
     boolean a() -> a
-com.appflood.e.d -> com.appflood.e.d:
-    android.content.Context a -> a
-    java.lang.String b -> b
-    void run() -> run
-com.appflood.e.f -> com.appflood.e.e:
-    android.graphics.drawable.Drawable[] b -> b
-    android.view.View a -> a
-    void a(com.appflood.b.b) -> a
-    void a(int) -> a
-com.appflood.e.f$1 -> com.appflood.e.f:
-    android.graphics.drawable.Drawable a -> a
-    com.appflood.e.f b -> b
-    void run() -> run
-com.appflood.e.g -> com.appflood.e.g:
-    android.graphics.drawable.Drawable[] a -> a
-    void a(com.appflood.b.b) -> a
-    void a(int) -> a
-com.appflood.e.h -> com.appflood.e.h:
-    android.graphics.drawable.Drawable[] a -> a
-    boolean onTouch(android.view.View,android.view.MotionEvent) -> onTouch
-com.appflood.e.i -> com.appflood.e.i:
+com.appflood.e.i -> a.a.e.c:
     char[] a -> a
     java.lang.String a(java.lang.String) -> a
     byte[] b(java.lang.String) -> b
@@ -1845,18 +1712,18 @@ com.appflood.e.i -> com.appflood.e.i:
     java.lang.String a() -> a
     org.json.JSONObject a(java.lang.String,java.lang.Object) -> a
     java.lang.String a(byte[],java.lang.String) -> a
-com.appflood.e.i$a -> com.appflood.e.j:
+com.appflood.e.i$a -> a.a.e.d:
     char[] a -> a
     byte[] b -> b
     java.lang.String a(byte[]) -> a
     char[] a(byte[],int) -> a
-com.appflood.e.i$b -> com.appflood.e.k:
+com.appflood.e.i$b -> a.a.e.e:
     java.security.Key a -> a
     javax.crypto.spec.PBEParameterSpec b -> b
     javax.crypto.Cipher c -> c
     java.lang.String a(java.lang.String) -> a
     java.lang.String a(byte[]) -> a
-com.appflood.e.j -> com.appflood.e.l:
+com.appflood.e.j -> a.a.e.f:
     byte[] a -> a
     byte[] b -> b
     com.appflood.e.i$b c -> c
@@ -1866,106 +1733,10 @@ com.appflood.e.j -> com.appflood.e.l:
     java.net.URL b(java.lang.String,java.util.Map) -> b
     java.net.URL a(java.lang.String,java.net.URL) -> a
     java.lang.String b(java.lang.String) -> b
-com.appflood.f.a -> com.appflood.f.a:
-    java.lang.String a -> a
-    java.lang.String b -> b
-    android.graphics.Bitmap c -> c
-    void a(android.graphics.Bitmap) -> a
-    void a(java.lang.String,java.lang.String) -> a
-com.appflood.f.b -> com.appflood.f.b:
-    int a -> a
-    int b -> b
-    int c -> c
-    android.graphics.Paint d -> d
-    android.graphics.RectF e -> e
-    void onDraw(android.graphics.Canvas) -> onDraw
-com.appflood.f.c -> com.appflood.f.c:
-    android.graphics.Paint e -> e
-    com.appflood.e.b f -> f
-    com.appflood.e.b g -> g
-    android.graphics.RectF h -> h
-    android.graphics.RectF i -> i
-    android.graphics.Rect j -> j
-    int k -> k
-    int l -> l
-    float m -> m
-    int n -> n
-    int o -> o
-    android.graphics.Bitmap d -> d
-    void onDraw(android.graphics.Canvas) -> onDraw
-com.appflood.f.c$1 -> com.appflood.f.d:
-    com.appflood.f.c a -> a
-    void a(com.appflood.b.b) -> a
-    void a(int) -> a
-com.appflood.f.d -> com.appflood.f.e:
-    android.graphics.Paint d -> d
-    com.appflood.e.b e -> e
-    com.appflood.e.b f -> f
-    android.graphics.RectF g -> g
-    android.graphics.RectF h -> h
-    int i -> i
-    int j -> j
-    int k -> k
-    int l -> l
-    int m -> m
-    void onDraw(android.graphics.Canvas) -> onDraw
-com.appflood.f.e -> com.appflood.f.f:
-    float f -> f
-    int g -> g
-    com.appflood.e.b h -> h
-    com.appflood.e.b i -> i
-    boolean a -> a
-    android.content.Context b -> b
-    com.appflood.f.c c -> c
-    com.appflood.f.d d -> d
-    com.appflood.f.g[] e -> e
-    android.graphics.Paint j -> j
-    com.appflood.e.b k -> k
-    android.graphics.RectF l -> l
-    void a(org.json.JSONObject[]) -> a
-    void a() -> a
-    void b() -> b
-    void onDraw(android.graphics.Canvas) -> onDraw
-com.appflood.f.e$1 -> com.appflood.f.g:
-    boolean a -> a
-    com.appflood.f.e b -> b
-    void a(com.appflood.b.b) -> a
-    void a(int) -> a
-com.appflood.f.e$2 -> com.appflood.f.h:
-    int a -> a
-    com.appflood.f.e b -> b
-    void a(com.appflood.b.b) -> a
-    void a(int) -> a
-com.appflood.f.e$3 -> com.appflood.f.i:
-    java.lang.String a -> a
-    java.lang.String b -> b
-    com.appflood.f.e c -> c
-    void onClick(android.view.View) -> onClick
-com.appflood.f.f -> com.appflood.f.j:
-    android.graphics.Paint a -> a
-    android.graphics.Paint b -> b
-    android.graphics.Paint c -> c
-    float d -> d
-    android.graphics.drawable.GradientDrawable e -> e
-    int f -> f
-    void onDraw(android.graphics.Canvas) -> onDraw
-com.appflood.f.g -> com.appflood.f.k:
-    int d -> d
-    int e -> e
-    int f -> f
-    float g -> g
-    android.graphics.Paint h -> h
-    com.appflood.e.b i -> i
-    com.appflood.e.b j -> j
-    int k -> k
-    boolean l -> l
-    int m -> m
-    void a(java.lang.String,java.lang.String) -> a
-    void onDraw(android.graphics.Canvas) -> onDraw
-com.appflood.notification.NotificationActivity -> com.appflood.notification.NotificationActivity:
+com.appflood.notification.NotificationActivity -> a.a.f.a:
     void onCreate(android.os.Bundle) -> onCreate
     void onDestroy() -> onDestroy
-com.appflood.notification.b -> com.appflood.notification.a:
+com.appflood.notification.b -> a.a.f.b:
     java.lang.String a -> a
     java.lang.String b -> b
     java.lang.String c -> c
@@ -2005,23 +1776,23 @@ com.appflood.notification.b -> com.appflood.notification.a:
     boolean b(com.appflood.notification.b) -> b
     int f() -> f
     android.app.NotificationManager c(com.appflood.notification.b) -> c
-com.appflood.notification.b$1 -> com.appflood.notification.b:
+com.appflood.notification.b$1 -> a.a.f.c:
     int a -> a
     com.appflood.notification.b b -> b
     void a(com.appflood.b.b) -> a
     void a(int) -> a
-com.appflood.notification.b$2 -> com.appflood.notification.c:
+com.appflood.notification.b$2 -> a.a.f.d:
     int a -> a
     com.appflood.notification.b b -> b
     void onReceive(android.content.Context,android.content.Intent) -> onReceive
-com.google.android.gcm.GCMAFBroadcastReceiver -> com.google.android.gcm.GCMAFBroadcastReceiver:
+com.google.android.gcm.GCMAFBroadcastReceiver -> a.b.a.a.a:
     void onReceive(android.content.Context,android.content.Intent) -> onReceive
-com.google.android.gcm.GCMAFIntentService -> com.google.android.gcm.GCMAFIntentService:
+com.google.android.gcm.GCMAFIntentService -> a.b.a.a.b:
     void b(android.content.Context,java.lang.String) -> a
     void c(android.content.Context,java.lang.String) -> b
     void a(android.content.Context,android.content.Intent) -> a
     boolean a(android.content.Context,java.lang.String) -> c
-com.google.android.gcm.a -> com.google.android.gcm.a:
+com.google.android.gcm.a -> a.b.a.a.c:
     android.os.PowerManager$WakeLock a -> a
     java.lang.Object b -> b
     java.lang.String c -> c
@@ -2035,20 +1806,20 @@ com.google.android.gcm.a -> com.google.android.gcm.a:
     void c(android.content.Context,java.lang.String) -> b
     void onHandleIntent(android.content.Intent) -> onHandleIntent
     void b(android.content.Context,android.content.Intent) -> b
-com.google.android.gcm.b -> com.google.android.gcm.b:
+com.google.android.gcm.b -> a.b.a.a.d:
     int a -> a
     void a(android.content.Context) -> a
     int a() -> a
     void b(android.content.Context,int) -> a
-com.google.android.gcm.b$1 -> com.google.android.gcm.c:
+com.google.android.gcm.b$1 -> a.b.a.a.e:
     android.content.Context a -> a
     int b -> b
     void run() -> run
-com.google.android.gcm.b$1$1 -> com.google.android.gcm.d:
+com.google.android.gcm.b$1$1 -> a.b.a.a.f:
     com.google.android.gcm.b$1 a -> a
     void onPostExecute(java.lang.Object) -> onPostExecute
     java.lang.Object doInBackground(java.lang.Object[]) -> doInBackground
-com.google.android.gcm.c -> com.google.android.gcm.e:
+com.google.android.gcm.c -> a.b.a.a.g:
     com.google.android.gcm.GCMAFBroadcastReceiver a -> a
     void a(android.content.Context) -> a
     void a(android.content.Context,java.util.Set,java.lang.String) -> a
@@ -2062,8 +1833,8 @@ com.google.android.gcm.c -> com.google.android.gcm.e:
     int f(android.content.Context) -> f
     void e(android.content.Context) -> e
     void b(android.content.Context,int) -> b
-com.google.android.gcm.d -> com.google.android.gcm.f:
-com.google.android.gcm.e -> com.google.android.gcm.g:
+com.google.android.gcm.d -> a.b.a.a.h:
+com.google.android.gcm.e -> a.b.a.a.i:
     java.util.Random a -> a
     java.lang.String a(boolean,int) -> a
     boolean a(android.content.Context,java.lang.String,int) -> a
@@ -2075,13 +1846,15 @@ pl.rafalmanka.slownikjezykaslaskiego.ActivityUtils -> pl.rafalmanka.slownikjezyk
 pl.rafalmanka.slownikjezykaslaskiego.Constants -> pl.rafalmanka.slownikjezykaslaskiego.b:
 pl.rafalmanka.slownikjezykaslaskiego.Constants$Database -> pl.rafalmanka.slownikjezykaslaskiego.c:
     pl.rafalmanka.slownikjezykaslaskiego.Constants$Database DATABASE -> a
-    pl.rafalmanka.slownikjezykaslaskiego.Constants$Database TABLE_DICTIONARY -> b
-    pl.rafalmanka.slownikjezykaslaskiego.Constants$Database COLUMN_DICTIONARY_ID -> c
-    pl.rafalmanka.slownikjezykaslaskiego.Constants$Database COLUMN_DICTIONARY_TITLE -> d
-    pl.rafalmanka.slownikjezykaslaskiego.Constants$Database COLUMN_DICTIONARY_TRANSLATION -> e
-    java.lang.String title -> f
-    int version -> g
-    pl.rafalmanka.slownikjezykaslaskiego.Constants$Database[] $VALUES -> h
+    pl.rafalmanka.slownikjezykaslaskiego.Constants$Database TABLE_WORD -> b
+    pl.rafalmanka.slownikjezykaslaskiego.Constants$Database COLUMN_WORD_ID -> c
+    pl.rafalmanka.slownikjezykaslaskiego.Constants$Database COLUMN_WORD -> d
+    pl.rafalmanka.slownikjezykaslaskiego.Constants$Database TABLE_WORD_HAS_TRANSLATION -> e
+    pl.rafalmanka.slownikjezykaslaskiego.Constants$Database COLUMN_TRANSLATION_ID -> f
+    pl.rafalmanka.slownikjezykaslaskiego.Constants$Database COLUMN_WORD_HAS_TRANSLATION_ID -> g
+    java.lang.String title -> h
+    int version -> i
+    pl.rafalmanka.slownikjezykaslaskiego.Constants$Database[] $VALUES -> j
     pl.rafalmanka.slownikjezykaslaskiego.Constants$Database[] values() -> values
     pl.rafalmanka.slownikjezykaslaskiego.Constants$Database valueOf(java.lang.String) -> valueOf
     java.lang.String getTitle() -> a
@@ -2101,6 +1874,8 @@ pl.rafalmanka.slownikjezykaslaskiego.DatabaseHandler -> pl.rafalmanka.slownikjez
     void onUpgrade(android.database.sqlite.SQLiteDatabase,int,int) -> onUpgrade
     android.database.Cursor getWordsStartingFrom(android.content.Context,java.lang.String) -> a
     java.lang.Long addWordWithTranslation(android.database.sqlite.SQLiteDatabase,java.lang.String,java.lang.String) -> a
+    void setWordTranslationRelation(android.database.sqlite.SQLiteDatabase,long,long) -> a
+    long getLastInsertedWordId(android.database.sqlite.SQLiteDatabase,java.lang.String,java.lang.String,java.lang.String) -> a
     void populateLanguageTableFromFileManager(android.database.sqlite.SQLiteDatabase) -> a
     java.util.List getfromCSV() -> a
 pl.rafalmanka.slownikjezykaslaskiego.FlavourUtils -> pl.rafalmanka.slownikjezykaslaskiego.f:

@@ -10,6 +10,7 @@ import android.database.Cursor;
 import android.os.Bundle;
 import android.text.Editable;
 import android.text.TextWatcher;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -17,7 +18,6 @@ import android.view.View.OnClickListener;
 import android.widget.EditText;
 import android.widget.TextView;
 
-import pl.rafalmanka.slownikjezykaslaskiego.R;
 
 
 public class SearchDictionary extends ListActivity implements OnClickListener{
@@ -29,7 +29,7 @@ public class SearchDictionary extends ListActivity implements OnClickListener{
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         super.onCreateOptionsMenu(menu);
-        menu.add( getResources().getString(R.string.suggest) );
+        //menu.add( getResources().getString(R.string.suggest) );
         return true;
     }
 
@@ -42,6 +42,8 @@ public class SearchDictionary extends ListActivity implements OnClickListener{
         }
         return true;
     }
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -88,19 +90,19 @@ public class SearchDictionary extends ListActivity implements OnClickListener{
                 .getWordsStartingFrom(getApplicationContext(), query);
         ArrayList<HashMap<String, String>> blogPosts = new ArrayList<HashMap<String, String>>();
 
+        Log.d(TAG,Constants.Database.COLUMN_WORD
+                .getTitle() );
         if (cursor.getCount() > 0) {
             do {
                 HashMap<String, String> blogPost = new HashMap<String, String>();
                 blogPost.put(
                         Constants.Dictionary.WORD.getTitle(),
                         cursor.getString(cursor
-                                .getColumnIndex(Constants.Database.COLUMN_DICTIONARY_TITLE
-                                        .getTitle())));
+                                .getColumnIndex(Constants.Dictionary.WORD.getTitle())));
                 blogPost.put(
                         Constants.Dictionary.TRANSLATION.getTitle(),
                         cursor.getString(cursor
-                                .getColumnIndex(Constants.Database.COLUMN_DICTIONARY_TRANSLATION
-                                        .getTitle())));
+                                .getColumnIndex(Constants.Dictionary.TRANSLATION.getTitle())));
                 blogPosts.add(blogPost);
             } while (cursor.moveToNext());
         } else {

@@ -62,22 +62,7 @@ android.support.v4.widget.SlidingPaneLayout: void setShadowDrawable(android.grap
 android.support.v4.widget.SlidingPaneLayout: void setShadowResource(int)
 android.support.v4.widget.SlidingPaneLayout$SavedState
 android.support.v4.widget.SlidingPaneLayout$SavedState: android.os.Parcelable$Creator CREATOR
-com.appflood.AFFullScreenActivity
-com.appflood.AFFullScreenActivity: AFFullScreenActivity()
-com.appflood.AFInterstitialActivity
-com.appflood.AFInterstitialActivity: AFInterstitialActivity()
 com.appflood.AFInterstitialActivity: void onClick(android.view.View)
-com.appflood.AFListActivity
-com.appflood.AFListActivity: AFListActivity()
-com.appflood.AFPanelActivity
-com.appflood.AFPanelActivity: AFPanelActivity()
-com.appflood.notification.NotificationActivity
-com.appflood.notification.NotificationActivity: NotificationActivity()
-com.google.android.gcm.GCMAFBroadcastReceiver
-com.google.android.gcm.GCMAFBroadcastReceiver: GCMAFBroadcastReceiver()
-com.google.android.gcm.GCMAFIntentService
-com.google.android.gcm.GCMAFIntentService: GCMAFIntentService()
-com.google.android.gcm.a: a(java.lang.String)
 pl.rafalmanka.slownikjezykaslaskiego.Constants$Database: pl.rafalmanka.slownikjezykaslaskiego.Constants$Database[] values()
 pl.rafalmanka.slownikjezykaslaskiego.Constants$Database: pl.rafalmanka.slownikjezykaslaskiego.Constants$Database valueOf(java.lang.String)
 pl.rafalmanka.slownikjezykaslaskiego.Constants$Dictionary: pl.rafalmanka.slownikjezykaslaskiego.Constants$Dictionary[] values()

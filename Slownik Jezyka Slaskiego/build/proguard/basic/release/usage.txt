@@ -860,6 +860,16 @@ com.appflood.AFBannerView:
 ====    public AFBannerView(android.content.Context,android.util.AttributeSet,int)
 ====    public AFBannerView(android.content.Context,android.util.AttributeSet)
 ====    public AFBannerView(android.content.Context)
+com.appflood.AFFullScreenActivity
+com.appflood.AFFullScreenActivity$1
+com.appflood.AFFullScreenActivity$2
+com.appflood.AFInterstitialActivity
+com.appflood.AFInterstitialActivity$1
+com.appflood.AFInterstitialActivity$1$1
+com.appflood.AFPanelActivity
+com.appflood.AFPanelActivity$1
+com.appflood.AFPanelActivity$2
+com.appflood.AFPanelActivity$2$1
 com.appflood.AppFlood:
     public static final int BANNER_LARGE
     public static final int BANNER_MIDDLE
@@ -909,12 +919,17 @@ com.appflood.AppFlood:
 com.appflood.a:
 ====    public static boolean a(android.app.Activity)
 ====    public static boolean b(android.app.Activity)
+====    public static int c(android.app.Activity)
+====    public static int a(android.content.Context)
 ====    public static void a(android.content.Context,android.content.Intent)
+====    public static void a(android.view.View,java.lang.String,java.lang.String)
 com.appflood.c.a:
 ====    public static void b(android.content.Context)
 ====    public final void a(android.app.Activity)
 ====    static synthetic int a(com.appflood.c.a)
 com.appflood.c.a$1
+com.appflood.d.a:
+====    public final void b()
 com.appflood.d.b:
 ====    public b()
 ====    public static void a(android.content.Context,com.appflood.d.b$a)
@@ -960,15 +975,32 @@ com.appflood.d.d:
 ====    public static void e()
 com.appflood.e.a:
 ====    public a()
+com.appflood.e.b
 com.appflood.e.c:
 ====    private c()
+com.appflood.e.d
 com.appflood.e.e
+com.appflood.e.f
+com.appflood.e.f$1
+com.appflood.e.g
+com.appflood.e.h
 com.appflood.e.i:
 ====    public i()
 com.appflood.e.i$a:
 ====    private i$a()
 com.appflood.e.j:
 ====    public j()
+com.appflood.f.a
+com.appflood.f.b
+com.appflood.f.c
+com.appflood.f.c$1
+com.appflood.f.d
+com.appflood.f.e
+com.appflood.f.e$1
+com.appflood.f.e$2
+com.appflood.f.e$3
+com.appflood.f.f
+com.appflood.f.g
 com.appflood.notification.a
 com.appflood.notification.b:
 ====    public static void c(android.content.Context)
@@ -987,7 +1019,7 @@ pl.rafalmanka.slownikjezykaslaskiego.ActivityUtils:
 ====    12:12:public ActivityUtils()
 pl.rafalmanka.slownikjezykaslaskiego.BuildConfig
 pl.rafalmanka.slownikjezykaslaskiego.Constants:
-====    6:51:public Constants()
+====    6:57:public Constants()
 pl.rafalmanka.slownikjezykaslaskiego.Constants$Menu
 pl.rafalmanka.slownikjezykaslaskiego.FlavourUtils:
 ====    21:21:public FlavourUtils()

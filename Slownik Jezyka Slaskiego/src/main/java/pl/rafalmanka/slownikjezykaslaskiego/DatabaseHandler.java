@@ -32,48 +32,105 @@ public class DatabaseHandler extends SQLiteOpenHelper {
 
     @Override
     public void onCreate(SQLiteDatabase sqLiteDatabase) {
-        String createTable = "CREATE TABLE "
-                + Constants.Database.TABLE_DICTIONARY.getTitle() + "("
-                + Constants.Database.COLUMN_DICTIONARY_ID.getTitle() + " INTEGER PRIMARY KEY, "
-                + Constants.Database.COLUMN_DICTIONARY_TITLE.getTitle() + " TEXT, "
-                + Constants.Database.COLUMN_DICTIONARY_TRANSLATION.getTitle() + " TEXT) ";
+        Log.d(TAG, "creating table word");
+        String CREATE_TABLE_WORD = "CREATE TABLE IF NOT EXISTS "
+                + Constants.Database.TABLE_WORD.getTitle() + " ("
+                + Constants.Database.COLUMN_WORD_ID.getTitle() + " INTEGER PRIMARY KEY, "
+                + Constants.Database.COLUMN_WORD.getTitle() + " TEXT) ";
+        Log.d(TAG, "Executing: " + CREATE_TABLE_WORD);
+        sqLiteDatabase.execSQL(CREATE_TABLE_WORD);
 
-        sqLiteDatabase.execSQL(createTable);
+        Log.d(TAG, "creating table word_has_translation");
+        String CREATE_TABLE_WORD_HAS_TRANSLATION = "CREATE TABLE IF NOT EXISTS "
+                + Constants.Database.TABLE_WORD_HAS_TRANSLATION.getTitle() + "  ("
+                + Constants.Database.COLUMN_WORD_HAS_TRANSLATION_ID.getTitle() + " INTEGER PRIMARY KEY, "
+                + Constants.Database.COLUMN_WORD_ID.getTitle() + " INTEGER REFERENCES "
+                + Constants.Database.TABLE_WORD.getTitle() + " (" + Constants.Database.COLUMN_WORD_ID.getTitle() + "), "
+                + Constants.Database.COLUMN_TRANSLATION_ID.getTitle() + " INTEGER REFERENCES "
+                + Constants.Database.TABLE_WORD.getTitle() + " (" + Constants.Database.COLUMN_WORD_ID.getTitle() + ")   ) ";
+        Log.d(TAG, "Executing: " + CREATE_TABLE_WORD_HAS_TRANSLATION);
+        sqLiteDatabase.execSQL(CREATE_TABLE_WORD_HAS_TRANSLATION);
+
         populateLanguageTableFromFileManager(sqLiteDatabase);
     }
 
-
-
     @Override
     public void onUpgrade(SQLiteDatabase sqLiteDatabase, int version_1, int version_2) {
-       String dropQuery = "DROP TABLE IF EXISTS "+Constants.Database.TABLE_DICTIONARY.getTitle();
+        String dropQuery = "DROP TABLE IF EXISTS " + Constants.Database.TABLE_WORD.getTitle();
+        sqLiteDatabase.execSQL(dropQuery);
+        dropQuery = "DROP TABLE IF EXISTS " + Constants.Database.TABLE_WORD_HAS_TRANSLATION.getTitle();
         sqLiteDatabase.execSQL(dropQuery);
         onCreate(sqLiteDatabase);
     }
 
     public synchronized Cursor getWordsStartingFrom(Context context, String word) {
-        SQLiteDatabase db= getReadableDatabase();
-        Cursor cursor = db.query(Constants.Database.TABLE_DICTIONARY.getTitle(), 
-                null,
-                		Constants.Database.COLUMN_DICTIONARY_TITLE.getTitle() + " LIKE '" + word + "%' " +
-                "OR "+	Constants.Database.COLUMN_DICTIONARY_TITLE.getTitle() + " LIKE '% " + word + "%' ",
-                null, null, null, null, null);
-        
-        cursor.moveToFirst(); 
-        db.close(); 
+        SQLiteDatabase db = getReadableDatabase();
+        String query = "SELECT *," +
+                " w."+Constants.Database.COLUMN_WORD.getTitle()+" AS "+Constants.Dictionary.WORD.getTitle()+","+
+                " t."+Constants.Database.COLUMN_WORD.getTitle()+" AS "+Constants.Dictionary.TRANSLATION.getTitle()+
+                " FROM " + Constants.Database.TABLE_WORD.getTitle() + " AS w " +
+                " INNER JOIN " + Constants.Database.TABLE_WORD_HAS_TRANSLATION.getTitle() +
+                " AS wht ON wht." + Constants.Database.COLUMN_WORD_ID.getTitle() + "=w." + Constants.Database.COLUMN_WORD_ID.getTitle() + "" +
+                " INNER JOIN " + Constants.Database.TABLE_WORD.getTitle() +
+                " AS t ON wht." + Constants.Database.COLUMN_TRANSLATION_ID.getTitle() + "=t." + Constants.Database.COLUMN_WORD_ID.getTitle() + "" +
+                " WHERE w." + Constants.Database.COLUMN_WORD.getTitle() + " LIKE '%" + word +
+                "' OR w." + Constants.Database.COLUMN_WORD.getTitle() + " LIKE ' %" + word + "'";
+
+Log.d(TAG,"query: "+query);
+        Cursor cursor = db.rawQuery(query, null);
+
+        cursor.moveToFirst();
+        db.close();
         return cursor;
     }
 
-    public synchronized Long addWordWithTranslation(SQLiteDatabase db, String word, String translation) { 
-        ContentValues values = new ContentValues();
-        values.put(Constants.Database.COLUMN_DICTIONARY_TITLE.getTitle(), word);
-        values.put(Constants.Database.COLUMN_DICTIONARY_TRANSLATION.getTitle(), translation);
-        
-        if(!db.isOpen())
-        	db = getWritableDatabase();
-        
-        Long lastInsertedId = db.insert(Constants.Database.TABLE_DICTIONARY.getTitle(), null, values);
-        values.clear();
+    public synchronized Long addWordWithTranslation(SQLiteDatabase db, String word, String translation) {
+
+        long lastInserterWordId = getLastInsertedWordId(db, word, Constants.Database.TABLE_WORD.getTitle(), Constants.Database.COLUMN_WORD.getTitle());
+        long lastInserterTranslationId = getLastInsertedWordId(db, translation, Constants.Database.TABLE_WORD.getTitle(), Constants.Database.COLUMN_WORD.getTitle());
+        setWordTranslationRelation(db,lastInserterWordId,lastInserterTranslationId);
+
+        return lastInserterWordId;
+    }
+
+    private synchronized void setWordTranslationRelation(SQLiteDatabase db, long lastInserterWordId, long lastInserterTranslationId) {
+        if (!db.isOpen())
+            db = getWritableDatabase();
+
+        String query="SELECT * FROM "+Constants.Database.TABLE_WORD_HAS_TRANSLATION.getTitle()+" WHERE "+
+                Constants.Database.COLUMN_WORD_ID.getTitle()+"='"+lastInserterWordId+"' AND "+
+                Constants.Database.COLUMN_TRANSLATION_ID.getTitle()+"='"+lastInserterTranslationId+"'";
+        Cursor cursor = db.rawQuery(query,null);
+
+        if (cursor.getCount()==0){
+            ContentValues values = new ContentValues();
+            values.put(Constants.Database.COLUMN_WORD_ID.getTitle(),lastInserterWordId);
+            values.put(Constants.Database.COLUMN_TRANSLATION_ID.getTitle(),lastInserterTranslationId);
+
+            db.insert(Constants.Database.TABLE_WORD_HAS_TRANSLATION.getTitle(), null, values);
+            values.clear();
+        }
+        cursor.close();
+
+    }
+
+    private synchronized long getLastInsertedWordId(SQLiteDatabase db, String word, String tableName , String columnName) {
+        if (!db.isOpen())
+            db = getWritableDatabase();
+
+        String query = "SELECT * FROM "+tableName+" WHERE "+columnName+"='"+word+"'";
+        Cursor cursor = db.rawQuery(query,null);
+        long lastInsertedId = -1;
+        if(cursor.getCount()==0){
+            ContentValues values = new ContentValues();
+            values.put(columnName,word);
+            lastInsertedId = db.insert(tableName, null, values);
+            values.clear();
+        } else {
+            cursor.moveToFirst();
+            lastInsertedId = cursor.getLong(cursor.getColumnIndex(Constants.Database.COLUMN_WORD.getTitle()));
+        }
+        cursor.close();
         return lastInsertedId;
     }
 
@@ -81,7 +138,7 @@ public class DatabaseHandler extends SQLiteOpenHelper {
 
         List<String[]> list = getfromCSV();
 
-        for(String[] langInfo : list){
+        for (String[] langInfo : list) {
             addWordWithTranslation(db, langInfo[0], langInfo[1]);
         }
 

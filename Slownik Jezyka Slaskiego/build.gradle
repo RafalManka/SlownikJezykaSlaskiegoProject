@@ -17,6 +17,10 @@ repositories {
 
 dependencies {
     compile files('src/main/libs/appflood-1.60.jar')
+    instrumentTestCompile 'com.jayway.android.robotium:robotium-solo:4.2'
+    instrumentTestCompile 'org.robolectric:robolectric:2.1'
+    instrumentTestCompile 'org.roboguice:roboguice:2.0'
+    instrumentTestCompile 'junit:junit:4.8.2'
 }
 
 android {
@@ -26,7 +30,7 @@ android {
     defaultConfig {
 
         versionName "1.1.0-Bedzin"
-        versionCode 2
+        versionCode 3
 
         minSdkVersion 7
         targetSdkVersion 16
