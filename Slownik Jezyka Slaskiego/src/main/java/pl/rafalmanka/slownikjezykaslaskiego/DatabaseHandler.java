@@ -64,6 +64,7 @@ public class DatabaseHandler extends SQLiteOpenHelper {
     }
 
     public synchronized Cursor getWordsStartingFrom(Context context, char direction, String word) {
+
         SQLiteDatabase db = getReadableDatabase();
         String query = "SELECT *," +
                 " w."+Constants.Database.COLUMN_WORD.getTitle()+" AS "+Constants.Dictionary.WORD.getTitle()+","+
@@ -74,11 +75,10 @@ public class DatabaseHandler extends SQLiteOpenHelper {
                 " INNER JOIN " + Constants.Database.TABLE_WORD.getTitle() +
                 " AS t ON wht." + Constants.Database.COLUMN_TRANSLATION_ID.getTitle() + "=t." + Constants.Database.COLUMN_WORD_ID.getTitle() + "" +
                 " WHERE "+direction+"." + Constants.Database.COLUMN_WORD.getTitle() + " LIKE '" + word +"%'"+
-                " OR "+direction+"." + Constants.Database.COLUMN_WORD.getTitle() + " LIKE ' " + word + "%'"+
-                " ORDER BY "+direction+"." + Constants.Database.COLUMN_WORD.getTitle()+" ASC"
+                " OR "+direction+"." + Constants.Database.COLUMN_WORD.getTitle() + " LIKE '% " + word + "%'"+
+                " ORDER BY "+direction+"." + Constants.Database.COLUMN_WORD.getTitle()+" COLLATE NOCASE ASC"
                 ;
 
-        Log.d(TAG,"query: "+query);
         Cursor cursor = db.rawQuery(query, null);
 
         cursor.moveToFirst();

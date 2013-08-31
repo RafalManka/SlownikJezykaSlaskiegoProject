@@ -15,12 +15,13 @@
         <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="fill_parent"
+
                 android:id="@+id/titlebar_linearlayout_tap_to_change_directions" >
 
             <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="50dip"
-                    android:background="@drawable/list_item"
+                android:background="@drawable/list_item"
                     android:gravity="center"
                 android:padding="0dip"
                 android:layout_margin="0dip">
@@ -28,17 +29,16 @@
                 <FrameLayout
                     android:id="@+id/hello_world"
                     android:layout_width="0dip"
-                    android:layout_weight="1.2"
+                    android:layout_weight="1.1"
                     android:layout_height="fill_parent"></FrameLayout>
 
                 <LinearLayout
                     android:layout_width="0dip"
-                    android:layout_weight="2.8"
+                    android:layout_weight="2.9"
                     android:layout_height="fill_parent"
                     android:background="@android:color/transparent"
                     android:layout_gravity="center"
-                    android:weightSum="2"
-                    >
+                    android:weightSum="2" >
 
                     <TextView
                         android:id="@+id/titlebar_silesian_textView"
@@ -80,7 +80,7 @@
 
                 <LinearLayout
                     android:layout_width="0dip"
-                    android:layout_weight="2.8"
+                    android:layout_weight="2.9"
                     android:weightSum="2"
                     android:background="@android:color/transparent"
                     android:layout_height="fill_parent">
@@ -116,7 +116,7 @@
 
                 <FrameLayout
                     android:layout_width="0dip"
-                    android:layout_weight="1.2"
+                    android:layout_weight="1.1"
                     android:layout_height="fill_parent"
                     android:id="@+id/frameLayout"
                     android:layout_alignParentTop="true"

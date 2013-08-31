@@ -23,31 +23,21 @@
     </shared>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2c8f243f-2db9-45cb-8bca-40315f836e5d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/src/main/res/drawable/action_item_selected.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/src/main/res/drawable/arrow_down.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/src/main/res/drawable/arrow_up.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/src/main/res/drawable/popup.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/src/main/res/drawable/action_item_btn.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/build/source/r/basic/release/pl/rafalmanka/slownikjezykaslaskiego/R.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/src/main/java/pl/rafalmanka/slownikjezykaslaskiego/_FlavourUtils.java" afterPath="" />
+    <list default="true" id="2c8f243f-2db9-45cb-8bca-40315f836e5d" name="Default" comment="dodano asynctask">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/build/classes-proguard/basic/release/classes.jar" afterPath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/build/classes-proguard/basic/release/classes.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/src/main/res/values/ApplicationStyle.xml" afterPath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/src/main/res/values/ApplicationStyle.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/src/main/java/pl/rafalmanka/slownikjezykaslaskiego/Constants.java" afterPath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/src/main/java/pl/rafalmanka/slownikjezykaslaskiego/Constants.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/src/main/java/pl/rafalmanka/slownikjezykaslaskiego/DatabaseHandler.java" afterPath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/src/main/java/pl/rafalmanka/slownikjezykaslaskiego/DatabaseHandler.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/src/instrumentTest/java/pl/rafalmanka/slownikjezykaslaskiego/DatabaseHandlerTest.java" afterPath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/src/instrumentTest/java/pl/rafalmanka/slownikjezykaslaskiego/DatabaseHandlerTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/src/main/java/pl/rafalmanka/slownikjezykaslaskiego/SearchDictionary.java" afterPath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/src/main/java/pl/rafalmanka/slownikjezykaslaskiego/SearchDictionary.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Slownik Jezyka Slaskiego Project.iml" afterPath="$PROJECT_DIR$/Slownik Jezyka Slaskiego Project.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/Slownik Jezyka Slaskiego.iml" afterPath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/Slownik Jezyka Slaskiego.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/src/main/java/pl/rafalmanka/slownikjezykaslaskiego/SuggestWordActivity.java" afterPath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/src/main/java/pl/rafalmanka/slownikjezykaslaskiego/SuggestWordActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/src/main/java/pl/rafalmanka/slownikjezykaslaskiego/WordListAdapter.java" afterPath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/src/main/java/pl/rafalmanka/slownikjezykaslaskiego/WordListAdapter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/build/res/all/basic/release/layout/activity_starting_point.xml" afterPath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/build/res/all/basic/release/layout/activity_starting_point.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/src/main/res/layout/activity_starting_point.xml" afterPath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/src/main/res/layout/activity_starting_point.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/build.gradle" afterPath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/src/main/assets/dictionary.csv" afterPath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/src/main/assets/dictionary.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/build/proguard/basic/release/dump.txt" afterPath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/build/proguard/basic/release/dump.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/build/proguard/basic/release/mapping.txt" afterPath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/build/proguard/basic/release/mapping.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/build/proguard/basic/release/seeds.txt" afterPath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/build/proguard/basic/release/seeds.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/src/main/res/values/strings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/src/main/res/values/styles.xml" afterPath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/src/main/res/values/styles.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/support_v4_13_0_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/support_v4_13_0_0.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/build/res/all/basic/release/layout/title_bar.xml" afterPath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/build/res/all/basic/release/layout/title_bar.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/src/main/res/layout/title_bar.xml" afterPath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/src/main/res/layout/title_bar.xml" />
@@ -70,23 +60,6 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
-      <breakpoint url="file://$PROJECT_DIR$/Slownik Jezyka Slaskiego/src/main/java/pl/rafalmanka/slownikjezykaslaskiego/SearchDictionary.java" line="124" class="pl.rafalmanka.slownikjezykaslaskiego.SearchDictionary" package="pl.rafalmanka.slownikjezykaslaskiego">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-    </line_breakpoints>
     <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
@@ -124,6 +97,7 @@
         <option name="LOG_MESSAGE" value="&#13;&#13;JAVA" />
       </breakpoint>
     </breakpoint_any>
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -191,9 +165,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/Slownik Jezyka Slaskiego/src/main/res/anim/pump_top.xml" />
-        <option value="$PROJECT_DIR$/Slownik Jezyka Slaskiego/src/main/res/anim/disappear.xml" />
-        <option value="$PROJECT_DIR$/Slownik Jezyka Slaskiego/src/main/res/anim/grow_from_topright_to_bottomleft.xml" />
         <option value="$PROJECT_DIR$/Slownik Jezyka Slaskiego/src/main/res/anim/grow_from_bottom.xml" />
         <option value="$PROJECT_DIR$/Slownik Jezyka Slaskiego/src/main/res/anim/shrink_from_top.xml" />
         <option value="$PROJECT_DIR$/Slownik Jezyka Slaskiego/src/main/res/anim/grow_from_bottomleft_to_topright.xml" />
@@ -203,18 +174,21 @@
         <option value="$PROJECT_DIR$/Slownik Jezyka Slaskiego/src/main/res/anim/grow_from_bottomright_to_topleft.xml" />
         <option value="$PROJECT_DIR$/Slownik Jezyka Slaskiego/src/main/res/anim/shrink_from_topleft_to_bottomright.xml" />
         <option value="$PROJECT_DIR$/Slownik Jezyka Slaskiego/src/main/res/layout/popup_horizontal.xml" />
-        <option value="$PROJECT_DIR$/Slownik Jezyka Slaskiego/src/main/res/layout/title_bar.xml" />
         <option value="$PROJECT_DIR$/Slownik Jezyka Slaskiego/src/main/res/values/styles.xml" />
+        <option value="$PROJECT_DIR$/Slownik Jezyka Slaskiego/src/main/java/pl/rafalmanka/slownikjezykaslaskiego/Constants.java" />
+        <option value="$PROJECT_DIR$/Slownik Jezyka Slaskiego/src/main/res/layout/activity_starting_point.xml" />
         <option value="$PROJECT_DIR$/Slownik Jezyka Slaskiego/src/main/java/pl/rafalmanka/slownikjezykaslaskiego/SearchDictionary.java" />
+        <option value="$PROJECT_DIR$/Slownik Jezyka Slaskiego/src/main/res/layout/title_bar.xml" />
         <option value="$PROJECT_DIR$/Slownik Jezyka Slaskiego/src/main/java/pl/rafalmanka/slownikjezykaslaskiego/DatabaseHandler.java" />
+        <option value="$PROJECT_DIR$/Slownik Jezyka Slaskiego/build.gradle" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="64" />
-    <option name="y" value="-4" />
-    <option name="width" value="1857" />
-    <option name="height" value="1085" />
+    <option name="x" value="65" />
+    <option name="y" value="24" />
+    <option name="width" value="1855" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -259,7 +233,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -281,31 +254,35 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="project.structure.last.edited" value="SDKs" />
-    <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager2.WIDTH" value="548" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="OverrideImplement.combined" value="true" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="ExportedApkPath" value="$PROJECT_DIR$/Slownik Jezyka Slaskiego/Slownik Jezyka Slaskiego.apk" />
-    <property name="options.lastSelected" value="preferences.keymap" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="ExportedModule" value="Slownik Jezyka Slaskiego" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/Slownik Jezyka Slaskiego/SlownikJezykaSlaskiego_keystore" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="S56600637d45c" />
-    <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
-    <property name="AndroidRunProguardForReleaseBuild" value="false" />
-    <property name="restartRequiresConfirmation" value="true" />
+    <property name="OverrideImplement.overriding.sorted" value="false" />
+    <property name="AndroidTargetDevices" value="S56600637d45c" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="FullScreen" value="false" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager2.WIDTH" value="548" />
+    <property name="options.lastSelected" value="preferences.keymap" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="S56600637d45c" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="AndroidRunProguardForReleaseBuild" value="false" />
+    <property name="restartRequiresConfirmation" value="true" />
+    <property name="options.searchVisible" value="true" />
     <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
@@ -436,7 +413,7 @@
       <option name="ACTIVITY_CLASS" value="pl.rafalmanka.slownikjezykaslaskiego.SearchDictionary" />
       <option name="MODE" value="default_activity" />
       <option name="DEPLOY" value="true" />
-      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="TARGET_SELECTION_MODE" value="USB_DEVICE" />
       <option name="PREFERRED_AVD" value="" />
       <option name="USE_COMMAND_LINE" value="true" />
       <option name="COMMAND_LINE" value="" />
@@ -523,7 +500,11 @@
       <created>1377837918255</created>
       <updated>1377837918255</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="dodano możliwość przełączania z polskiego na śląski">
+      <created>1377952466089</created>
+      <updated>1377952466089</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -547,7 +528,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="64" y="-4" width="1857" height="1085" extended-state="6" />
+    <frame x="65" y="24" width="1855" height="1056" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -559,8 +540,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32941177" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19279778" sideWeight="0.32192513" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3026738" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19234973" sideWeight="0.6342246" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3657754" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3301179" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -570,11 +550,12 @@
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19279778" sideWeight="0.6342246" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32834226" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2498615" sideWeight="0.67058825" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.40443215" sideWeight="0.67058825" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.40443215" sideWeight="0.6342246" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32941177" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3026738" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -587,7 +568,9 @@
       <TodoPanelSettings />
     </option>
     <MESSAGE value="whole structure of DB changed" />
-    <option name="LAST_COMMIT_MESSAGE" value="whole structure of DB changed" />
+    <MESSAGE value="dodano możliwość przełączania z polskiego na śląski" />
+    <MESSAGE value="dodano asynctask" />
+    <option name="LAST_COMMIT_MESSAGE" value="dodano asynctask" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -597,37 +580,35 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Slownik Jezyka Slaskiego/src/main/java/pl/rafalmanka/slownikjezykaslaskiego/SearchDictionary.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="117" column="14" selection-start="4246" selection-end="4246" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2355">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Slownik Jezyka Slaskiego/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="14" selection-start="225" selection-end="225" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="1260">
-          <folding />
-        </state>
+        <state line="17" column="14" selection-start="225" selection-end="225" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="1260" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Slownik Jezyka Slaskiego/src/main/java/pl/rafalmanka/slownikjezykaslaskiego/SearchDictionary.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="117" column="14" selection-start="4246" selection-end="4246" vertical-scroll-proportion="0.0" vertical-offset="1755" max-vertical-offset="2355">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#3202#3222#0" expanded="false" />
+            <element signature="e#3268#3288#0" expanded="false" />
+            <element signature="e#3497#3519#0" expanded="false" />
+            <element signature="e#3565#3583#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Slownik Jezyka Slaskiego/src/main/java/pl/rafalmanka/slownikjezykaslaskiego/SearchDictionary.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="135" column="39" selection-start="4983" selection-end="4983" vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="2355">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#3202#3222#0" expanded="false" />
+            <element signature="e#3268#3288#0" expanded="false" />
+            <element signature="e#3497#3519#0" expanded="false" />
+            <element signature="e#3565#3583#0" expanded="false" />
+          </folding>
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Slownik Jezyka Slaskiego/build/res/all/basic/debug/values/values.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="15" selection-start="2198" selection-end="2198" vertical-scroll-proportion="0.7867133" vertical-offset="90" max-vertical-offset="1740" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Slownik Jezyka Slaskiego/build/proguard/pro/release/seeds.txt">
@@ -640,21 +621,6 @@
         <state line="19" column="4" selection-start="671" selection-end="671" vertical-scroll-proportion="0.47738692" vertical-offset="0" max-vertical-offset="597">
           <folding />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Slownik Jezyka Slaskiego/src/main/res/layout/title_bar.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="82" selection-start="697" selection-end="697" vertical-scroll-proportion="0.39612675" vertical-offset="30" max-vertical-offset="2610">
-          <folding>
-            <element signature="e#1935#1958#0" expanded="false" />
-            <element signature="e#4641#4660#0" expanded="false" />
-            <element signature="e#6352#6368#0" expanded="false" />
-            <element signature="e#6840#6857#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Slownik Jezyka Slaskiego/src/main/res/values/strings.xml">
@@ -676,23 +642,78 @@
         <state line="36" column="57" selection-start="2240" selection-end="2240" vertical-scroll-proportion="0.0" vertical-offset="540" max-vertical-offset="1740" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Slownik Jezyka Slaskiego/src/main/java/pl/rafalmanka/slownikjezykaslaskiego/SearchDictionary.java">
+    <entry file="file://$PROJECT_DIR$/Slownik Jezyka Slaskiego/src/main/java/pl/rafalmanka/slownikjezykaslaskiego/Constants.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="118" column="33" selection-start="4290" selection-end="4290" vertical-scroll-proportion="0.0" vertical-offset="1120" max-vertical-offset="2025">
+        <state line="30" column="9" selection-start="718" selection-end="718" vertical-scroll-proportion="0.7992895" vertical-offset="0" max-vertical-offset="1185">
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Slownik Jezyka Slaskiego/src/main/java/pl/rafalmanka/slownikjezykaslaskiego/SearchDictionary.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="152" column="47" selection-start="5930" selection-end="5930" vertical-scroll-proportion="0.6103679" vertical-offset="1870" max-vertical-offset="2595">
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#3202#3222#0" expanded="false" />
+            <element signature="e#3268#3288#0" expanded="false" />
+            <element signature="e#3497#3519#0" expanded="false" />
+            <element signature="e#3565#3583#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Slownik Jezyka Slaskiego/src/main/res/layout/activity_search_dictionary.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="330">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Slownik Jezyka Slaskiego/src/main/res/layout/activity_starting_point.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="51" selection-start="954" selection-end="954" vertical-scroll-proportion="0.63268894" vertical-offset="0" max-vertical-offset="569">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Slownik Jezyka Slaskiego/src/main/res/layout/title_bar.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="44" selection-start="933" selection-end="933" vertical-scroll-proportion="0.47378278" vertical-offset="107" max-vertical-offset="2610">
+          <folding>
+            <element signature="e#1912#1935#0" expanded="true" />
+            <element signature="e#4618#4637#0" expanded="true" />
+            <element signature="e#6329#6345#0" expanded="true" />
+            <element signature="e#6817#6834#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Slownik Jezyka Slaskiego/src/main/java/pl/rafalmanka/slownikjezykaslaskiego/DatabaseHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="77" column="92" selection-start="4108" selection-end="4108" vertical-scroll-proportion="0.625222" vertical-offset="578" max-vertical-offset="2655">
+        <state line="77" column="92" selection-start="4000" selection-end="4000" vertical-scroll-proportion="0.651865" vertical-offset="563" max-vertical-offset="2655">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Slownik Jezyka Slaskiego/application.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="37" selection-start="118" selection-end="118" vertical-scroll-proportion="0.053285968" vertical-offset="0" max-vertical-offset="563">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Slownik Jezyka Slaskiego/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="28" selection-start="636" selection-end="636" vertical-scroll-proportion="0.37300178" vertical-offset="255" max-vertical-offset="1260">
+        <state line="47" column="28" selection-start="987" selection-end="987" vertical-scroll-proportion="0.62166965" vertical-offset="355" max-vertical-offset="1260">
           <folding />
         </state>
       </provider>
@@ -737,7 +758,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>Android 4.3 Platform</last-edited>
+          <last-edited>Android 4.2.2 Platform</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -749,12 +770,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Slownik Jezyka Slaskiego</last-edited>
+          <last-edited>Slownik Jezyka Slaskiego Project</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>

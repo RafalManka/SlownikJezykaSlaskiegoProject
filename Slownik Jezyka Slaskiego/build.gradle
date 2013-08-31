@@ -33,8 +33,8 @@ android {
 
     defaultConfig {
 
-        versionName "1.1.0-Bedzin"
-        versionCode 3
+        versionName "2.0.0-Bytom"
+        versionCode 4
 
         minSdkVersion 7
         targetSdkVersion 16
@@ -43,9 +43,9 @@ android {
     signingConfigs {
         myConfig {
             storeFile file("SlownikJezykaSlaskiego_keystore")
-            storePassword "Ujehesop1"
+            storePassword "***"
             keyAlias "słownik języka śląskiego"
-            keyPassword "Ujehesop1"
+            keyPassword "***"
         }
     }
 
@@ -70,7 +70,7 @@ android {
         }
 
         pro {
-            packageName "pl.rafalmanka.pro"
+            packageName "pl.rafalmanka.slownikjezykaslaskiegopro"
         }
     }
 }

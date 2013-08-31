@@ -1884,14 +1884,18 @@ pl.rafalmanka.slownikjezykaslaskiego.SearchDictionary -> pl.rafalmanka.slownikje
     java.lang.String TAG -> a
     android.widget.TextView mTopBarEditText -> b
     boolean isSilesianToPolish -> c
+    java.util.ArrayList mDictionaryList -> d
+    android.widget.ProgressBar mProgressBar -> e
     boolean onCreateOptionsMenu(android.view.Menu) -> onCreateOptionsMenu
     boolean onOptionsItemSelected(android.view.MenuItem) -> onOptionsItemSelected
     void onCreate(android.os.Bundle) -> onCreate
-    void populateListView(java.lang.String) -> a
-    void access$000(pl.rafalmanka.slownikjezykaslaskiego.SearchDictionary,java.lang.String) -> a
-    boolean access$100(pl.rafalmanka.slownikjezykaslaskiego.SearchDictionary) -> a
-    boolean access$102(pl.rafalmanka.slownikjezykaslaskiego.SearchDictionary,boolean) -> a
-    android.widget.TextView access$200(pl.rafalmanka.slownikjezykaslaskiego.SearchDictionary) -> b
+    void handlePopulateDictionary() -> a
+    android.widget.ProgressBar access$000(pl.rafalmanka.slownikjezykaslaskiego.SearchDictionary) -> a
+    boolean access$200(pl.rafalmanka.slownikjezykaslaskiego.SearchDictionary) -> b
+    boolean access$202(pl.rafalmanka.slownikjezykaslaskiego.SearchDictionary,boolean) -> a
+    android.widget.TextView access$300(pl.rafalmanka.slownikjezykaslaskiego.SearchDictionary) -> c
+    java.util.ArrayList access$402(pl.rafalmanka.slownikjezykaslaskiego.SearchDictionary,java.util.ArrayList) -> a
+    void access$500(pl.rafalmanka.slownikjezykaslaskiego.SearchDictionary) -> d
 pl.rafalmanka.slownikjezykaslaskiego.SearchDictionary$1 -> pl.rafalmanka.slownikjezykaslaskiego.g:
     pl.rafalmanka.slownikjezykaslaskiego.SearchDictionary this$0 -> a
     void beforeTextChanged(java.lang.CharSequence,int,int,int) -> beforeTextChanged
@@ -1900,10 +1904,16 @@ pl.rafalmanka.slownikjezykaslaskiego.SearchDictionary$1 -> pl.rafalmanka.slownik
 pl.rafalmanka.slownikjezykaslaskiego.SearchDictionary$2 -> pl.rafalmanka.slownikjezykaslaskiego.h:
     pl.rafalmanka.slownikjezykaslaskiego.SearchDictionary this$0 -> a
     void onClick(android.view.View) -> onClick
+pl.rafalmanka.slownikjezykaslaskiego.SearchDictionary$PopulateListView -> pl.rafalmanka.slownikjezykaslaskiego.i:
+    pl.rafalmanka.slownikjezykaslaskiego.SearchDictionary this$0 -> a
+    void onPostExecute(java.util.ArrayList) -> a
+    java.util.ArrayList doInBackground(java.lang.String[]) -> a
+    void onPostExecute(java.lang.Object) -> onPostExecute
+    java.lang.Object doInBackground(java.lang.Object[]) -> doInBackground
 pl.rafalmanka.slownikjezykaslaskiego.SuggestWordActivity -> pl.rafalmanka.slownikjezykaslaskiego.SuggestWordActivity:
     void onCreate(android.os.Bundle) -> onCreate
     void onClick(android.view.View) -> onClick
-pl.rafalmanka.slownikjezykaslaskiego.WordListAdapter -> pl.rafalmanka.slownikjezykaslaskiego.i:
+pl.rafalmanka.slownikjezykaslaskiego.WordListAdapter -> pl.rafalmanka.slownikjezykaslaskiego.j:
     java.lang.String TAG -> a
     android.view.LayoutInflater mInflater -> b
     java.util.ArrayList mData -> c
@@ -1913,7 +1923,7 @@ pl.rafalmanka.slownikjezykaslaskiego.WordListAdapter -> pl.rafalmanka.slownikjez
     int getViewTypeCount() -> getViewTypeCount
     int getItemViewType(int) -> getItemViewType
     android.view.View getView(int,android.view.View,android.view.ViewGroup) -> getView
-pl.rafalmanka.slownikjezykaslaskiego.WordListAdapter$1 -> pl.rafalmanka.slownikjezykaslaskiego.j:
+pl.rafalmanka.slownikjezykaslaskiego.WordListAdapter$1 -> pl.rafalmanka.slownikjezykaslaskiego.k:
     java.lang.String val$translation -> a
     pl.rafalmanka.slownikjezykaslaskiego.WordListAdapter this$0 -> b
     void onClick(android.view.View) -> onClick
