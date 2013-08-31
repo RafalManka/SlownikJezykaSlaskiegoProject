@@ -7,8 +7,6 @@ import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.EditText;
 
-import pl.rafalmanka.slownikjezykaslaskiego.R;
-
 
 public class SuggestWordActivity extends Activity implements OnClickListener {
 

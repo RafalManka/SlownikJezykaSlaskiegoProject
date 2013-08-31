@@ -78,7 +78,10 @@ pl.rafalmanka.slownikjezykaslaskiego.R$dimen: int activity_vertical_margin
 pl.rafalmanka.slownikjezykaslaskiego.R$drawable: int arrow
 pl.rafalmanka.slownikjezykaslaskiego.R$drawable: int button_ok
 pl.rafalmanka.slownikjezykaslaskiego.R$drawable: int ic_launcher
+pl.rafalmanka.slownikjezykaslaskiego.R$drawable: int icon_pl
+pl.rafalmanka.slownikjezykaslaskiego.R$drawable: int left_arrow
 pl.rafalmanka.slownikjezykaslaskiego.R$drawable: int list_item
+pl.rafalmanka.slownikjezykaslaskiego.R$drawable: int right_arrow
 pl.rafalmanka.slownikjezykaslaskiego.R$drawable: int topbar
 pl.rafalmanka.slownikjezykaslaskiego.R$id: int action_settings
 pl.rafalmanka.slownikjezykaslaskiego.R$id: int adapter_list_item_linear_layout
@@ -87,8 +90,12 @@ pl.rafalmanka.slownikjezykaslaskiego.R$id: int advertisment_imageview
 pl.rafalmanka.slownikjezykaslaskiego.R$id: int example_use_editText
 pl.rafalmanka.slownikjezykaslaskiego.R$id: int header
 pl.rafalmanka.slownikjezykaslaskiego.R$id: int imageView
+pl.rafalmanka.slownikjezykaslaskiego.R$id: int imageView2
+pl.rafalmanka.slownikjezykaslaskiego.R$id: int imageView4
 pl.rafalmanka.slownikjezykaslaskiego.R$id: int suggest_button_submit
 pl.rafalmanka.slownikjezykaslaskiego.R$id: int title_layout
+pl.rafalmanka.slownikjezykaslaskiego.R$id: int titlebar_arrow_tap_to_change_directions
+pl.rafalmanka.slownikjezykaslaskiego.R$id: int titlebar_linearlayout_tap_to_change_directions
 pl.rafalmanka.slownikjezykaslaskiego.R$id: int topbar_editText
 pl.rafalmanka.slownikjezykaslaskiego.R$id: int word_original_editText
 pl.rafalmanka.slownikjezykaslaskiego.R$id: int word_translation_editText
@@ -110,6 +117,7 @@ pl.rafalmanka.slownikjezykaslaskiego.R$string: int results
 pl.rafalmanka.slownikjezykaslaskiego.R$string: int search
 pl.rafalmanka.slownikjezykaslaskiego.R$string: int submit
 pl.rafalmanka.slownikjezykaslaskiego.R$string: int suggest
+pl.rafalmanka.slownikjezykaslaskiego.R$string: int tap_to_change
 pl.rafalmanka.slownikjezykaslaskiego.R$string: int word_original
 pl.rafalmanka.slownikjezykaslaskiego.R$string: int word_translation
 pl.rafalmanka.slownikjezykaslaskiego.R$string: int your_email
@@ -120,7 +128,6 @@ pl.rafalmanka.slownikjezykaslaskiego.R$style: int ApplicationSearchbarTheme
 pl.rafalmanka.slownikjezykaslaskiego.R$style: int ApplicationTextbarTheme
 pl.rafalmanka.slownikjezykaslaskiego.SearchDictionary
 pl.rafalmanka.slownikjezykaslaskiego.SearchDictionary: SearchDictionary()
-pl.rafalmanka.slownikjezykaslaskiego.SearchDictionary: void onClick(android.view.View)
 pl.rafalmanka.slownikjezykaslaskiego.SuggestWordActivity
 pl.rafalmanka.slownikjezykaslaskiego.SuggestWordActivity: SuggestWordActivity()
 pl.rafalmanka.slownikjezykaslaskiego.SuggestWordActivity: void onClick(android.view.View)

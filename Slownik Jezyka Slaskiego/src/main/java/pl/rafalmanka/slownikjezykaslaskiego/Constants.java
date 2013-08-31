@@ -6,7 +6,7 @@ package pl.rafalmanka.slownikjezykaslaskiego;
 public class Constants {
 
     public enum Database {
-        DATABASE("SlownikSlaski",17),
+        DATABASE("SlownikSlaski",18),
 
         TABLE_WORD("table_word"),
         COLUMN_WORD_ID("word_id"),

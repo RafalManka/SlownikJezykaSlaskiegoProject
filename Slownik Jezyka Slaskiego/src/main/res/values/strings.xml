@@ -14,5 +14,12 @@
 	<string name="your_email">Twój email (opcjonalnie)</string>
 	<string name="submit">zatwierdź</string>
 	<string name="suggest">zaproponuj słowo</string>
+    <string name="tap_to_change">(kliknij, żeby zmienić)</string>
+
+    <string name="from_silesian">Z\nśląskiego</string>
+    <string name="to_silesian">Na\nśląski</string>
+
+    <string name="from_polish">Z\npolskiego</string>
+    <string name="to_polish">Na\npolski</string>
 
 </resources>

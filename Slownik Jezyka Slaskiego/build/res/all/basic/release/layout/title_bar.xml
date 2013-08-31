@@ -60,6 +60,7 @@
         <LinearLayout
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
+                android:padding="3dip"
                 android:background="@color/topbar_darkgrey"
                 android:paddingLeft="5dip"
                 >
@@ -72,7 +73,54 @@
                     android:background="@color/topbar_darkgrey"
                     android:textColor="@color/darkergrey_titlebar"
                     android:text="@string/results" />
+
+            <LinearLayout
+
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="@android:color/transparent"
+                    android:gravity="right">
+
+                <LinearLayout
+                        android:id="@+id/titlebar_linearlayout_tap_to_change_directions"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:background="@android:color/transparent"
+                        android:gravity="center_vertical">
+
+                    <ImageView
+                            android:layout_width="30dip"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/ic_launcher"
+                            android:background="@android:color/transparent"
+                            android:id="@+id/imageView2"/>
+
+                    <ImageView
+                            android:layout_width="20dip"
+                            android:layout_height="15dip"
+                            android:background="@android:color/transparent"
+                            android:src="@drawable/right_arrow"
+                            android:id="@+id/titlebar_arrow_tap_to_change_directions" />
+
+                    <ImageView
+                            android:layout_width="30dip"
+                            android:layout_height="wrap_content"
+                            android:background="@android:color/transparent"
+                            android:src="@drawable/icon_pl"
+                            android:id="@+id/imageView4"/>
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="3dip"
+                            android:background="@android:color/transparent"
+                            android:textSize="10sp"
+                            android:textColor="@color/darkergrey_titlebar"
+                            android:text="@string/tap_to_change" />
+
+
                 </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
 
     </LinearLayout>
 

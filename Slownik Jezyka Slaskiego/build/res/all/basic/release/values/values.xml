@@ -19,6 +19,7 @@
     <string name="search">szukaj</string>
     <string name="submit">zatwierdź</string>
     <string name="suggest">zaproponuj słowo</string>
+    <string name="tap_to_change">(kliknij, żeby zmienić)</string>
     <string name="word_original">słowo śląskie</string>
     <string name="word_translation">polski odpowiednik</string>
     <string name="your_email">Twój email (opcjonalnie)</string>

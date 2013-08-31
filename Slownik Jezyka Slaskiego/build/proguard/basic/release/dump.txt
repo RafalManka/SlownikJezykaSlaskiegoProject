@@ -81535,7 +81535,7 @@ _____________________________________________________________________
 
 Interfaces (count = 0):
 
-Constant Pool (count = 312):
+Constant Pool (count = 315):
   + String []
   + String [  (]
   + String [ (]
@@ -81551,14 +81551,14 @@ Constant Pool (count = 312):
   + String [ LIKE '%]
   + String [ TEXT) ]
   + String [ WHERE ]
-  + String [ WHERE w.]
   + String [ t.]
   + String [']
   + String [' AND ]
-  + String [' OR w.]
+  + String [' OR ]
   + String [)   ) ]
   + String [), ]
   + String [,]
+  + String [.]
   + String [;]
   + String [=']
   + String [=t.]
@@ -81633,6 +81633,7 @@ Constant Pool (count = 312):
   + Methodref [java/lang/Long.valueOf (J)Ljava/lang/Long;]
   + Methodref [java/lang/String.split (Ljava/lang/String;)[Ljava/lang/String;]
   + Methodref [java/lang/StringBuilder.<init> ()V]
+  + Methodref [java/lang/StringBuilder.append (C)Ljava/lang/StringBuilder;]
   + Methodref [java/lang/StringBuilder.append (J)Ljava/lang/StringBuilder;]
   + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
   + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
@@ -81671,6 +81672,7 @@ Constant Pool (count = 312):
   + NameAndType [a Lpl/rafalmanka/slownikjezykaslaskiego/c;]
   + NameAndType [a Lpl/rafalmanka/slownikjezykaslaskiego/d;]
   + NameAndType [add (Ljava/lang/Object;)Z]
+  + NameAndType [append (C)Ljava/lang/StringBuilder;]
   + NameAndType [append (J)Ljava/lang/StringBuilder;]
   + NameAndType [append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
   + NameAndType [b ()I]
@@ -81724,11 +81726,10 @@ Constant Pool (count = 312):
   + Utf8 [ LIKE '%]
   + Utf8 [ TEXT) ]
   + Utf8 [ WHERE ]
-  + Utf8 [ WHERE w.]
   + Utf8 [ t.]
   + Utf8 [']
   + Utf8 [' AND ]
-  + Utf8 [' OR w.]
+  + Utf8 [' OR ]
   + Utf8 [()I]
   + Utf8 [()Landroid/content/res/AssetManager;]
   + Utf8 [()Landroid/database/sqlite/SQLiteDatabase;]
@@ -81738,11 +81739,12 @@ Constant Pool (count = 312):
   + Utf8 [()Ljava/util/List;]
   + Utf8 [()V]
   + Utf8 [()Z]
+  + Utf8 [(C)Ljava/lang/StringBuilder;]
   + Utf8 [(I)J]
   + Utf8 [(J)Ljava/lang/Long;]
   + Utf8 [(J)Ljava/lang/StringBuilder;]
   + Utf8 [(Landroid/content/Context;)V]
-  + Utf8 [(Landroid/content/Context;Ljava/lang/String;)Landroid/database/Cursor;]
+  + Utf8 [(Landroid/content/Context;CLjava/lang/String;)Landroid/database/Cursor;]
   + Utf8 [(Landroid/content/Context;Ljava/lang/String;Landroid/database/sqlite/SQLiteDatabase$CursorFactory;I)V]
   + Utf8 [(Landroid/database/sqlite/SQLiteDatabase;)V]
   + Utf8 [(Landroid/database/sqlite/SQLiteDatabase;II)V]
@@ -81766,6 +81768,7 @@ Constant Pool (count = 312):
   + Utf8 [)   ) ]
   + Utf8 [), ]
   + Utf8 [,]
+  + Utf8 [.]
   + Utf8 [;]
   + Utf8 [<clinit>]
   + Utf8 [<init>]
@@ -81865,12 +81868,12 @@ Methods (count = 10):
       [1] aload_1 v1
       [2] getstatic #65
         + Fieldref [pl/rafalmanka/slownikjezykaslaskiego/c.a Lpl/rafalmanka/slownikjezykaslaskiego/c;]
-      [5] invokevirtual #103
+      [5] invokevirtual #104
         + Methodref [pl/rafalmanka/slownikjezykaslaskiego/c.a ()Ljava/lang/String;]
       [8] aconst_null
       [9] getstatic #65
         + Fieldref [pl/rafalmanka/slownikjezykaslaskiego/c.a Lpl/rafalmanka/slownikjezykaslaskiego/c;]
-      [12] invokevirtual #104
+      [12] invokevirtual #105
         + Methodref [pl/rafalmanka/slownikjezykaslaskiego/c.b ()I]
       [15] invokespecial #87
         + Methodref [android/database/sqlite/SQLiteOpenHelper.<init> (Landroid/content/Context;Ljava/lang/String;Landroid/database/sqlite/SQLiteDatabase$CursorFactory;I)V]
@@ -81900,39 +81903,39 @@ Methods (count = 10):
         + Methodref [java/lang/StringBuilder.<init> ()V]
       [16] ldc #28
         + String [CREATE TABLE IF NOT EXISTS ]
-      [18] invokevirtual #100
+      [18] invokevirtual #101
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
       [21] getstatic #66
         + Fieldref [pl/rafalmanka/slownikjezykaslaskiego/c.b Lpl/rafalmanka/slownikjezykaslaskiego/c;]
-      [24] invokevirtual #103
+      [24] invokevirtual #104
         + Methodref [pl/rafalmanka/slownikjezykaslaskiego/c.a ()Ljava/lang/String;]
-      [27] invokevirtual #100
+      [27] invokevirtual #101
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
       [30] ldc #3
         + String [ (]
-      [32] invokevirtual #100
+      [32] invokevirtual #101
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
       [35] getstatic #67
         + Fieldref [pl/rafalmanka/slownikjezykaslaskiego/c.c Lpl/rafalmanka/slownikjezykaslaskiego/c;]
-      [38] invokevirtual #103
+      [38] invokevirtual #104
         + Methodref [pl/rafalmanka/slownikjezykaslaskiego/c.a ()Ljava/lang/String;]
-      [41] invokevirtual #100
+      [41] invokevirtual #101
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
       [44] ldc #10
         + String [ INTEGER PRIMARY KEY, ]
-      [46] invokevirtual #100
+      [46] invokevirtual #101
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
       [49] getstatic #68
         + Fieldref [pl/rafalmanka/slownikjezykaslaskiego/c.d Lpl/rafalmanka/slownikjezykaslaskiego/c;]
-      [52] invokevirtual #103
+      [52] invokevirtual #104
         + Methodref [pl/rafalmanka/slownikjezykaslaskiego/c.a ()Ljava/lang/String;]
-      [55] invokevirtual #100
+      [55] invokevirtual #101
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
       [58] ldc #14
         + String [ TEXT) ]
-      [60] invokevirtual #100
+      [60] invokevirtual #101
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
-      [63] invokevirtual #101
+      [63] invokevirtual #102
         + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
       [66] astore_2 v2
       [67] getstatic #74
@@ -81944,12 +81947,12 @@ Methods (count = 10):
         + Methodref [java/lang/StringBuilder.<init> ()V]
       [77] ldc #31
         + String [Executing: ]
-      [79] invokevirtual #100
+      [79] invokevirtual #101
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
       [82] aload_2 v2
-      [83] invokevirtual #100
+      [83] invokevirtual #101
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
-      [86] invokevirtual #101
+      [86] invokevirtual #102
         + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
       [89] invokestatic #88
         + Methodref [android/util/Log.d (Ljava/lang/String;Ljava/lang/String;)I]
@@ -81972,89 +81975,89 @@ Methods (count = 10):
         + Methodref [java/lang/StringBuilder.<init> ()V]
       [114] ldc #28
         + String [CREATE TABLE IF NOT EXISTS ]
-      [116] invokevirtual #100
+      [116] invokevirtual #101
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
       [119] getstatic #69
         + Fieldref [pl/rafalmanka/slownikjezykaslaskiego/c.e Lpl/rafalmanka/slownikjezykaslaskiego/c;]
-      [122] invokevirtual #103
+      [122] invokevirtual #104
         + Methodref [pl/rafalmanka/slownikjezykaslaskiego/c.a ()Ljava/lang/String;]
-      [125] invokevirtual #100
+      [125] invokevirtual #101
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
       [128] ldc #2
         + String [  (]
-      [130] invokevirtual #100
+      [130] invokevirtual #101
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
       [133] getstatic #71
         + Fieldref [pl/rafalmanka/slownikjezykaslaskiego/c.g Lpl/rafalmanka/slownikjezykaslaskiego/c;]
-      [136] invokevirtual #103
+      [136] invokevirtual #104
         + Methodref [pl/rafalmanka/slownikjezykaslaskiego/c.a ()Ljava/lang/String;]
-      [139] invokevirtual #100
+      [139] invokevirtual #101
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
       [142] ldc #10
         + String [ INTEGER PRIMARY KEY, ]
-      [144] invokevirtual #100
+      [144] invokevirtual #101
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
       [147] getstatic #67
         + Fieldref [pl/rafalmanka/slownikjezykaslaskiego/c.c Lpl/rafalmanka/slownikjezykaslaskiego/c;]
-      [150] invokevirtual #103
+      [150] invokevirtual #104
         + Methodref [pl/rafalmanka/slownikjezykaslaskiego/c.a ()Ljava/lang/String;]
-      [153] invokevirtual #100
+      [153] invokevirtual #101
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
       [156] ldc #11
         + String [ INTEGER REFERENCES ]
-      [158] invokevirtual #100
+      [158] invokevirtual #101
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
       [161] getstatic #66
         + Fieldref [pl/rafalmanka/slownikjezykaslaskiego/c.b Lpl/rafalmanka/slownikjezykaslaskiego/c;]
-      [164] invokevirtual #103
+      [164] invokevirtual #104
         + Methodref [pl/rafalmanka/slownikjezykaslaskiego/c.a ()Ljava/lang/String;]
-      [167] invokevirtual #100
+      [167] invokevirtual #101
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
       [170] ldc #3
         + String [ (]
-      [172] invokevirtual #100
+      [172] invokevirtual #101
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
       [175] getstatic #67
         + Fieldref [pl/rafalmanka/slownikjezykaslaskiego/c.c Lpl/rafalmanka/slownikjezykaslaskiego/c;]
-      [178] invokevirtual #103
+      [178] invokevirtual #104
         + Methodref [pl/rafalmanka/slownikjezykaslaskiego/c.a ()Ljava/lang/String;]
-      [181] invokevirtual #100
+      [181] invokevirtual #101
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
-      [184] ldc #22
+      [184] ldc #21
         + String [), ]
-      [186] invokevirtual #100
+      [186] invokevirtual #101
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
       [189] getstatic #70
         + Fieldref [pl/rafalmanka/slownikjezykaslaskiego/c.f Lpl/rafalmanka/slownikjezykaslaskiego/c;]
-      [192] invokevirtual #103
+      [192] invokevirtual #104
         + Methodref [pl/rafalmanka/slownikjezykaslaskiego/c.a ()Ljava/lang/String;]
-      [195] invokevirtual #100
+      [195] invokevirtual #101
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
       [198] ldc #11
         + String [ INTEGER REFERENCES ]
-      [200] invokevirtual #100
+      [200] invokevirtual #101
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
       [203] getstatic #66
         + Fieldref [pl/rafalmanka/slownikjezykaslaskiego/c.b Lpl/rafalmanka/slownikjezykaslaskiego/c;]
-      [206] invokevirtual #103
+      [206] invokevirtual #104
         + Methodref [pl/rafalmanka/slownikjezykaslaskiego/c.a ()Ljava/lang/String;]
-      [209] invokevirtual #100
+      [209] invokevirtual #101
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
       [212] ldc #3
         + String [ (]
-      [214] invokevirtual #100
+      [214] invokevirtual #101
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
       [217] getstatic #67
         + Fieldref [pl/rafalmanka/slownikjezykaslaskiego/c.c Lpl/rafalmanka/slownikjezykaslaskiego/c;]
-      [220] invokevirtual #103
+      [220] invokevirtual #104
         + Methodref [pl/rafalmanka/slownikjezykaslaskiego/c.a ()Ljava/lang/String;]
-      [223] invokevirtual #100
+      [223] invokevirtual #101
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
-      [226] ldc #21
+      [226] ldc #20
         + String [)   ) ]
-      [228] invokevirtual #100
+      [228] invokevirtual #101
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
-      [231] invokevirtual #101
+      [231] invokevirtual #102
         + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
       [234] astore_3 v3
       [235] getstatic #74
@@ -82066,12 +82069,12 @@ Methods (count = 10):
         + Methodref [java/lang/StringBuilder.<init> ()V]
       [245] ldc #31
         + String [Executing: ]
-      [247] invokevirtual #100
+      [247] invokevirtual #101
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
       [250] aload_3 v3
-      [251] invokevirtual #100
+      [251] invokevirtual #101
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
-      [254] invokevirtual #101
+      [254] invokevirtual #102
         + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
       [257] invokestatic #88
         + Methodref [android/util/Log.d (Ljava/lang/String;Ljava/lang/String;)I]
@@ -82082,7 +82085,7 @@ Methods (count = 10):
         + Methodref [android/database/sqlite/SQLiteDatabase.execSQL (Ljava/lang/String;)V]
       [266] aload_0 v0
       [267] aload_1 v1
-      [268] invokespecial #107
+      [268] invokespecial #108
         + Methodref [pl/rafalmanka/slownikjezykaslaskiego/e.a (Landroid/database/sqlite/SQLiteDatabase;)V]
       [271] return
       Code attribute exceptions (count = 0):
@@ -82099,15 +82102,15 @@ Methods (count = 10):
         + Methodref [java/lang/StringBuilder.<init> ()V]
       [7] ldc #30
         + String [DROP TABLE IF EXISTS ]
-      [9] invokevirtual #100
+      [9] invokevirtual #101
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
       [12] getstatic #66
         + Fieldref [pl/rafalmanka/slownikjezykaslaskiego/c.b Lpl/rafalmanka/slownikjezykaslaskiego/c;]
-      [15] invokevirtual #103
+      [15] invokevirtual #104
         + Methodref [pl/rafalmanka/slownikjezykaslaskiego/c.a ()Ljava/lang/String;]
-      [18] invokevirtual #100
+      [18] invokevirtual #101
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
-      [21] invokevirtual #101
+      [21] invokevirtual #102
         + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
       [24] astore v4
       [26] aload_1 v1
@@ -82121,15 +82124,15 @@ Methods (count = 10):
         + Methodref [java/lang/StringBuilder.<init> ()V]
       [39] ldc #30
         + String [DROP TABLE IF EXISTS ]
-      [41] invokevirtual #100
+      [41] invokevirtual #101
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
       [44] getstatic #69
         + Fieldref [pl/rafalmanka/slownikjezykaslaskiego/c.e Lpl/rafalmanka/slownikjezykaslaskiego/c;]
-      [47] invokevirtual #103
+      [47] invokevirtual #104
         + Methodref [pl/rafalmanka/slownikjezykaslaskiego/c.a ()Ljava/lang/String;]
-      [50] invokevirtual #100
+      [50] invokevirtual #101
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
-      [53] invokevirtual #101
+      [53] invokevirtual #102
         + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
       [56] astore v4
       [58] aload_1 v1
@@ -82138,226 +82141,240 @@ Methods (count = 10):
         + Methodref [android/database/sqlite/SQLiteDatabase.execSQL (Ljava/lang/String;)V]
       [64] aload_0 v0
       [65] aload_1 v1
-      [66] invokevirtual #113
+      [66] invokevirtual #114
         + Methodref [pl/rafalmanka/slownikjezykaslaskiego/e.onCreate (Landroid/database/sqlite/SQLiteDatabase;)V]
       [69] return
       Code attribute exceptions (count = 0):
       Code attribute attributes (attribute count = 0):
-  + Method:       a(Landroid/content/Context;Ljava/lang/String;)Landroid/database/Cursor;
+  + Method:       a(Landroid/content/Context;CLjava/lang/String;)Landroid/database/Cursor;
     Access flags: 0x21
-      = public synchronized android.database.Cursor a(android.content.Context,java.lang.String)
+      = public synchronized android.database.Cursor a(android.content.Context,char,java.lang.String)
     Class member attributes (count = 1):
-    + Code attribute instructions (code length = 293, locals = 6, stack = 3):
+    + Code attribute instructions (code length = 314, locals = 7, stack = 3):
       [0] aload_0 v0
-      [1] invokevirtual #111
+      [1] invokevirtual #112
         + Methodref [pl/rafalmanka/slownikjezykaslaskiego/e.getReadableDatabase ()Landroid/database/sqlite/SQLiteDatabase;]
-      [4] astore_3 v3
-      [5] new #56
+      [4] astore v4
+      [6] new #56
         + Class [java/lang/StringBuilder]
-      [8] dup
-      [9] invokespecial #98
+      [9] dup
+      [10] invokespecial #98
         + Methodref [java/lang/StringBuilder.<init> ()V]
-      [12] ldc #33
+      [13] ldc #33
         + String [SELECT *, w.]
-      [14] invokevirtual #100
+      [15] invokevirtual #101
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
-      [17] getstatic #68
+      [18] getstatic #68
         + Fieldref [pl/rafalmanka/slownikjezykaslaskiego/c.d Lpl/rafalmanka/slownikjezykaslaskiego/c;]
-      [20] invokevirtual #103
+      [21] invokevirtual #104
         + Methodref [pl/rafalmanka/slownikjezykaslaskiego/c.a ()Ljava/lang/String;]
-      [23] invokevirtual #100
+      [24] invokevirtual #101
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
-      [26] ldc #4
+      [27] ldc #4
         + String [ AS ]
-      [28] invokevirtual #100
+      [29] invokevirtual #101
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
-      [31] getstatic #72
+      [32] getstatic #72
         + Fieldref [pl/rafalmanka/slownikjezykaslaskiego/d.a Lpl/rafalmanka/slownikjezykaslaskiego/d;]
-      [34] invokevirtual #105
+      [35] invokevirtual #106
         + Methodref [pl/rafalmanka/slownikjezykaslaskiego/d.a ()Ljava/lang/String;]
-      [37] invokevirtual #100
+      [38] invokevirtual #101
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
-      [40] ldc #23
+      [41] ldc #22
         + String [,]
-      [42] invokevirtual #100
+      [43] invokevirtual #101
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
-      [45] ldc #17
+      [46] ldc #16
         + String [ t.]
-      [47] invokevirtual #100
+      [48] invokevirtual #101
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
-      [50] getstatic #68
+      [51] getstatic #68
         + Fieldref [pl/rafalmanka/slownikjezykaslaskiego/c.d Lpl/rafalmanka/slownikjezykaslaskiego/c;]
-      [53] invokevirtual #103
+      [54] invokevirtual #104
         + Methodref [pl/rafalmanka/slownikjezykaslaskiego/c.a ()Ljava/lang/String;]
-      [56] invokevirtual #100
+      [57] invokevirtual #101
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
-      [59] ldc #4
+      [60] ldc #4
         + String [ AS ]
-      [61] invokevirtual #100
+      [62] invokevirtual #101
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
-      [64] getstatic #73
+      [65] getstatic #73
         + Fieldref [pl/rafalmanka/slownikjezykaslaskiego/d.b Lpl/rafalmanka/slownikjezykaslaskiego/d;]
-      [67] invokevirtual #105
+      [68] invokevirtual #106
         + Methodref [pl/rafalmanka/slownikjezykaslaskiego/d.a ()Ljava/lang/String;]
-      [70] invokevirtual #100
+      [71] invokevirtual #101
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
-      [73] ldc #8
+      [74] ldc #8
         + String [ FROM ]
-      [75] invokevirtual #100
+      [76] invokevirtual #101
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
-      [78] getstatic #66
+      [79] getstatic #66
         + Fieldref [pl/rafalmanka/slownikjezykaslaskiego/c.b Lpl/rafalmanka/slownikjezykaslaskiego/c;]
-      [81] invokevirtual #103
+      [82] invokevirtual #104
         + Methodref [pl/rafalmanka/slownikjezykaslaskiego/c.a ()Ljava/lang/String;]
-      [84] invokevirtual #100
+      [85] invokevirtual #101
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
-      [87] ldc #6
+      [88] ldc #6
         + String [ AS w ]
-      [89] invokevirtual #100
+      [90] invokevirtual #101
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
-      [92] ldc #9
+      [93] ldc #9
         + String [ INNER JOIN ]
-      [94] invokevirtual #100
+      [95] invokevirtual #101
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
-      [97] getstatic #69
+      [98] getstatic #69
         + Fieldref [pl/rafalmanka/slownikjezykaslaskiego/c.e Lpl/rafalmanka/slownikjezykaslaskiego/c;]
-      [100] invokevirtual #103
+      [101] invokevirtual #104
         + Methodref [pl/rafalmanka/slownikjezykaslaskiego/c.a ()Ljava/lang/String;]
-      [103] invokevirtual #100
+      [104] invokevirtual #101
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
-      [106] ldc #7
+      [107] ldc #7
         + String [ AS wht ON wht.]
-      [108] invokevirtual #100
+      [109] invokevirtual #101
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
-      [111] getstatic #67
+      [112] getstatic #67
         + Fieldref [pl/rafalmanka/slownikjezykaslaskiego/c.c Lpl/rafalmanka/slownikjezykaslaskiego/c;]
-      [114] invokevirtual #103
+      [115] invokevirtual #104
         + Methodref [pl/rafalmanka/slownikjezykaslaskiego/c.a ()Ljava/lang/String;]
-      [117] invokevirtual #100
+      [118] invokevirtual #101
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
-      [120] ldc #27
+      [121] ldc #27
         + String [=w.]
-      [122] invokevirtual #100
+      [123] invokevirtual #101
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
-      [125] getstatic #67
+      [126] getstatic #67
         + Fieldref [pl/rafalmanka/slownikjezykaslaskiego/c.c Lpl/rafalmanka/slownikjezykaslaskiego/c;]
-      [128] invokevirtual #103
+      [129] invokevirtual #104
         + Methodref [pl/rafalmanka/slownikjezykaslaskiego/c.a ()Ljava/lang/String;]
-      [131] invokevirtual #100
+      [132] invokevirtual #101
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
-      [134] ldc #1
+      [135] ldc #1
         + String []
-      [136] invokevirtual #100
+      [137] invokevirtual #101
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
-      [139] ldc #9
+      [140] ldc #9
         + String [ INNER JOIN ]
-      [141] invokevirtual #100
+      [142] invokevirtual #101
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
-      [144] getstatic #66
+      [145] getstatic #66
         + Fieldref [pl/rafalmanka/slownikjezykaslaskiego/c.b Lpl/rafalmanka/slownikjezykaslaskiego/c;]
-      [147] invokevirtual #103
+      [148] invokevirtual #104
         + Methodref [pl/rafalmanka/slownikjezykaslaskiego/c.a ()Ljava/lang/String;]
-      [150] invokevirtual #100
+      [151] invokevirtual #101
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
-      [153] ldc #5
+      [154] ldc #5
         + String [ AS t ON wht.]
-      [155] invokevirtual #100
+      [156] invokevirtual #101
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
-      [158] getstatic #70
+      [159] getstatic #70
         + Fieldref [pl/rafalmanka/slownikjezykaslaskiego/c.f Lpl/rafalmanka/slownikjezykaslaskiego/c;]
-      [161] invokevirtual #103
+      [162] invokevirtual #104
         + Methodref [pl/rafalmanka/slownikjezykaslaskiego/c.a ()Ljava/lang/String;]
-      [164] invokevirtual #100
+      [165] invokevirtual #101
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
-      [167] ldc #26
+      [168] ldc #26
         + String [=t.]
-      [169] invokevirtual #100
+      [170] invokevirtual #101
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
-      [172] getstatic #67
+      [173] getstatic #67
         + Fieldref [pl/rafalmanka/slownikjezykaslaskiego/c.c Lpl/rafalmanka/slownikjezykaslaskiego/c;]
-      [175] invokevirtual #103
+      [176] invokevirtual #104
         + Methodref [pl/rafalmanka/slownikjezykaslaskiego/c.a ()Ljava/lang/String;]
-      [178] invokevirtual #100
+      [179] invokevirtual #101
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
-      [181] ldc #1
+      [182] ldc #1
         + String []
-      [183] invokevirtual #100
+      [184] invokevirtual #101
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
-      [186] ldc #16
-        + String [ WHERE w.]
-      [188] invokevirtual #100
+      [187] ldc #15
+        + String [ WHERE ]
+      [189] invokevirtual #101
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
-      [191] getstatic #68
+      [192] iload_2 v2
+      [193] invokevirtual #99
+        + Methodref [java/lang/StringBuilder.append (C)Ljava/lang/StringBuilder;]
+      [196] ldc #23
+        + String [.]
+      [198] invokevirtual #101
+        + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [201] getstatic #68
         + Fieldref [pl/rafalmanka/slownikjezykaslaskiego/c.d Lpl/rafalmanka/slownikjezykaslaskiego/c;]
-      [194] invokevirtual #103
+      [204] invokevirtual #104
         + Methodref [pl/rafalmanka/slownikjezykaslaskiego/c.a ()Ljava/lang/String;]
-      [197] invokevirtual #100
+      [207] invokevirtual #101
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
-      [200] ldc #13
+      [210] ldc #13
         + String [ LIKE '%]
-      [202] invokevirtual #100
+      [212] invokevirtual #101
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
-      [205] aload_2 v2
-      [206] invokevirtual #100
+      [215] aload_3 v3
+      [216] invokevirtual #101
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
-      [209] ldc #20
-        + String [' OR w.]
-      [211] invokevirtual #100
+      [219] ldc #19
+        + String [' OR ]
+      [221] invokevirtual #101
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
-      [214] getstatic #68
+      [224] iload_2 v2
+      [225] invokevirtual #99
+        + Methodref [java/lang/StringBuilder.append (C)Ljava/lang/StringBuilder;]
+      [228] ldc #23
+        + String [.]
+      [230] invokevirtual #101
+        + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [233] getstatic #68
         + Fieldref [pl/rafalmanka/slownikjezykaslaskiego/c.d Lpl/rafalmanka/slownikjezykaslaskiego/c;]
-      [217] invokevirtual #103
+      [236] invokevirtual #104
         + Methodref [pl/rafalmanka/slownikjezykaslaskiego/c.a ()Ljava/lang/String;]
-      [220] invokevirtual #100
+      [239] invokevirtual #101
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
-      [223] ldc #12
+      [242] ldc #12
         + String [ LIKE ' %]
-      [225] invokevirtual #100
+      [244] invokevirtual #101
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
-      [228] aload_2 v2
-      [229] invokevirtual #100
+      [247] aload_3 v3
+      [248] invokevirtual #101
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
-      [232] ldc #18
+      [251] ldc #17
         + String [']
-      [234] invokevirtual #100
+      [253] invokevirtual #101
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
-      [237] invokevirtual #101
+      [256] invokevirtual #102
         + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
-      [240] astore v4
-      [242] getstatic #74
+      [259] astore v5
+      [261] getstatic #74
         + Fieldref [pl/rafalmanka/slownikjezykaslaskiego/e.a Ljava/lang/String;]
-      [245] new #56
+      [264] new #56
         + Class [java/lang/StringBuilder]
-      [248] dup
-      [249] invokespecial #98
+      [267] dup
+      [268] invokespecial #98
         + Methodref [java/lang/StringBuilder.<init> ()V]
-      [252] ldc #37
+      [271] ldc #37
         + String [query: ]
-      [254] invokevirtual #100
+      [273] invokevirtual #101
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
-      [257] aload v4
-      [259] invokevirtual #100
+      [276] aload v5
+      [278] invokevirtual #101
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
-      [262] invokevirtual #101
+      [281] invokevirtual #102
         + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
-      [265] invokestatic #88
+      [284] invokestatic #88
         + Methodref [android/util/Log.d (Ljava/lang/String;Ljava/lang/String;)I]
-      [268] pop
-      [269] aload_3 v3
-      [270] aload v4
-      [272] aconst_null
-      [273] invokevirtual #86
-        + Methodref [android/database/sqlite/SQLiteDatabase.rawQuery (Ljava/lang/String;[Ljava/lang/String;)Landroid/database/Cursor;]
-      [276] astore v5
-      [278] aload v5
-      [280] invokeinterface #118, 256
-        + InterfaceMethodref [android/database/Cursor.moveToFirst ()Z]
-      [285] pop
-      [286] aload_3 v3
-      [287] invokevirtual #82
-        + Methodref [android/database/sqlite/SQLiteDatabase.close ()V]
+      [287] pop
+      [288] aload v4
       [290] aload v5
-      [292] areturn
+      [292] aconst_null
+      [293] invokevirtual #86
+        + Methodref [android/database/sqlite/SQLiteDatabase.rawQuery (Ljava/lang/String;[Ljava/lang/String;)Landroid/database/Cursor;]
+      [296] astore v6
+      [298] aload v6
+      [300] invokeinterface #119, 256
+        + InterfaceMethodref [android/database/Cursor.moveToFirst ()Z]
+      [305] pop
+      [306] aload v4
+      [308] invokevirtual #82
+        + Methodref [android/database/sqlite/SQLiteDatabase.close ()V]
+      [311] aload v6
+      [313] areturn
       Code attribute exceptions (count = 0):
       Code attribute attributes (attribute count = 0):
   + Method:       a(Landroid/database/sqlite/SQLiteDatabase;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/Long;
@@ -82370,13 +82387,13 @@ Methods (count = 10):
       [2] aload_2 v2
       [3] getstatic #66
         + Fieldref [pl/rafalmanka/slownikjezykaslaskiego/c.b Lpl/rafalmanka/slownikjezykaslaskiego/c;]
-      [6] invokevirtual #103
+      [6] invokevirtual #104
         + Methodref [pl/rafalmanka/slownikjezykaslaskiego/c.a ()Ljava/lang/String;]
       [9] getstatic #68
         + Fieldref [pl/rafalmanka/slownikjezykaslaskiego/c.d Lpl/rafalmanka/slownikjezykaslaskiego/c;]
-      [12] invokevirtual #103
+      [12] invokevirtual #104
         + Methodref [pl/rafalmanka/slownikjezykaslaskiego/c.a ()Ljava/lang/String;]
-      [15] invokespecial #110
+      [15] invokespecial #111
         + Methodref [pl/rafalmanka/slownikjezykaslaskiego/e.a (Landroid/database/sqlite/SQLiteDatabase;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)J]
       [18] lstore v4
       [20] aload_0 v0
@@ -82384,20 +82401,20 @@ Methods (count = 10):
       [22] aload_3 v3
       [23] getstatic #66
         + Fieldref [pl/rafalmanka/slownikjezykaslaskiego/c.b Lpl/rafalmanka/slownikjezykaslaskiego/c;]
-      [26] invokevirtual #103
+      [26] invokevirtual #104
         + Methodref [pl/rafalmanka/slownikjezykaslaskiego/c.a ()Ljava/lang/String;]
       [29] getstatic #68
         + Fieldref [pl/rafalmanka/slownikjezykaslaskiego/c.d Lpl/rafalmanka/slownikjezykaslaskiego/c;]
-      [32] invokevirtual #103
+      [32] invokevirtual #104
         + Methodref [pl/rafalmanka/slownikjezykaslaskiego/c.a ()Ljava/lang/String;]
-      [35] invokespecial #110
+      [35] invokespecial #111
         + Methodref [pl/rafalmanka/slownikjezykaslaskiego/e.a (Landroid/database/sqlite/SQLiteDatabase;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)J]
       [38] lstore v6
       [40] aload_0 v0
       [41] aload_1 v1
       [42] lload v4
       [44] lload v6
-      [46] invokespecial #108
+      [46] invokespecial #109
         + Methodref [pl/rafalmanka/slownikjezykaslaskiego/e.a (Landroid/database/sqlite/SQLiteDatabase;JJ)V]
       [49] lload v4
       [51] invokestatic #96
@@ -82415,7 +82432,7 @@ Methods (count = 10):
         + Methodref [android/database/sqlite/SQLiteDatabase.isOpen ()Z]
       [4] ifne +8 (target=12)
       [7] aload_0 v0
-      [8] invokevirtual #112
+      [8] invokevirtual #113
         + Methodref [pl/rafalmanka/slownikjezykaslaskiego/e.getWritableDatabase ()Landroid/database/sqlite/SQLiteDatabase;]
       [11] astore_1 v1
       [12] new #56
@@ -82425,53 +82442,53 @@ Methods (count = 10):
         + Methodref [java/lang/StringBuilder.<init> ()V]
       [19] ldc #32
         + String [SELECT * FROM ]
-      [21] invokevirtual #100
+      [21] invokevirtual #101
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
       [24] getstatic #69
         + Fieldref [pl/rafalmanka/slownikjezykaslaskiego/c.e Lpl/rafalmanka/slownikjezykaslaskiego/c;]
-      [27] invokevirtual #103
+      [27] invokevirtual #104
         + Methodref [pl/rafalmanka/slownikjezykaslaskiego/c.a ()Ljava/lang/String;]
-      [30] invokevirtual #100
+      [30] invokevirtual #101
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
       [33] ldc #15
         + String [ WHERE ]
-      [35] invokevirtual #100
+      [35] invokevirtual #101
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
       [38] getstatic #67
         + Fieldref [pl/rafalmanka/slownikjezykaslaskiego/c.c Lpl/rafalmanka/slownikjezykaslaskiego/c;]
-      [41] invokevirtual #103
+      [41] invokevirtual #104
         + Methodref [pl/rafalmanka/slownikjezykaslaskiego/c.a ()Ljava/lang/String;]
-      [44] invokevirtual #100
+      [44] invokevirtual #101
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
       [47] ldc #25
         + String [=']
-      [49] invokevirtual #100
+      [49] invokevirtual #101
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
       [52] lload_2 v2
-      [53] invokevirtual #99
+      [53] invokevirtual #100
         + Methodref [java/lang/StringBuilder.append (J)Ljava/lang/StringBuilder;]
-      [56] ldc #19
+      [56] ldc #18
         + String [' AND ]
-      [58] invokevirtual #100
+      [58] invokevirtual #101
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
       [61] getstatic #70
         + Fieldref [pl/rafalmanka/slownikjezykaslaskiego/c.f Lpl/rafalmanka/slownikjezykaslaskiego/c;]
-      [64] invokevirtual #103
+      [64] invokevirtual #104
         + Methodref [pl/rafalmanka/slownikjezykaslaskiego/c.a ()Ljava/lang/String;]
-      [67] invokevirtual #100
+      [67] invokevirtual #101
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
       [70] ldc #25
         + String [=']
-      [72] invokevirtual #100
+      [72] invokevirtual #101
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
       [75] lload v4
-      [77] invokevirtual #99
+      [77] invokevirtual #100
         + Methodref [java/lang/StringBuilder.append (J)Ljava/lang/StringBuilder;]
-      [80] ldc #18
+      [80] ldc #17
         + String [']
-      [82] invokevirtual #100
+      [82] invokevirtual #101
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
-      [85] invokevirtual #101
+      [85] invokevirtual #102
         + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
       [88] astore v6
       [90] aload_1 v1
@@ -82481,7 +82498,7 @@ Methods (count = 10):
         + Methodref [android/database/sqlite/SQLiteDatabase.rawQuery (Ljava/lang/String;[Ljava/lang/String;)Landroid/database/Cursor;]
       [97] astore v7
       [99] aload v7
-      [101] invokeinterface #116, 256
+      [101] invokeinterface #117, 256
         + InterfaceMethodref [android/database/Cursor.getCount ()I]
       [106] ifne +62 (target=168)
       [109] new #41
@@ -82493,7 +82510,7 @@ Methods (count = 10):
       [118] aload v8
       [120] getstatic #67
         + Fieldref [pl/rafalmanka/slownikjezykaslaskiego/c.c Lpl/rafalmanka/slownikjezykaslaskiego/c;]
-      [123] invokevirtual #103
+      [123] invokevirtual #104
         + Methodref [pl/rafalmanka/slownikjezykaslaskiego/c.a ()Ljava/lang/String;]
       [126] lload_2 v2
       [127] invokestatic #96
@@ -82503,7 +82520,7 @@ Methods (count = 10):
       [133] aload v8
       [135] getstatic #70
         + Fieldref [pl/rafalmanka/slownikjezykaslaskiego/c.f Lpl/rafalmanka/slownikjezykaslaskiego/c;]
-      [138] invokevirtual #103
+      [138] invokevirtual #104
         + Methodref [pl/rafalmanka/slownikjezykaslaskiego/c.a ()Ljava/lang/String;]
       [141] lload v4
       [143] invokestatic #96
@@ -82513,7 +82530,7 @@ Methods (count = 10):
       [149] aload_1 v1
       [150] getstatic #69
         + Fieldref [pl/rafalmanka/slownikjezykaslaskiego/c.e Lpl/rafalmanka/slownikjezykaslaskiego/c;]
-      [153] invokevirtual #103
+      [153] invokevirtual #104
         + Methodref [pl/rafalmanka/slownikjezykaslaskiego/c.a ()Ljava/lang/String;]
       [156] aconst_null
       [157] aload v8
@@ -82524,7 +82541,7 @@ Methods (count = 10):
       [165] invokevirtual #77
         + Methodref [android/content/ContentValues.clear ()V]
       [168] aload v7
-      [170] invokeinterface #114, 256
+      [170] invokeinterface #115, 256
         + InterfaceMethodref [android/database/Cursor.close ()V]
       [175] return
       Code attribute exceptions (count = 0):
@@ -82539,7 +82556,7 @@ Methods (count = 10):
         + Methodref [android/database/sqlite/SQLiteDatabase.isOpen ()Z]
       [4] ifne +8 (target=12)
       [7] aload_0 v0
-      [8] invokevirtual #112
+      [8] invokevirtual #113
         + Methodref [pl/rafalmanka/slownikjezykaslaskiego/e.getWritableDatabase ()Landroid/database/sqlite/SQLiteDatabase;]
       [11] astore_1 v1
       [12] new #56
@@ -82549,30 +82566,30 @@ Methods (count = 10):
         + Methodref [java/lang/StringBuilder.<init> ()V]
       [19] ldc #32
         + String [SELECT * FROM ]
-      [21] invokevirtual #100
+      [21] invokevirtual #101
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
       [24] aload_3 v3
-      [25] invokevirtual #100
+      [25] invokevirtual #101
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
       [28] ldc #15
         + String [ WHERE ]
-      [30] invokevirtual #100
+      [30] invokevirtual #101
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
       [33] aload v4
-      [35] invokevirtual #100
+      [35] invokevirtual #101
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
       [38] ldc #25
         + String [=']
-      [40] invokevirtual #100
+      [40] invokevirtual #101
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
       [43] aload_2 v2
-      [44] invokevirtual #100
+      [44] invokevirtual #101
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
-      [47] ldc #18
+      [47] ldc #17
         + String [']
-      [49] invokevirtual #100
+      [49] invokevirtual #101
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
-      [52] invokevirtual #101
+      [52] invokevirtual #102
         + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
       [55] astore v5
       [57] aload_1 v1
@@ -82585,7 +82602,7 @@ Methods (count = 10):
         + Long [-1]
       [69] lstore v7
       [71] aload v6
-      [73] invokeinterface #116, 256
+      [73] invokeinterface #117, 256
         + InterfaceMethodref [android/database/Cursor.getCount ()I]
       [78] ifne +38 (target=116)
       [81] new #41
@@ -82611,22 +82628,22 @@ Methods (count = 10):
         + Methodref [android/content/ContentValues.clear ()V]
       [113] goto +33 (target=146)
       [116] aload v6
-      [118] invokeinterface #118, 256
+      [118] invokeinterface #119, 256
         + InterfaceMethodref [android/database/Cursor.moveToFirst ()Z]
       [123] pop
       [124] aload v6
       [126] aload v6
       [128] getstatic #68
         + Fieldref [pl/rafalmanka/slownikjezykaslaskiego/c.d Lpl/rafalmanka/slownikjezykaslaskiego/c;]
-      [131] invokevirtual #103
+      [131] invokevirtual #104
         + Methodref [pl/rafalmanka/slownikjezykaslaskiego/c.a ()Ljava/lang/String;]
-      [134] invokeinterface #115, 512
+      [134] invokeinterface #116, 512
         + InterfaceMethodref [android/database/Cursor.getColumnIndex (Ljava/lang/String;)I]
-      [139] invokeinterface #117, 512
+      [139] invokeinterface #118, 512
         + InterfaceMethodref [android/database/Cursor.getLong (I)J]
       [144] lstore v7
       [146] aload v6
-      [148] invokeinterface #114, 256
+      [148] invokeinterface #115, 256
         + InterfaceMethodref [android/database/Cursor.close ()V]
       [153] lload v7
       [155] lreturn
@@ -82638,19 +82655,19 @@ Methods (count = 10):
     Class member attributes (count = 1):
     + Code attribute instructions (code length = 50, locals = 5, stack = 5):
       [0] aload_0 v0
-      [1] invokevirtual #106
+      [1] invokevirtual #107
         + Methodref [pl/rafalmanka/slownikjezykaslaskiego/e.a ()Ljava/util/List;]
       [4] astore_2 v2
       [5] aload_2 v2
-      [6] invokeinterface #122, 256
+      [6] invokeinterface #123, 256
         + InterfaceMethodref [java/util/List.iterator ()Ljava/util/Iterator;]
       [11] astore_3 v3
       [12] aload_3 v3
-      [13] invokeinterface #119, 256
+      [13] invokeinterface #120, 256
         + InterfaceMethodref [java/util/Iterator.hasNext ()Z]
       [18] ifeq +31 (target=49)
       [21] aload_3 v3
-      [22] invokeinterface #120, 256
+      [22] invokeinterface #121, 256
         + InterfaceMethodref [java/util/Iterator.next ()Ljava/lang/Object;]
       [27] checkcast #40
         + Class [[Ljava/lang/String;]
@@ -82663,7 +82680,7 @@ Methods (count = 10):
       [38] aload v4
       [40] iconst_1
       [41] aaload
-      [42] invokevirtual #109
+      [42] invokevirtual #110
         + Methodref [pl/rafalmanka/slownikjezykaslaskiego/e.a (Landroid/database/sqlite/SQLiteDatabase;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/Long;]
       [45] pop
       [46] goto -34 (target=12)
@@ -82678,7 +82695,7 @@ Methods (count = 10):
       [0] new #57
         + Class [java/util/ArrayList]
       [3] dup
-      [4] invokespecial #102
+      [4] invokespecial #103
         + Methodref [java/util/ArrayList.<init> ()V]
       [7] astore_1 v1
       [8] aload_0 v0
@@ -82742,7 +82759,7 @@ Methods (count = 10):
       [92] aastore
       [93] aload_1 v1
       [94] aload v7
-      [96] invokeinterface #121, 512
+      [96] invokeinterface #122, 512
         + InterfaceMethodref [java/util/List.add (Ljava/lang/Object;)Z]
       [101] pop
       [102] goto +30 (target=132)
@@ -82755,12 +82772,12 @@ Methods (count = 10):
         + Methodref [java/lang/StringBuilder.<init> ()V]
       [115] ldc #29
         + String [CSV construction wrong, ommitting: ]
-      [117] invokevirtual #100
+      [117] invokevirtual #101
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
       [120] aload v5
-      [122] invokevirtual #100
+      [122] invokevirtual #101
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
-      [125] invokevirtual #101
+      [125] invokevirtual #102
         + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
       [128] invokestatic #88
         + Methodref [android/util/Log.d (Ljava/lang/String;Ljava/lang/String;)I]
@@ -82945,22 +82962,21 @@ _____________________________________________________________________
   Access flags:  0x21
     = public class pl.rafalmanka.slownikjezykaslaskiego.SearchDictionary extends android.app.ListActivity
 
-Interfaces (count = 1):
-  + Class [android/view/View$OnClickListener]
+Interfaces (count = 0):
 
-Constant Pool (count = 176):
+Constant Pool (count = 177):
   + Integer [2130903041]
   + Integer [2130903044]
   + Integer [2131099652]
   + Integer [2131296267]
+  + Integer [2131296268]
   + String []
   + String [%]
   + Class [android/app/ListActivity]
   + Class [android/content/Intent]
   + Class [android/database/Cursor]
-  + Class [android/util/Log]
   + Class [android/view/MenuItem]
-  + Class [android/view/View$OnClickListener]
+  + Class [android/widget/LinearLayout]
   + Class [android/widget/TextView]
   + Class [java/lang/Class]
   + Class [java/lang/String]
@@ -82969,15 +82985,15 @@ Constant Pool (count = 176):
   + Class [pl/rafalmanka/slownikjezykaslaskiego/SearchDictionary]
   + Class [pl/rafalmanka/slownikjezykaslaskiego/SuggestWordActivity]
   + Class [pl/rafalmanka/slownikjezykaslaskiego/a]
-  + Class [pl/rafalmanka/slownikjezykaslaskiego/c]
   + Class [pl/rafalmanka/slownikjezykaslaskiego/d]
   + Class [pl/rafalmanka/slownikjezykaslaskiego/e]
   + Class [pl/rafalmanka/slownikjezykaslaskiego/f]
   + Class [pl/rafalmanka/slownikjezykaslaskiego/g]
   + Class [pl/rafalmanka/slownikjezykaslaskiego/h]
+  + Class [pl/rafalmanka/slownikjezykaslaskiego/i]
   + Fieldref [pl/rafalmanka/slownikjezykaslaskiego/SearchDictionary.a Ljava/lang/String;]
   + Fieldref [pl/rafalmanka/slownikjezykaslaskiego/SearchDictionary.b Landroid/widget/TextView;]
-  + Fieldref [pl/rafalmanka/slownikjezykaslaskiego/c.d Lpl/rafalmanka/slownikjezykaslaskiego/c;]
+  + Fieldref [pl/rafalmanka/slownikjezykaslaskiego/SearchDictionary.c Z]
   + Fieldref [pl/rafalmanka/slownikjezykaslaskiego/d.a Lpl/rafalmanka/slownikjezykaslaskiego/d;]
   + Fieldref [pl/rafalmanka/slownikjezykaslaskiego/d.b Lpl/rafalmanka/slownikjezykaslaskiego/d;]
   + Methodref [android/app/ListActivity.<init> ()V]
@@ -82985,7 +83001,7 @@ Constant Pool (count = 176):
   + Methodref [android/app/ListActivity.onCreateOptionsMenu (Landroid/view/Menu;)Z]
   + Methodref [android/app/ListActivity.onOptionsItemSelected (Landroid/view/MenuItem;)Z]
   + Methodref [android/content/Intent.<init> (Landroid/content/Context;Ljava/lang/Class;)V]
-  + Methodref [android/util/Log.d (Ljava/lang/String;Ljava/lang/String;)I]
+  + Methodref [android/widget/LinearLayout.setOnClickListener (Landroid/view/View$OnClickListener;)V]
   + Methodref [android/widget/TextView.addTextChangedListener (Landroid/text/TextWatcher;)V]
   + Methodref [java/lang/Class.getSimpleName ()Ljava/lang/String;]
   + Methodref [java/lang/String.equals (Ljava/lang/Object;)Z]
@@ -83000,13 +83016,13 @@ Constant Pool (count = 176):
   + Methodref [pl/rafalmanka/slownikjezykaslaskiego/SearchDictionary.setListAdapter (Landroid/widget/ListAdapter;)V]
   + Methodref [pl/rafalmanka/slownikjezykaslaskiego/SearchDictionary.startActivity (Landroid/content/Intent;)V]
   + Methodref [pl/rafalmanka/slownikjezykaslaskiego/a.a (Landroid/app/Activity;II)V]
-  + Methodref [pl/rafalmanka/slownikjezykaslaskiego/c.a ()Ljava/lang/String;]
   + Methodref [pl/rafalmanka/slownikjezykaslaskiego/d.a ()Ljava/lang/String;]
   + Methodref [pl/rafalmanka/slownikjezykaslaskiego/e.<init> (Landroid/content/Context;)V]
-  + Methodref [pl/rafalmanka/slownikjezykaslaskiego/e.a (Landroid/content/Context;Ljava/lang/String;)Landroid/database/Cursor;]
+  + Methodref [pl/rafalmanka/slownikjezykaslaskiego/e.a (Landroid/content/Context;CLjava/lang/String;)Landroid/database/Cursor;]
   + Methodref [pl/rafalmanka/slownikjezykaslaskiego/f.a (Landroid/content/Context;)V]
   + Methodref [pl/rafalmanka/slownikjezykaslaskiego/g.<init> (Lpl/rafalmanka/slownikjezykaslaskiego/SearchDictionary;)V]
-  + Methodref [pl/rafalmanka/slownikjezykaslaskiego/h.<init> (Landroid/app/Activity;Ljava/util/ArrayList;)V]
+  + Methodref [pl/rafalmanka/slownikjezykaslaskiego/h.<init> (Lpl/rafalmanka/slownikjezykaslaskiego/SearchDictionary;)V]
+  + Methodref [pl/rafalmanka/slownikjezykaslaskiego/i.<init> (Landroid/app/Activity;Ljava/util/ArrayList;)V]
   + InterfaceMethodref [android/database/Cursor.close ()V]
   + InterfaceMethodref [android/database/Cursor.getColumnIndex (Ljava/lang/String;)I]
   + InterfaceMethodref [android/database/Cursor.getCount ()I]
@@ -83021,7 +83037,7 @@ Constant Pool (count = 176):
   + NameAndType [a ()Ljava/lang/String;]
   + NameAndType [a (Landroid/app/Activity;II)V]
   + NameAndType [a (Landroid/content/Context;)V]
-  + NameAndType [a (Landroid/content/Context;Ljava/lang/String;)Landroid/database/Cursor;]
+  + NameAndType [a (Landroid/content/Context;CLjava/lang/String;)Landroid/database/Cursor;]
   + NameAndType [a (Ljava/lang/String;)V]
   + NameAndType [a Ljava/lang/String;]
   + NameAndType [a Lpl/rafalmanka/slownikjezykaslaskiego/d;]
@@ -83029,9 +83045,8 @@ Constant Pool (count = 176):
   + NameAndType [addTextChangedListener (Landroid/text/TextWatcher;)V]
   + NameAndType [b Landroid/widget/TextView;]
   + NameAndType [b Lpl/rafalmanka/slownikjezykaslaskiego/d;]
+  + NameAndType [c Z]
   + NameAndType [close ()V]
-  + NameAndType [d (Ljava/lang/String;Ljava/lang/String;)I]
-  + NameAndType [d Lpl/rafalmanka/slownikjezykaslaskiego/c;]
   + NameAndType [equals (Ljava/lang/Object;)Z]
   + NameAndType [findViewById (I)Landroid/view/View;]
   + NameAndType [getApplicationContext ()Landroid/content/Context;]
@@ -83046,6 +83061,7 @@ Constant Pool (count = 176):
   + NameAndType [onOptionsItemSelected (Landroid/view/MenuItem;)Z]
   + NameAndType [put (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;]
   + NameAndType [setListAdapter (Landroid/widget/ListAdapter;)V]
+  + NameAndType [setOnClickListener (Landroid/view/View$OnClickListener;)V]
   + NameAndType [startActivity (Landroid/content/Intent;)V]
   + Utf8 []
   + Utf8 [%]
@@ -83059,42 +83075,43 @@ Constant Pool (count = 176):
   + Utf8 [(Landroid/app/Activity;II)V]
   + Utf8 [(Landroid/app/Activity;Ljava/util/ArrayList;)V]
   + Utf8 [(Landroid/content/Context;)V]
+  + Utf8 [(Landroid/content/Context;CLjava/lang/String;)Landroid/database/Cursor;]
   + Utf8 [(Landroid/content/Context;Ljava/lang/Class;)V]
-  + Utf8 [(Landroid/content/Context;Ljava/lang/String;)Landroid/database/Cursor;]
   + Utf8 [(Landroid/content/Intent;)V]
   + Utf8 [(Landroid/os/Bundle;)V]
   + Utf8 [(Landroid/text/TextWatcher;)V]
   + Utf8 [(Landroid/view/Menu;)Z]
   + Utf8 [(Landroid/view/MenuItem;)Z]
-  + Utf8 [(Landroid/view/View;)V]
+  + Utf8 [(Landroid/view/View$OnClickListener;)V]
   + Utf8 [(Landroid/widget/ListAdapter;)V]
   + Utf8 [(Ljava/lang/Object;)Z]
   + Utf8 [(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;]
   + Utf8 [(Ljava/lang/String;)I]
   + Utf8 [(Ljava/lang/String;)V]
-  + Utf8 [(Ljava/lang/String;Ljava/lang/String;)I]
+  + Utf8 [(Lpl/rafalmanka/slownikjezykaslaskiego/SearchDictionary;)Landroid/widget/TextView;]
   + Utf8 [(Lpl/rafalmanka/slownikjezykaslaskiego/SearchDictionary;)V]
+  + Utf8 [(Lpl/rafalmanka/slownikjezykaslaskiego/SearchDictionary;)Z]
   + Utf8 [(Lpl/rafalmanka/slownikjezykaslaskiego/SearchDictionary;Ljava/lang/String;)V]
+  + Utf8 [(Lpl/rafalmanka/slownikjezykaslaskiego/SearchDictionary;Z)Z]
   + Utf8 [<clinit>]
   + Utf8 [<init>]
   + Utf8 [Code]
   + Utf8 [Landroid/widget/TextView;]
   + Utf8 [Ljava/lang/String;]
-  + Utf8 [Lpl/rafalmanka/slownikjezykaslaskiego/c;]
   + Utf8 [Lpl/rafalmanka/slownikjezykaslaskiego/d;]
+  + Utf8 [Z]
   + Utf8 [a]
   + Utf8 [add]
   + Utf8 [addTextChangedListener]
   + Utf8 [android/app/ListActivity]
   + Utf8 [android/content/Intent]
   + Utf8 [android/database/Cursor]
-  + Utf8 [android/util/Log]
   + Utf8 [android/view/MenuItem]
-  + Utf8 [android/view/View$OnClickListener]
+  + Utf8 [android/widget/LinearLayout]
   + Utf8 [android/widget/TextView]
   + Utf8 [b]
+  + Utf8 [c]
   + Utf8 [close]
-  + Utf8 [d]
   + Utf8 [equals]
   + Utf8 [findViewById]
   + Utf8 [getApplicationContext]
@@ -83108,41 +83125,48 @@ Constant Pool (count = 176):
   + Utf8 [java/util/ArrayList]
   + Utf8 [java/util/HashMap]
   + Utf8 [moveToNext]
-  + Utf8 [onClick]
   + Utf8 [onCreate]
   + Utf8 [onCreateOptionsMenu]
   + Utf8 [onOptionsItemSelected]
   + Utf8 [pl/rafalmanka/slownikjezykaslaskiego/SearchDictionary]
   + Utf8 [pl/rafalmanka/slownikjezykaslaskiego/SuggestWordActivity]
   + Utf8 [pl/rafalmanka/slownikjezykaslaskiego/a]
-  + Utf8 [pl/rafalmanka/slownikjezykaslaskiego/c]
   + Utf8 [pl/rafalmanka/slownikjezykaslaskiego/d]
   + Utf8 [pl/rafalmanka/slownikjezykaslaskiego/e]
   + Utf8 [pl/rafalmanka/slownikjezykaslaskiego/f]
   + Utf8 [pl/rafalmanka/slownikjezykaslaskiego/g]
   + Utf8 [pl/rafalmanka/slownikjezykaslaskiego/h]
+  + Utf8 [pl/rafalmanka/slownikjezykaslaskiego/i]
   + Utf8 [put]
   + Utf8 [setListAdapter]
+  + Utf8 [setOnClickListener]
   + Utf8 [startActivity]
 
-Fields (count = 2):
+Fields (count = 3):
   + Field:        a Ljava/lang/String;
     Access flags: 0x1a
       = private static final java.lang.String a
   + Field:        b Landroid/widget/TextView;
     Access flags: 0x2
       = private android.widget.TextView b
+  + Field:        c Z
+    Access flags: 0x2
+      = private boolean c
 
-Methods (count = 8):
+Methods (count = 10):
   - Method:       <init>()V
     Access flags: 0x1
       = public SearchDictionary()
     Class member attributes (count = 1):
-    + Code attribute instructions (code length = 5, locals = 1, stack = 1):
+    + Code attribute instructions (code length = 10, locals = 1, stack = 2):
       [0] aload_0 v0
       [1] invokespecial #32
         + Methodref [android/app/ListActivity.<init> ()V]
-      [4] return
+      [4] aload_0 v0
+      [5] iconst_1
+      [6] putfield #29
+        + Fieldref [pl/rafalmanka/slownikjezykaslaskiego/SearchDictionary.c Z]
+      [9] return
       Code attribute exceptions (count = 0):
       Code attribute attributes (attribute count = 0):
   + Method:       onCreateOptionsMenu(Landroid/view/Menu;)Z
@@ -83173,7 +83197,7 @@ Methods (count = 8):
       [7] invokeinterface #64, 256
         + InterfaceMethodref [android/view/MenuItem.getItemId ()I]
       [12] ifne +19 (target=31)
-      [15] new #8
+      [15] new #9
         + Class [android/content/Intent]
       [18] dup
       [19] aload_0 v0
@@ -83194,7 +83218,7 @@ Methods (count = 8):
     Access flags: 0x4
       = protected void onCreate(android.os.Bundle)
     Class member attributes (count = 1):
-    + Code attribute instructions (code length = 51, locals = 2, stack = 4):
+    + Code attribute instructions (code length = 73, locals = 3, stack = 4):
       [0] aload_0 v0
       [1] aload_1 v1
       [2] invokespecial #33
@@ -83219,11 +83243,11 @@ Methods (count = 8):
       [26] aload_0 v0
       [27] getfield #28
         + Fieldref [pl/rafalmanka/slownikjezykaslaskiego/SearchDictionary.b Landroid/widget/TextView;]
-      [30] new #25
+      [30] new #24
         + Class [pl/rafalmanka/slownikjezykaslaskiego/g]
       [33] dup
       [34] aload_0 v0
-      [35] invokespecial #57
+      [35] invokespecial #56
         + Methodref [pl/rafalmanka/slownikjezykaslaskiego/g.<init> (Lpl/rafalmanka/slownikjezykaslaskiego/SearchDictionary;)V]
       [38] invokevirtual #38
         + Methodref [android/widget/TextView.addTextChangedListener (Landroid/text/TextWatcher;)V]
@@ -83232,177 +83256,222 @@ Methods (count = 8):
       [43] invokespecial #45
         + Methodref [pl/rafalmanka/slownikjezykaslaskiego/SearchDictionary.a (Ljava/lang/String;)V]
       [46] aload_0 v0
-      [47] invokestatic #56
+      [47] ldc #5
+        + Integer [2131296268]
+      [49] invokevirtual #46
+        + Methodref [pl/rafalmanka/slownikjezykaslaskiego/SearchDictionary.findViewById (I)Landroid/view/View;]
+      [52] checkcast #12
+        + Class [android/widget/LinearLayout]
+      [55] astore_2 v2
+      [56] aload_2 v2
+      [57] new #25
+        + Class [pl/rafalmanka/slownikjezykaslaskiego/h]
+      [60] dup
+      [61] aload_0 v0
+      [62] invokespecial #57
+        + Methodref [pl/rafalmanka/slownikjezykaslaskiego/h.<init> (Lpl/rafalmanka/slownikjezykaslaskiego/SearchDictionary;)V]
+      [65] invokevirtual #37
+        + Methodref [android/widget/LinearLayout.setOnClickListener (Landroid/view/View$OnClickListener;)V]
+      [68] aload_0 v0
+      [69] invokestatic #55
         + Methodref [pl/rafalmanka/slownikjezykaslaskiego/f.a (Landroid/content/Context;)V]
-      [50] return
+      [72] return
       Code attribute exceptions (count = 0):
       Code attribute attributes (attribute count = 0):
   + Method:       a(Ljava/lang/String;)V
     Access flags: 0x2
       = private void a(java.lang.String)
     Class member attributes (count = 1):
-    + Code attribute instructions (code length = 246, locals = 7, stack = 5):
+    + Code attribute instructions (code length = 306, locals = 11, stack = 4):
       [0] aconst_null
       [1] aload_1 v1
       [2] ifacmpeq +12 (target=14)
       [5] aload_1 v1
-      [6] ldc #5
+      [6] ldc #6
         + String []
       [8] invokevirtual #40
         + Methodref [java/lang/String.equals (Ljava/lang/Object;)Z]
       [11] ifeq +9 (target=20)
-      [14] ldc #6
+      [14] ldc #7
         + String [%]
       [16] astore_2 v2
       [17] goto +5 (target=22)
       [20] aload_1 v1
       [21] astore_2 v2
-      [22] new #23
+      [22] new #22
         + Class [pl/rafalmanka/slownikjezykaslaskiego/e]
       [25] dup
       [26] aload_0 v0
       [27] invokevirtual #47
         + Methodref [pl/rafalmanka/slownikjezykaslaskiego/SearchDictionary.getApplicationContext ()Landroid/content/Context;]
-      [30] invokespecial #54
+      [30] invokespecial #53
         + Methodref [pl/rafalmanka/slownikjezykaslaskiego/e.<init> (Landroid/content/Context;)V]
       [33] astore_3 v3
-      [34] aload_3 v3
-      [35] aload_0 v0
-      [36] invokevirtual #47
-        + Methodref [pl/rafalmanka/slownikjezykaslaskiego/SearchDictionary.getApplicationContext ()Landroid/content/Context;]
-      [39] aload_2 v2
-      [40] invokevirtual #55
-        + Methodref [pl/rafalmanka/slownikjezykaslaskiego/e.a (Landroid/content/Context;Ljava/lang/String;)Landroid/database/Cursor;]
-      [43] astore v4
-      [45] new #16
-        + Class [java/util/ArrayList]
-      [48] dup
-      [49] invokespecial #41
-        + Methodref [java/util/ArrayList.<init> ()V]
-      [52] astore v5
-      [54] getstatic #27
-        + Fieldref [pl/rafalmanka/slownikjezykaslaskiego/SearchDictionary.a Ljava/lang/String;]
-      [57] getstatic #29
-        + Fieldref [pl/rafalmanka/slownikjezykaslaskiego/c.d Lpl/rafalmanka/slownikjezykaslaskiego/c;]
-      [60] invokevirtual #52
-        + Methodref [pl/rafalmanka/slownikjezykaslaskiego/c.a ()Ljava/lang/String;]
-      [63] invokestatic #37
-        + Methodref [android/util/Log.d (Ljava/lang/String;Ljava/lang/String;)I]
-      [66] pop
-      [67] aload v4
-      [69] invokeinterface #61, 256
-        + InterfaceMethodref [android/database/Cursor.getCount ()I]
-      [74] ifle +97 (target=171)
-      [77] new #17
-        + Class [java/util/HashMap]
-      [80] dup
-      [81] invokespecial #43
-        + Methodref [java/util/HashMap.<init> ()V]
-      [84] astore v6
-      [86] aload v6
-      [88] getstatic #30
-        + Fieldref [pl/rafalmanka/slownikjezykaslaskiego/d.a Lpl/rafalmanka/slownikjezykaslaskiego/d;]
-      [91] invokevirtual #53
-        + Methodref [pl/rafalmanka/slownikjezykaslaskiego/d.a ()Ljava/lang/String;]
-      [94] aload v4
-      [96] aload v4
-      [98] getstatic #30
-        + Fieldref [pl/rafalmanka/slownikjezykaslaskiego/d.a Lpl/rafalmanka/slownikjezykaslaskiego/d;]
-      [101] invokevirtual #53
-        + Methodref [pl/rafalmanka/slownikjezykaslaskiego/d.a ()Ljava/lang/String;]
-      [104] invokeinterface #60, 512
-        + InterfaceMethodref [android/database/Cursor.getColumnIndex (Ljava/lang/String;)I]
-      [109] invokeinterface #62, 512
-        + InterfaceMethodref [android/database/Cursor.getString (I)Ljava/lang/String;]
-      [114] invokevirtual #44
-        + Methodref [java/util/HashMap.put (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;]
-      [117] pop
-      [118] aload v6
-      [120] getstatic #31
-        + Fieldref [pl/rafalmanka/slownikjezykaslaskiego/d.b Lpl/rafalmanka/slownikjezykaslaskiego/d;]
-      [123] invokevirtual #53
-        + Methodref [pl/rafalmanka/slownikjezykaslaskiego/d.a ()Ljava/lang/String;]
-      [126] aload v4
-      [128] aload v4
-      [130] getstatic #31
-        + Fieldref [pl/rafalmanka/slownikjezykaslaskiego/d.b Lpl/rafalmanka/slownikjezykaslaskiego/d;]
-      [133] invokevirtual #53
-        + Methodref [pl/rafalmanka/slownikjezykaslaskiego/d.a ()Ljava/lang/String;]
-      [136] invokeinterface #60, 512
-        + InterfaceMethodref [android/database/Cursor.getColumnIndex (Ljava/lang/String;)I]
-      [141] invokeinterface #62, 512
-        + InterfaceMethodref [android/database/Cursor.getString (I)Ljava/lang/String;]
-      [146] invokevirtual #44
-        + Methodref [java/util/HashMap.put (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;]
-      [149] pop
-      [150] aload v5
-      [152] aload v6
-      [154] invokevirtual #42
-        + Methodref [java/util/ArrayList.add (Ljava/lang/Object;)Z]
-      [157] pop
-      [158] aload v4
-      [160] invokeinterface #63, 256
-        + InterfaceMethodref [android/database/Cursor.moveToNext ()Z]
-      [165] ifne -88 (target=77)
-      [168] goto +52 (target=220)
-      [171] new #17
-        + Class [java/util/HashMap]
-      [174] dup
-      [175] invokespecial #43
-        + Methodref [java/util/HashMap.<init> ()V]
-      [178] astore v6
-      [180] aload v6
-      [182] getstatic #30
-        + Fieldref [pl/rafalmanka/slownikjezykaslaskiego/d.a Lpl/rafalmanka/slownikjezykaslaskiego/d;]
-      [185] invokevirtual #53
-        + Methodref [pl/rafalmanka/slownikjezykaslaskiego/d.a ()Ljava/lang/String;]
-      [188] aload_0 v0
-      [189] ldc #3
-        + Integer [2131099652]
-      [191] invokevirtual #48
-        + Methodref [pl/rafalmanka/slownikjezykaslaskiego/SearchDictionary.getString (I)Ljava/lang/String;]
-      [194] invokevirtual #44
-        + Methodref [java/util/HashMap.put (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;]
-      [197] pop
-      [198] aload v6
-      [200] getstatic #31
-        + Fieldref [pl/rafalmanka/slownikjezykaslaskiego/d.b Lpl/rafalmanka/slownikjezykaslaskiego/d;]
-      [203] invokevirtual #53
-        + Methodref [pl/rafalmanka/slownikjezykaslaskiego/d.a ()Ljava/lang/String;]
-      [206] ldc #5
+      [34] ldc #6
         + String []
-      [208] invokevirtual #44
+      [36] astore v4
+      [38] ldc #6
+        + String []
+      [40] astore v5
+      [42] ldc #6
+        + String []
+      [44] astore v6
+      [46] ldc #6
+        + String []
+      [48] astore v7
+      [50] aload_0 v0
+      [51] getfield #29
+        + Fieldref [pl/rafalmanka/slownikjezykaslaskiego/SearchDictionary.c Z]
+      [54] ifeq +35 (target=89)
+      [57] getstatic #30
+        + Fieldref [pl/rafalmanka/slownikjezykaslaskiego/d.a Lpl/rafalmanka/slownikjezykaslaskiego/d;]
+      [60] invokevirtual #52
+        + Methodref [pl/rafalmanka/slownikjezykaslaskiego/d.a ()Ljava/lang/String;]
+      [63] astore v4
+      [65] getstatic #31
+        + Fieldref [pl/rafalmanka/slownikjezykaslaskiego/d.b Lpl/rafalmanka/slownikjezykaslaskiego/d;]
+      [68] invokevirtual #52
+        + Methodref [pl/rafalmanka/slownikjezykaslaskiego/d.a ()Ljava/lang/String;]
+      [71] astore v5
+      [73] aload_3 v3
+      [74] aload_0 v0
+      [75] invokevirtual #47
+        + Methodref [pl/rafalmanka/slownikjezykaslaskiego/SearchDictionary.getApplicationContext ()Landroid/content/Context;]
+      [78] bipush 119
+      [80] aload_2 v2
+      [81] invokevirtual #54
+        + Methodref [pl/rafalmanka/slownikjezykaslaskiego/e.a (Landroid/content/Context;CLjava/lang/String;)Landroid/database/Cursor;]
+      [84] astore v8
+      [86] goto +32 (target=118)
+      [89] getstatic #30
+        + Fieldref [pl/rafalmanka/slownikjezykaslaskiego/d.a Lpl/rafalmanka/slownikjezykaslaskiego/d;]
+      [92] invokevirtual #52
+        + Methodref [pl/rafalmanka/slownikjezykaslaskiego/d.a ()Ljava/lang/String;]
+      [95] astore v5
+      [97] getstatic #31
+        + Fieldref [pl/rafalmanka/slownikjezykaslaskiego/d.b Lpl/rafalmanka/slownikjezykaslaskiego/d;]
+      [100] invokevirtual #52
+        + Methodref [pl/rafalmanka/slownikjezykaslaskiego/d.a ()Ljava/lang/String;]
+      [103] astore v4
+      [105] aload_3 v3
+      [106] aload_0 v0
+      [107] invokevirtual #47
+        + Methodref [pl/rafalmanka/slownikjezykaslaskiego/SearchDictionary.getApplicationContext ()Landroid/content/Context;]
+      [110] bipush 116
+      [112] aload_2 v2
+      [113] invokevirtual #54
+        + Methodref [pl/rafalmanka/slownikjezykaslaskiego/e.a (Landroid/content/Context;CLjava/lang/String;)Landroid/database/Cursor;]
+      [116] astore v8
+      [118] new #16
+        + Class [java/util/ArrayList]
+      [121] dup
+      [122] invokespecial #41
+        + Methodref [java/util/ArrayList.<init> ()V]
+      [125] astore v9
+      [127] aload v8
+      [129] invokeinterface #61, 256
+        + InterfaceMethodref [android/database/Cursor.getCount ()I]
+      [134] ifle +97 (target=231)
+      [137] aload v8
+      [139] aload v8
+      [141] aload v4
+      [143] invokeinterface #60, 512
+        + InterfaceMethodref [android/database/Cursor.getColumnIndex (Ljava/lang/String;)I]
+      [148] invokeinterface #62, 512
+        + InterfaceMethodref [android/database/Cursor.getString (I)Ljava/lang/String;]
+      [153] astore v4
+      [155] aload v8
+      [157] aload v8
+      [159] aload v5
+      [161] invokeinterface #60, 512
+        + InterfaceMethodref [android/database/Cursor.getColumnIndex (Ljava/lang/String;)I]
+      [166] invokeinterface #62, 512
+        + InterfaceMethodref [android/database/Cursor.getString (I)Ljava/lang/String;]
+      [171] astore v5
+      [173] new #17
+        + Class [java/util/HashMap]
+      [176] dup
+      [177] invokespecial #43
+        + Methodref [java/util/HashMap.<init> ()V]
+      [180] astore v10
+      [182] aload v10
+      [184] getstatic #30
+        + Fieldref [pl/rafalmanka/slownikjezykaslaskiego/d.a Lpl/rafalmanka/slownikjezykaslaskiego/d;]
+      [187] invokevirtual #52
+        + Methodref [pl/rafalmanka/slownikjezykaslaskiego/d.a ()Ljava/lang/String;]
+      [190] aload v4
+      [192] invokevirtual #44
         + Methodref [java/util/HashMap.put (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;]
-      [211] pop
-      [212] aload v5
-      [214] aload v6
-      [216] invokevirtual #42
+      [195] pop
+      [196] aload v10
+      [198] getstatic #31
+        + Fieldref [pl/rafalmanka/slownikjezykaslaskiego/d.b Lpl/rafalmanka/slownikjezykaslaskiego/d;]
+      [201] invokevirtual #52
+        + Methodref [pl/rafalmanka/slownikjezykaslaskiego/d.a ()Ljava/lang/String;]
+      [204] aload v5
+      [206] invokevirtual #44
+        + Methodref [java/util/HashMap.put (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;]
+      [209] pop
+      [210] aload v9
+      [212] aload v10
+      [214] invokevirtual #42
         + Methodref [java/util/ArrayList.add (Ljava/lang/Object;)Z]
-      [219] pop
-      [220] new #26
-        + Class [pl/rafalmanka/slownikjezykaslaskiego/h]
-      [223] dup
-      [224] aload_0 v0
-      [225] aload v5
-      [227] invokespecial #58
-        + Methodref [pl/rafalmanka/slownikjezykaslaskiego/h.<init> (Landroid/app/Activity;Ljava/util/ArrayList;)V]
-      [230] astore v6
-      [232] aload_0 v0
-      [233] aload v6
-      [235] invokevirtual #49
+      [217] pop
+      [218] aload v8
+      [220] invokeinterface #63, 256
+        + InterfaceMethodref [android/database/Cursor.moveToNext ()Z]
+      [225] ifne -88 (target=137)
+      [228] goto +52 (target=280)
+      [231] new #17
+        + Class [java/util/HashMap]
+      [234] dup
+      [235] invokespecial #43
+        + Methodref [java/util/HashMap.<init> ()V]
+      [238] astore v10
+      [240] aload v10
+      [242] getstatic #30
+        + Fieldref [pl/rafalmanka/slownikjezykaslaskiego/d.a Lpl/rafalmanka/slownikjezykaslaskiego/d;]
+      [245] invokevirtual #52
+        + Methodref [pl/rafalmanka/slownikjezykaslaskiego/d.a ()Ljava/lang/String;]
+      [248] aload_0 v0
+      [249] ldc #3
+        + Integer [2131099652]
+      [251] invokevirtual #48
+        + Methodref [pl/rafalmanka/slownikjezykaslaskiego/SearchDictionary.getString (I)Ljava/lang/String;]
+      [254] invokevirtual #44
+        + Methodref [java/util/HashMap.put (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;]
+      [257] pop
+      [258] aload v10
+      [260] getstatic #31
+        + Fieldref [pl/rafalmanka/slownikjezykaslaskiego/d.b Lpl/rafalmanka/slownikjezykaslaskiego/d;]
+      [263] invokevirtual #52
+        + Methodref [pl/rafalmanka/slownikjezykaslaskiego/d.a ()Ljava/lang/String;]
+      [266] ldc #6
+        + String []
+      [268] invokevirtual #44
+        + Methodref [java/util/HashMap.put (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;]
+      [271] pop
+      [272] aload v9
+      [274] aload v10
+      [276] invokevirtual #42
+        + Methodref [java/util/ArrayList.add (Ljava/lang/Object;)Z]
+      [279] pop
+      [280] new #26
+        + Class [pl/rafalmanka/slownikjezykaslaskiego/i]
+      [283] dup
+      [284] aload_0 v0
+      [285] aload v9
+      [287] invokespecial #58
+        + Methodref [pl/rafalmanka/slownikjezykaslaskiego/i.<init> (Landroid/app/Activity;Ljava/util/ArrayList;)V]
+      [290] astore v10
+      [292] aload_0 v0
+      [293] aload v10
+      [295] invokevirtual #49
         + Methodref [pl/rafalmanka/slownikjezykaslaskiego/SearchDictionary.setListAdapter (Landroid/widget/ListAdapter;)V]
-      [238] aload v4
-      [240] invokeinterface #59, 256
+      [298] aload v8
+      [300] invokeinterface #59, 256
         + InterfaceMethodref [android/database/Cursor.close ()V]
-      [245] return
-      Code attribute exceptions (count = 0):
-      Code attribute attributes (attribute count = 0):
-  + Method:       onClick(Landroid/view/View;)V
-    Access flags: 0x1
-      = public void onClick(android.view.View)
-    Class member attributes (count = 1):
-    + Code attribute instructions (code length = 1, locals = 2, stack = 0):
-      [0] return
+      [305] return
       Code attribute exceptions (count = 0):
       Code attribute attributes (attribute count = 0):
   + Method:       a(Lpl/rafalmanka/slownikjezykaslaskiego/SearchDictionary;Ljava/lang/String;)V
@@ -83415,6 +83484,41 @@ Methods (count = 8):
       [2] invokespecial #45
         + Methodref [pl/rafalmanka/slownikjezykaslaskiego/SearchDictionary.a (Ljava/lang/String;)V]
       [5] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       a(Lpl/rafalmanka/slownikjezykaslaskiego/SearchDictionary;)Z
+    Access flags: 0x1008
+      = static synthetic boolean a(pl.rafalmanka.slownikjezykaslaskiego.SearchDictionary)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 5, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] getfield #29
+        + Fieldref [pl/rafalmanka/slownikjezykaslaskiego/SearchDictionary.c Z]
+      [4] ireturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       a(Lpl/rafalmanka/slownikjezykaslaskiego/SearchDictionary;Z)Z
+    Access flags: 0x1008
+      = static synthetic boolean a(pl.rafalmanka.slownikjezykaslaskiego.SearchDictionary,boolean)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 7, locals = 2, stack = 3):
+      [0] aload_0 v0
+      [1] iload_1 v1
+      [2] dup_x1
+      [3] putfield #29
+        + Fieldref [pl/rafalmanka/slownikjezykaslaskiego/SearchDictionary.c Z]
+      [6] ireturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       b(Lpl/rafalmanka/slownikjezykaslaskiego/SearchDictionary;)Landroid/widget/TextView;
+    Access flags: 0x1008
+      = static synthetic android.widget.TextView b(pl.rafalmanka.slownikjezykaslaskiego.SearchDictionary)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 5, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] getfield #28
+        + Fieldref [pl/rafalmanka/slownikjezykaslaskiego/SearchDictionary.b Landroid/widget/TextView;]
+      [4] areturn
       Code attribute exceptions (count = 0):
       Code attribute attributes (attribute count = 0):
   - Method:       <clinit>()V
@@ -83529,6 +83633,186 @@ Methods (count = 4):
       [8] invokestatic #8
         + Methodref [pl/rafalmanka/slownikjezykaslaskiego/SearchDictionary.a (Lpl/rafalmanka/slownikjezykaslaskiego/SearchDictionary;Ljava/lang/String;)V]
       [11] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: pl/rafalmanka/slownikjezykaslaskiego/h
+  Superclass:    java/lang/Object
+  Major version: 0x32
+  Minor version: 0x0
+    = target 1.6
+  Access flags:  0x20
+    = class pl.rafalmanka.slownikjezykaslaskiego.h extends java.lang.Object
+
+Interfaces (count = 1):
+  + Class [android/view/View$OnClickListener]
+
+Constant Pool (count = 65):
+  + Integer [2130837508]
+  + Integer [2130837510]
+  + Integer [2131296270]
+  + String []
+  + Class [android/content/res/Resources]
+  + Class [android/view/View$OnClickListener]
+  + Class [android/widget/ImageView]
+  + Class [android/widget/TextView]
+  + Class [java/lang/Object]
+  + Class [pl/rafalmanka/slownikjezykaslaskiego/SearchDictionary]
+  + Class [pl/rafalmanka/slownikjezykaslaskiego/h]
+  + Fieldref [pl/rafalmanka/slownikjezykaslaskiego/h.a Lpl/rafalmanka/slownikjezykaslaskiego/SearchDictionary;]
+  + Methodref [android/content/res/Resources.getDrawable (I)Landroid/graphics/drawable/Drawable;]
+  + Methodref [android/widget/ImageView.setImageDrawable (Landroid/graphics/drawable/Drawable;)V]
+  + Methodref [android/widget/TextView.setText (Ljava/lang/CharSequence;)V]
+  + Methodref [java/lang/Object.<init> ()V]
+  + Methodref [pl/rafalmanka/slownikjezykaslaskiego/SearchDictionary.a (Lpl/rafalmanka/slownikjezykaslaskiego/SearchDictionary;)Z]
+  + Methodref [pl/rafalmanka/slownikjezykaslaskiego/SearchDictionary.a (Lpl/rafalmanka/slownikjezykaslaskiego/SearchDictionary;Ljava/lang/String;)V]
+  + Methodref [pl/rafalmanka/slownikjezykaslaskiego/SearchDictionary.a (Lpl/rafalmanka/slownikjezykaslaskiego/SearchDictionary;Z)Z]
+  + Methodref [pl/rafalmanka/slownikjezykaslaskiego/SearchDictionary.b (Lpl/rafalmanka/slownikjezykaslaskiego/SearchDictionary;)Landroid/widget/TextView;]
+  + Methodref [pl/rafalmanka/slownikjezykaslaskiego/SearchDictionary.findViewById (I)Landroid/view/View;]
+  + Methodref [pl/rafalmanka/slownikjezykaslaskiego/SearchDictionary.getResources ()Landroid/content/res/Resources;]
+  + NameAndType [<init> ()V]
+  + NameAndType [a (Lpl/rafalmanka/slownikjezykaslaskiego/SearchDictionary;)Z]
+  + NameAndType [a (Lpl/rafalmanka/slownikjezykaslaskiego/SearchDictionary;Ljava/lang/String;)V]
+  + NameAndType [a (Lpl/rafalmanka/slownikjezykaslaskiego/SearchDictionary;Z)Z]
+  + NameAndType [a Lpl/rafalmanka/slownikjezykaslaskiego/SearchDictionary;]
+  + NameAndType [b (Lpl/rafalmanka/slownikjezykaslaskiego/SearchDictionary;)Landroid/widget/TextView;]
+  + NameAndType [findViewById (I)Landroid/view/View;]
+  + NameAndType [getDrawable (I)Landroid/graphics/drawable/Drawable;]
+  + NameAndType [getResources ()Landroid/content/res/Resources;]
+  + NameAndType [setImageDrawable (Landroid/graphics/drawable/Drawable;)V]
+  + NameAndType [setText (Ljava/lang/CharSequence;)V]
+  + Utf8 []
+  + Utf8 [()Landroid/content/res/Resources;]
+  + Utf8 [()V]
+  + Utf8 [(I)Landroid/graphics/drawable/Drawable;]
+  + Utf8 [(I)Landroid/view/View;]
+  + Utf8 [(Landroid/graphics/drawable/Drawable;)V]
+  + Utf8 [(Landroid/view/View;)V]
+  + Utf8 [(Ljava/lang/CharSequence;)V]
+  + Utf8 [(Lpl/rafalmanka/slownikjezykaslaskiego/SearchDictionary;)Landroid/widget/TextView;]
+  + Utf8 [(Lpl/rafalmanka/slownikjezykaslaskiego/SearchDictionary;)V]
+  + Utf8 [(Lpl/rafalmanka/slownikjezykaslaskiego/SearchDictionary;)Z]
+  + Utf8 [(Lpl/rafalmanka/slownikjezykaslaskiego/SearchDictionary;Ljava/lang/String;)V]
+  + Utf8 [(Lpl/rafalmanka/slownikjezykaslaskiego/SearchDictionary;Z)Z]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [Lpl/rafalmanka/slownikjezykaslaskiego/SearchDictionary;]
+  + Utf8 [a]
+  + Utf8 [android/content/res/Resources]
+  + Utf8 [android/view/View$OnClickListener]
+  + Utf8 [android/widget/ImageView]
+  + Utf8 [android/widget/TextView]
+  + Utf8 [b]
+  + Utf8 [findViewById]
+  + Utf8 [getDrawable]
+  + Utf8 [getResources]
+  + Utf8 [java/lang/Object]
+  + Utf8 [onClick]
+  + Utf8 [pl/rafalmanka/slownikjezykaslaskiego/SearchDictionary]
+  + Utf8 [pl/rafalmanka/slownikjezykaslaskiego/h]
+  + Utf8 [setImageDrawable]
+  + Utf8 [setText]
+
+Fields (count = 1):
+  + Field:        a Lpl/rafalmanka/slownikjezykaslaskiego/SearchDictionary;
+    Access flags: 0x1010
+      = final synthetic pl.rafalmanka.slownikjezykaslaskiego.SearchDictionary a
+
+Methods (count = 2):
+  - Method:       <init>(Lpl/rafalmanka/slownikjezykaslaskiego/SearchDictionary;)V
+    Access flags: 0x0
+      = h(pl.rafalmanka.slownikjezykaslaskiego.SearchDictionary)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 10, locals = 2, stack = 2):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] putfield #12
+        + Fieldref [pl/rafalmanka/slownikjezykaslaskiego/h.a Lpl/rafalmanka/slownikjezykaslaskiego/SearchDictionary;]
+      [5] aload_0 v0
+      [6] invokespecial #16
+        + Methodref [java/lang/Object.<init> ()V]
+      [9] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onClick(Landroid/view/View;)V
+    Access flags: 0x1
+      = public void onClick(android.view.View)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 97, locals = 3, stack = 3):
+      [0] aload_0 v0
+      [1] getfield #12
+        + Fieldref [pl/rafalmanka/slownikjezykaslaskiego/h.a Lpl/rafalmanka/slownikjezykaslaskiego/SearchDictionary;]
+      [4] ldc #3
+        + Integer [2131296270]
+      [6] invokevirtual #21
+        + Methodref [pl/rafalmanka/slownikjezykaslaskiego/SearchDictionary.findViewById (I)Landroid/view/View;]
+      [9] checkcast #7
+        + Class [android/widget/ImageView]
+      [12] astore_2 v2
+      [13] aload_0 v0
+      [14] getfield #12
+        + Fieldref [pl/rafalmanka/slownikjezykaslaskiego/h.a Lpl/rafalmanka/slownikjezykaslaskiego/SearchDictionary;]
+      [17] invokestatic #17
+        + Methodref [pl/rafalmanka/slownikjezykaslaskiego/SearchDictionary.a (Lpl/rafalmanka/slownikjezykaslaskiego/SearchDictionary;)Z]
+      [20] ifeq +31 (target=51)
+      [23] aload_0 v0
+      [24] getfield #12
+        + Fieldref [pl/rafalmanka/slownikjezykaslaskiego/h.a Lpl/rafalmanka/slownikjezykaslaskiego/SearchDictionary;]
+      [27] iconst_0
+      [28] invokestatic #19
+        + Methodref [pl/rafalmanka/slownikjezykaslaskiego/SearchDictionary.a (Lpl/rafalmanka/slownikjezykaslaskiego/SearchDictionary;Z)Z]
+      [31] pop
+      [32] aload_2 v2
+      [33] aload_0 v0
+      [34] getfield #12
+        + Fieldref [pl/rafalmanka/slownikjezykaslaskiego/h.a Lpl/rafalmanka/slownikjezykaslaskiego/SearchDictionary;]
+      [37] invokevirtual #22
+        + Methodref [pl/rafalmanka/slownikjezykaslaskiego/SearchDictionary.getResources ()Landroid/content/res/Resources;]
+      [40] ldc #1
+        + Integer [2130837508]
+      [42] invokevirtual #13
+        + Methodref [android/content/res/Resources.getDrawable (I)Landroid/graphics/drawable/Drawable;]
+      [45] invokevirtual #14
+        + Methodref [android/widget/ImageView.setImageDrawable (Landroid/graphics/drawable/Drawable;)V]
+      [48] goto +28 (target=76)
+      [51] aload_0 v0
+      [52] getfield #12
+        + Fieldref [pl/rafalmanka/slownikjezykaslaskiego/h.a Lpl/rafalmanka/slownikjezykaslaskiego/SearchDictionary;]
+      [55] iconst_1
+      [56] invokestatic #19
+        + Methodref [pl/rafalmanka/slownikjezykaslaskiego/SearchDictionary.a (Lpl/rafalmanka/slownikjezykaslaskiego/SearchDictionary;Z)Z]
+      [59] pop
+      [60] aload_2 v2
+      [61] aload_0 v0
+      [62] getfield #12
+        + Fieldref [pl/rafalmanka/slownikjezykaslaskiego/h.a Lpl/rafalmanka/slownikjezykaslaskiego/SearchDictionary;]
+      [65] invokevirtual #22
+        + Methodref [pl/rafalmanka/slownikjezykaslaskiego/SearchDictionary.getResources ()Landroid/content/res/Resources;]
+      [68] ldc #2
+        + Integer [2130837510]
+      [70] invokevirtual #13
+        + Methodref [android/content/res/Resources.getDrawable (I)Landroid/graphics/drawable/Drawable;]
+      [73] invokevirtual #14
+        + Methodref [android/widget/ImageView.setImageDrawable (Landroid/graphics/drawable/Drawable;)V]
+      [76] aload_0 v0
+      [77] getfield #12
+        + Fieldref [pl/rafalmanka/slownikjezykaslaskiego/h.a Lpl/rafalmanka/slownikjezykaslaskiego/SearchDictionary;]
+      [80] aconst_null
+      [81] invokestatic #18
+        + Methodref [pl/rafalmanka/slownikjezykaslaskiego/SearchDictionary.a (Lpl/rafalmanka/slownikjezykaslaskiego/SearchDictionary;Ljava/lang/String;)V]
+      [84] aload_0 v0
+      [85] getfield #12
+        + Fieldref [pl/rafalmanka/slownikjezykaslaskiego/h.a Lpl/rafalmanka/slownikjezykaslaskiego/SearchDictionary;]
+      [88] invokestatic #20
+        + Methodref [pl/rafalmanka/slownikjezykaslaskiego/SearchDictionary.b (Lpl/rafalmanka/slownikjezykaslaskiego/SearchDictionary;)Landroid/widget/TextView;]
+      [91] ldc #4
+        + String []
+      [93] invokevirtual #15
+        + Methodref [android/widget/TextView.setText (Ljava/lang/CharSequence;)V]
+      [96] return
       Code attribute exceptions (count = 0):
       Code attribute attributes (attribute count = 0):
 
@@ -83814,13 +84098,13 @@ Methods (count = 3):
 Class file attributes (count = 0):
 
 _____________________________________________________________________
-+ Program class: pl/rafalmanka/slownikjezykaslaskiego/h
++ Program class: pl/rafalmanka/slownikjezykaslaskiego/i
   Superclass:    android/widget/BaseAdapter
   Major version: 0x32
   Minor version: 0x0
     = target 1.6
   Access flags:  0x21
-    = public class pl.rafalmanka.slownikjezykaslaskiego.h extends android.widget.BaseAdapter
+    = public class pl.rafalmanka.slownikjezykaslaskiego.i extends android.widget.BaseAdapter
 
 Interfaces (count = 0):
 
@@ -83842,13 +84126,13 @@ Constant Pool (count = 124):
   + Class [java/util/ArrayList]
   + Class [java/util/HashMap]
   + Class [pl/rafalmanka/slownikjezykaslaskiego/d]
-  + Class [pl/rafalmanka/slownikjezykaslaskiego/h]
   + Class [pl/rafalmanka/slownikjezykaslaskiego/i]
+  + Class [pl/rafalmanka/slownikjezykaslaskiego/j]
   + Fieldref [pl/rafalmanka/slownikjezykaslaskiego/d.a Lpl/rafalmanka/slownikjezykaslaskiego/d;]
   + Fieldref [pl/rafalmanka/slownikjezykaslaskiego/d.b Lpl/rafalmanka/slownikjezykaslaskiego/d;]
-  + Fieldref [pl/rafalmanka/slownikjezykaslaskiego/h.a Ljava/lang/String;]
-  + Fieldref [pl/rafalmanka/slownikjezykaslaskiego/h.b Landroid/view/LayoutInflater;]
-  + Fieldref [pl/rafalmanka/slownikjezykaslaskiego/h.c Ljava/util/ArrayList;]
+  + Fieldref [pl/rafalmanka/slownikjezykaslaskiego/i.a Ljava/lang/String;]
+  + Fieldref [pl/rafalmanka/slownikjezykaslaskiego/i.b Landroid/view/LayoutInflater;]
+  + Fieldref [pl/rafalmanka/slownikjezykaslaskiego/i.c Ljava/util/ArrayList;]
   + Methodref [android/app/Activity.getSystemService (Ljava/lang/String;)Ljava/lang/Object;]
   + Methodref [android/view/LayoutInflater.inflate (ILandroid/view/ViewGroup;)Landroid/view/View;]
   + Methodref [android/view/View.findViewById (I)Landroid/view/View;]
@@ -83864,10 +84148,10 @@ Constant Pool (count = 124):
   + Methodref [java/util/HashMap.<init> ()V]
   + Methodref [java/util/HashMap.get (Ljava/lang/Object;)Ljava/lang/Object;]
   + Methodref [pl/rafalmanka/slownikjezykaslaskiego/d.a ()Ljava/lang/String;]
-  + Methodref [pl/rafalmanka/slownikjezykaslaskiego/h.getCount ()I]
-  + Methodref [pl/rafalmanka/slownikjezykaslaskiego/i.<init> (Lpl/rafalmanka/slownikjezykaslaskiego/h;Ljava/lang/String;)V]
+  + Methodref [pl/rafalmanka/slownikjezykaslaskiego/i.getCount ()I]
+  + Methodref [pl/rafalmanka/slownikjezykaslaskiego/j.<init> (Lpl/rafalmanka/slownikjezykaslaskiego/i;Ljava/lang/String;)V]
   + NameAndType [<init> ()V]
-  + NameAndType [<init> (Lpl/rafalmanka/slownikjezykaslaskiego/h;Ljava/lang/String;)V]
+  + NameAndType [<init> (Lpl/rafalmanka/slownikjezykaslaskiego/i;Ljava/lang/String;)V]
   + NameAndType [a ()Ljava/lang/String;]
   + NameAndType [a Ljava/lang/String;]
   + NameAndType [a Lpl/rafalmanka/slownikjezykaslaskiego/d;]
@@ -83905,7 +84189,7 @@ Constant Pool (count = 124):
   + Utf8 [(Ljava/lang/Object;)Ljava/lang/Object;]
   + Utf8 [(Ljava/lang/Object;)Z]
   + Utf8 [(Ljava/lang/String;)Ljava/lang/Object;]
-  + Utf8 [(Lpl/rafalmanka/slownikjezykaslaskiego/h;Ljava/lang/String;)V]
+  + Utf8 [(Lpl/rafalmanka/slownikjezykaslaskiego/i;Ljava/lang/String;)V]
   + Utf8 [<clinit>]
   + Utf8 [<init>]
   + Utf8 [Code]
@@ -83941,8 +84225,8 @@ Constant Pool (count = 124):
   + Utf8 [java/util/HashMap]
   + Utf8 [layout_inflater]
   + Utf8 [pl/rafalmanka/slownikjezykaslaskiego/d]
-  + Utf8 [pl/rafalmanka/slownikjezykaslaskiego/h]
   + Utf8 [pl/rafalmanka/slownikjezykaslaskiego/i]
+  + Utf8 [pl/rafalmanka/slownikjezykaslaskiego/j]
   + Utf8 [setOnClickListener]
   + Utf8 [setText]
   + Utf8 [setTextSize]
@@ -83963,7 +84247,7 @@ Fields (count = 3):
 Methods (count = 8):
   - Method:       <init>(Landroid/app/Activity;Ljava/util/ArrayList;)V
     Access flags: 0x1
-      = public h(android.app.Activity,java.util.ArrayList)
+      = public i(android.app.Activity,java.util.ArrayList)
     Class member attributes (count = 1):
     + Code attribute instructions (code length = 22, locals = 3, stack = 2):
       [0] aload_0 v0
@@ -83972,7 +84256,7 @@ Methods (count = 8):
       [4] aload_0 v0
       [5] aload_2 v2
       [6] putfield #24
-        + Fieldref [pl/rafalmanka/slownikjezykaslaskiego/h.c Ljava/util/ArrayList;]
+        + Fieldref [pl/rafalmanka/slownikjezykaslaskiego/i.c Ljava/util/ArrayList;]
       [9] aload_1 v1
       [10] ldc #5
         + String [layout_inflater]
@@ -83981,7 +84265,7 @@ Methods (count = 8):
       [15] checkcast #7
         + Class [android/view/LayoutInflater]
       [18] putstatic #23
-        + Fieldref [pl/rafalmanka/slownikjezykaslaskiego/h.b Landroid/view/LayoutInflater;]
+        + Fieldref [pl/rafalmanka/slownikjezykaslaskiego/i.b Landroid/view/LayoutInflater;]
       [21] return
       Code attribute exceptions (count = 0):
       Code attribute attributes (attribute count = 0):
@@ -83992,7 +84276,7 @@ Methods (count = 8):
     + Code attribute instructions (code length = 8, locals = 1, stack = 1):
       [0] aload_0 v0
       [1] getfield #24
-        + Fieldref [pl/rafalmanka/slownikjezykaslaskiego/h.c Ljava/util/ArrayList;]
+        + Fieldref [pl/rafalmanka/slownikjezykaslaskiego/i.c Ljava/util/ArrayList;]
       [4] invokevirtual #36
         + Methodref [java/util/ArrayList.size ()I]
       [7] ireturn
@@ -84026,7 +84310,7 @@ Methods (count = 8):
     + Code attribute instructions (code length = 5, locals = 1, stack = 1):
       [0] aload_0 v0
       [1] invokevirtual #40
-        + Methodref [pl/rafalmanka/slownikjezykaslaskiego/h.getCount ()I]
+        + Methodref [pl/rafalmanka/slownikjezykaslaskiego/i.getCount ()I]
       [4] ireturn
       Code attribute exceptions (count = 0):
       Code attribute attributes (attribute count = 0):
@@ -84049,7 +84333,7 @@ Methods (count = 8):
       [3] aload_2 v2
       [4] ifnonnull +14 (target=18)
       [7] getstatic #23
-        + Fieldref [pl/rafalmanka/slownikjezykaslaskiego/h.b Landroid/view/LayoutInflater;]
+        + Fieldref [pl/rafalmanka/slownikjezykaslaskiego/i.b Landroid/view/LayoutInflater;]
       [10] ldc #1
         + Integer [2130903043]
       [12] aconst_null
@@ -84077,7 +84361,7 @@ Methods (count = 8):
       [44] astore v6
       [46] aload_0 v0
       [47] getfield #24
-        + Fieldref [pl/rafalmanka/slownikjezykaslaskiego/h.c Ljava/util/ArrayList;]
+        + Fieldref [pl/rafalmanka/slownikjezykaslaskiego/i.c Ljava/util/ArrayList;]
       [50] iload_1 v1
       [51] invokevirtual #35
         + Methodref [java/util/ArrayList.get (I)Ljava/lang/Object;]
@@ -84114,12 +84398,12 @@ Methods (count = 8):
       [101] ifne +18 (target=119)
       [104] aload v4
       [106] new #19
-        + Class [pl/rafalmanka/slownikjezykaslaskiego/i]
+        + Class [pl/rafalmanka/slownikjezykaslaskiego/j]
       [109] dup
       [110] aload_0 v0
       [111] aload v7
       [113] invokespecial #41
-        + Methodref [pl/rafalmanka/slownikjezykaslaskiego/i.<init> (Lpl/rafalmanka/slownikjezykaslaskiego/h;Ljava/lang/String;)V]
+        + Methodref [pl/rafalmanka/slownikjezykaslaskiego/j.<init> (Lpl/rafalmanka/slownikjezykaslaskiego/i;Ljava/lang/String;)V]
       [116] invokevirtual #28
         + Methodref [android/view/View.setOnClickListener (Landroid/view/View$OnClickListener;)V]
       [119] aload v4
@@ -84132,14 +84416,14 @@ Methods (count = 8):
     Class member attributes (count = 1):
     + Code attribute instructions (code length = 13, locals = 0, stack = 1):
       [0] ldc #18
-        + Class [pl/rafalmanka/slownikjezykaslaskiego/h]
+        + Class [pl/rafalmanka/slownikjezykaslaskiego/i]
       [2] invokevirtual #32
         + Methodref [java/lang/Class.getSimpleName ()Ljava/lang/String;]
       [5] putstatic #22
-        + Fieldref [pl/rafalmanka/slownikjezykaslaskiego/h.a Ljava/lang/String;]
+        + Fieldref [pl/rafalmanka/slownikjezykaslaskiego/i.a Ljava/lang/String;]
       [8] aconst_null
       [9] putstatic #23
-        + Fieldref [pl/rafalmanka/slownikjezykaslaskiego/h.b Landroid/view/LayoutInflater;]
+        + Fieldref [pl/rafalmanka/slownikjezykaslaskiego/i.b Landroid/view/LayoutInflater;]
       [12] return
       Code attribute exceptions (count = 0):
       Code attribute attributes (attribute count = 0):
@@ -84147,13 +84431,13 @@ Methods (count = 8):
 Class file attributes (count = 0):
 
 _____________________________________________________________________
-+ Program class: pl/rafalmanka/slownikjezykaslaskiego/i
++ Program class: pl/rafalmanka/slownikjezykaslaskiego/j
   Superclass:    java/lang/Object
   Major version: 0x32
   Minor version: 0x0
     = target 1.6
   Access flags:  0x20
-    = class pl.rafalmanka.slownikjezykaslaskiego.i extends java.lang.Object
+    = class pl.rafalmanka.slownikjezykaslaskiego.j extends java.lang.Object
 
 Interfaces (count = 1):
   + Class [android/view/View$OnClickListener]
@@ -84172,9 +84456,9 @@ Constant Pool (count = 108):
   + Class [android/widget/LinearLayout]
   + Class [android/widget/TextView]
   + Class [java/lang/Object]
-  + Class [pl/rafalmanka/slownikjezykaslaskiego/i]
-  + Fieldref [pl/rafalmanka/slownikjezykaslaskiego/i.a Ljava/lang/String;]
-  + Fieldref [pl/rafalmanka/slownikjezykaslaskiego/i.b Lpl/rafalmanka/slownikjezykaslaskiego/h;]
+  + Class [pl/rafalmanka/slownikjezykaslaskiego/j]
+  + Fieldref [pl/rafalmanka/slownikjezykaslaskiego/j.a Ljava/lang/String;]
+  + Fieldref [pl/rafalmanka/slownikjezykaslaskiego/j.b Lpl/rafalmanka/slownikjezykaslaskiego/i;]
   + Methodref [android/content/res/Resources.getColor (I)I]
   + Methodref [android/view/View.findViewById (I)Landroid/view/View;]
   + Methodref [android/view/View.getContext ()Landroid/content/Context;]
@@ -84204,7 +84488,7 @@ Constant Pool (count = 108):
   + NameAndType [<init> (Landroid/content/Context;)V]
   + NameAndType [a Ljava/lang/String;]
   + NameAndType [addView (Landroid/view/View;)V]
-  + NameAndType [b Lpl/rafalmanka/slownikjezykaslaskiego/h;]
+  + NameAndType [b Lpl/rafalmanka/slownikjezykaslaskiego/i;]
   + NameAndType [findViewById (I)Landroid/view/View;]
   + NameAndType [getColor (I)I]
   + NameAndType [getContext ()Landroid/content/Context;]
@@ -84233,11 +84517,11 @@ Constant Pool (count = 108):
   + Utf8 [(Landroid/view/View;)V]
   + Utf8 [(Landroid/view/ViewGroup$LayoutParams;)V]
   + Utf8 [(Ljava/lang/CharSequence;)V]
-  + Utf8 [(Lpl/rafalmanka/slownikjezykaslaskiego/h;Ljava/lang/String;)V]
+  + Utf8 [(Lpl/rafalmanka/slownikjezykaslaskiego/i;Ljava/lang/String;)V]
   + Utf8 [<init>]
   + Utf8 [Code]
   + Utf8 [Ljava/lang/String;]
-  + Utf8 [Lpl/rafalmanka/slownikjezykaslaskiego/h;]
+  + Utf8 [Lpl/rafalmanka/slownikjezykaslaskiego/i;]
   + Utf8 [a]
   + Utf8 [addView]
   + Utf8 [android/content/res/Resources]
@@ -84256,7 +84540,7 @@ Constant Pool (count = 108):
   + Utf8 [isShown]
   + Utf8 [java/lang/Object]
   + Utf8 [onClick]
-  + Utf8 [pl/rafalmanka/slownikjezykaslaskiego/i]
+  + Utf8 [pl/rafalmanka/slownikjezykaslaskiego/j]
   + Utf8 [setBackgroundColor]
   + Utf8 [setId]
   + Utf8 [setImageResource]
@@ -84271,24 +84555,24 @@ Fields (count = 2):
   + Field:        a Ljava/lang/String;
     Access flags: 0x1010
       = final synthetic java.lang.String a
-  + Field:        b Lpl/rafalmanka/slownikjezykaslaskiego/h;
+  + Field:        b Lpl/rafalmanka/slownikjezykaslaskiego/i;
     Access flags: 0x1010
-      = final synthetic pl.rafalmanka.slownikjezykaslaskiego.h b
+      = final synthetic pl.rafalmanka.slownikjezykaslaskiego.i b
 
 Methods (count = 2):
-  - Method:       <init>(Lpl/rafalmanka/slownikjezykaslaskiego/h;Ljava/lang/String;)V
+  - Method:       <init>(Lpl/rafalmanka/slownikjezykaslaskiego/i;Ljava/lang/String;)V
     Access flags: 0x0
-      = i(pl.rafalmanka.slownikjezykaslaskiego.h,java.lang.String)
+      = j(pl.rafalmanka.slownikjezykaslaskiego.i,java.lang.String)
     Class member attributes (count = 1):
     + Code attribute instructions (code length = 15, locals = 3, stack = 2):
       [0] aload_0 v0
       [1] aload_1 v1
       [2] putfield #16
-        + Fieldref [pl/rafalmanka/slownikjezykaslaskiego/i.b Lpl/rafalmanka/slownikjezykaslaskiego/h;]
+        + Fieldref [pl/rafalmanka/slownikjezykaslaskiego/j.b Lpl/rafalmanka/slownikjezykaslaskiego/i;]
       [5] aload_0 v0
       [6] aload_2 v2
       [7] putfield #15
-        + Fieldref [pl/rafalmanka/slownikjezykaslaskiego/i.a Ljava/lang/String;]
+        + Fieldref [pl/rafalmanka/slownikjezykaslaskiego/j.a Ljava/lang/String;]
       [10] aload_0 v0
       [11] invokespecial #40
         + Methodref [java/lang/Object.<init> ()V]
@@ -84380,7 +84664,7 @@ Methods (count = 2):
       [109] aload v4
       [111] aload_0 v0
       [112] getfield #15
-        + Fieldref [pl/rafalmanka/slownikjezykaslaskiego/i.a Ljava/lang/String;]
+        + Fieldref [pl/rafalmanka/slownikjezykaslaskiego/j.a Ljava/lang/String;]
       [115] invokevirtual #37
         + Methodref [android/widget/TextView.setText (Ljava/lang/CharSequence;)V]
       [118] aload v4

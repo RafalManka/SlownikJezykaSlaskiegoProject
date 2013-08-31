@@ -63,7 +63,7 @@ public class DatabaseHandler extends SQLiteOpenHelper {
         onCreate(sqLiteDatabase);
     }
 
-    public synchronized Cursor getWordsStartingFrom(Context context, String word) {
+    public synchronized Cursor getWordsStartingFrom(Context context, char direction, String word) {
         SQLiteDatabase db = getReadableDatabase();
         String query = "SELECT *," +
                 " w."+Constants.Database.COLUMN_WORD.getTitle()+" AS "+Constants.Dictionary.WORD.getTitle()+","+
@@ -73,10 +73,12 @@ public class DatabaseHandler extends SQLiteOpenHelper {
                 " AS wht ON wht." + Constants.Database.COLUMN_WORD_ID.getTitle() + "=w." + Constants.Database.COLUMN_WORD_ID.getTitle() + "" +
                 " INNER JOIN " + Constants.Database.TABLE_WORD.getTitle() +
                 " AS t ON wht." + Constants.Database.COLUMN_TRANSLATION_ID.getTitle() + "=t." + Constants.Database.COLUMN_WORD_ID.getTitle() + "" +
-                " WHERE w." + Constants.Database.COLUMN_WORD.getTitle() + " LIKE '%" + word +
-                "' OR w." + Constants.Database.COLUMN_WORD.getTitle() + " LIKE ' %" + word + "'";
+                " WHERE "+direction+"." + Constants.Database.COLUMN_WORD.getTitle() + " LIKE '" + word +"%'"+
+                " OR "+direction+"." + Constants.Database.COLUMN_WORD.getTitle() + " LIKE ' " + word + "%'"+
+                " ORDER BY "+direction+"." + Constants.Database.COLUMN_WORD.getTitle()+" ASC"
+                ;
 
-Log.d(TAG,"query: "+query);
+        Log.d(TAG,"query: "+query);
         Cursor cursor = db.rawQuery(query, null);
 
         cursor.moveToFirst();

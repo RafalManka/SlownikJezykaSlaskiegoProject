@@ -4,7 +4,7 @@
     <style name="ApplicationSearchbarTheme" parent="@android:style/Theme.Black.NoTitleBar" >
         
         <item name="android:textSize">0sp</item>
-		<item name="android:windowTitleSize">96dp</item> 
+		<item name="android:windowTitleSize">140dp</item>
 		<item name="android:windowContentOverlay">@null</item>       
         <item name="android:windowNoTitle">false</item>      
         <item name="android:background">@color/topbar_grey</item>
