@@ -14,6 +14,9 @@
 
     <!-- Application theme. -->
     <style name="AppTheme" parent="AppBaseTheme">
+        <item name="android:colorPrimaryDark" tools:ignore="NewApi">@color/primary_700</item>
+        <item name="android:colorPrimary" tools:ignore="NewApi">@color/primary_500</item>
+        <item name="android:colorAccent" tools:ignore="NewApi">@color/accent_500</item>
         <item name="android:windowNoTitle">true</item>
         <item name="android:windowActionBar" tools:ignore="NewApi">false</item>
         <item name="android:windowBackground">@drawable/background</item>

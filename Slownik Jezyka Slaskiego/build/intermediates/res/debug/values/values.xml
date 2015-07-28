@@ -2,9 +2,36 @@
 <resources xmlns:ns1="http://schemas.android.com/tools">
     <!-- From: file:/Users/rafalmanka/Documents/pjwstk/touch_test/slownik-jezyka-slaskiego/Slownik%20Jezyka%20Slaskiego/src/main/res/values/colors.xml -->
     <eat-comment/>
+    <color name="accent_100">#fff8c8</color>
+    <color name="accent_200">#fff3a3</color>
+    <color name="accent_300">#ffef84</color>
+    <color name="accent_400">#ffeb66</color>
+    <color name="accent_50">#fffded</color>
+    <color name="accent_500">#ffe747</color>
+    <color name="accent_600">#dfca3e</color>
+    <color name="accent_700">#bfad35</color>
+    <color name="accent_800">#9f902c</color>
+    <color name="accent_900">#807424</color>
+    <color name="accent_A100">#fff8c8</color>
+    <color name="accent_A200">#fff3a3</color>
+    <color name="accent_A400">#ffeb66</color>
+    <color name="accent_A700">#bfad35</color>
     <color name="darkergrey_titlebar">#ff595959</color>
     <color name="light_blue_item_selected">#3f9abe</color>
+    <color name="primary_100">#e3e5f1</color>
+    <color name="primary_200">#d0d4e8</color>
+    <color name="primary_300">#c0c5e0</color>
+    <color name="primary_400">#b0b6d9</color>
+    <color name="primary_50">#f6f6fa</color>
     <color name="primary_500">#a0a8d1</color>
+    <color name="primary_600">#8c93b7</color>
+    <color name="primary_700">#787e9d</color>
+    <color name="primary_800">#646983</color>
+    <color name="primary_900">#505469</color>
+    <color name="primary_A100">#e3e5f1</color>
+    <color name="primary_A200">#d0d4e8</color>
+    <color name="primary_A400">#b0b6d9</color>
+    <color name="primary_A700">#787e9d</color>
     <color name="topbar_darkgrey">#b8b8b8</color>
     <color name="topbar_grey">#cecece</color>
     <!-- From: file:/Users/rafalmanka/Documents/pjwstk/touch_test/slownik-jezyka-slaskiego/Slownik%20Jezyka%20Slaskiego/src/main/res/values/dimens.xml -->
@@ -41,6 +68,9 @@
         -->
     </style>
     <style name="AppTheme" parent="AppBaseTheme">
+        <item name="android:colorPrimaryDark" ns1:ignore="NewApi">@color/primary_700</item>
+        <item name="android:colorPrimary" ns1:ignore="NewApi">@color/primary_500</item>
+        <item name="android:colorAccent" ns1:ignore="NewApi">@color/accent_500</item>
         <item name="android:windowNoTitle">true</item>
         <item name="android:windowActionBar" ns1:ignore="NewApi">false</item>
         <item name="android:windowBackground">@drawable/background</item>

@@ -27,156 +27,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2c8f243f-2db9-45cb-8bca-40315f836e5d" name="Default" comment="dodano asynctask">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/src/main/java/pl/rafalmanka/sjs/SplashScreenActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/src/main/res/drawable/background.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/support_annotations_22_2_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/support_v4_22_2_1.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/ant_1_8_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/ant_launcher_1_8_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/aopalliance_1_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/appflood_1_60.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/asm_3_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/asm_4_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/asm_analysis_4_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/asm_commons_4_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/asm_tree_4_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/asm_util_4_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/backport_util_concurrent_3_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/catch_exception_1_0_4.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/cglib_2_2_1_v20090111.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/classworlds_1_1_alpha_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/commons_codec_1_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/fest_reflect_1_4_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/fest_util_1_2_5.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/guice_3_0_no_aop.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/hamcrest_core_1_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/javax_inject_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/junit_4_8_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/maven_ant_tasks_2_1_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/maven_artifact_2_2_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/maven_artifact_manager_2_2_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/maven_error_diagnostics_2_2_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/maven_model_2_2_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/maven_plugin_registry_2_2_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/maven_profile_2_2_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/maven_project_2_2_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/maven_repository_metadata_2_2_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/maven_settings_2_2_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/mockito_core_1_8_5.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/nekohtml_1_9_6_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/objenesis_1_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/plexus_container_default_1_0_alpha_9_stable_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/plexus_interpolation_1_11.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/plexus_utils_1_5_15.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/roboguice_2_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/robolectric_2_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/robotium_solo_4_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/sqlite_jdbc_3_7_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/support_v4_13_0_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/support_v4_r7.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/vtd_xml_2_11.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/wagon_file_1_0_beta_6.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/wagon_http_lightweight_1_0_beta_6.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/wagon_http_shared_1_0_beta_6.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/wagon_provider_api_1_0_beta_6.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/xercesMinimal_1_9_6_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Slownik Jezyka Slaskiego Project.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/build/apk/Slownik Jezyka Slaskiego-basic-release-unaligned.apk" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/build/apk/Slownik Jezyka Slaskiego-basic-release.apk" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/build/assets/basic/release/dictionary.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/build/classes-proguard/basic/release/classes.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/build/classes/basic/release/pl/rafalmanka/slownikjezykaslaskiego/ActivityUtils.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/build/classes/basic/release/pl/rafalmanka/slownikjezykaslaskiego/BuildConfig.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/build/classes/basic/release/pl/rafalmanka/slownikjezykaslaskiego/Constants$Database.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/build/classes/basic/release/pl/rafalmanka/slownikjezykaslaskiego/Constants$Dictionary.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/build/classes/basic/release/pl/rafalmanka/slownikjezykaslaskiego/Constants$Menu.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/build/classes/basic/release/pl/rafalmanka/slownikjezykaslaskiego/Constants.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/build/classes/basic/release/pl/rafalmanka/slownikjezykaslaskiego/DatabaseHandler.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/build/classes/basic/release/pl/rafalmanka/slownikjezykaslaskiego/FlavourUtils.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/build/classes/basic/release/pl/rafalmanka/slownikjezykaslaskiego/R$attr.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/build/classes/basic/release/pl/rafalmanka/slownikjezykaslaskiego/R$color.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/build/classes/basic/release/pl/rafalmanka/slownikjezykaslaskiego/R$dimen.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/build/classes/basic/release/pl/rafalmanka/slownikjezykaslaskiego/R$drawable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/build/classes/basic/release/pl/rafalmanka/slownikjezykaslaskiego/R$id.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/build/classes/basic/release/pl/rafalmanka/slownikjezykaslaskiego/R$layout.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/build/classes/basic/release/pl/rafalmanka/slownikjezykaslaskiego/R$menu.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/build/classes/basic/release/pl/rafalmanka/slownikjezykaslaskiego/R$string.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/build/classes/basic/release/pl/rafalmanka/slownikjezykaslaskiego/R$style.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/build/classes/basic/release/pl/rafalmanka/slownikjezykaslaskiego/R.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/build/classes/basic/release/pl/rafalmanka/slownikjezykaslaskiego/SearchDictionary$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/build/classes/basic/release/pl/rafalmanka/slownikjezykaslaskiego/SearchDictionary.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/build/classes/basic/release/pl/rafalmanka/slownikjezykaslaskiego/SuggestWordActivity.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/build/classes/basic/release/pl/rafalmanka/slownikjezykaslaskiego/WordListAdapter$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/build/classes/basic/release/pl/rafalmanka/slownikjezykaslaskiego/WordListAdapter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/build/incremental/aidl/basic/release/dependency.store" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/build/incremental/aidl/basic/release/inputs.data" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/build/incremental/aidl/basic/release/outputs.data" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/build/incremental/dex/basic/release/inputs.data" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/build/incremental/dex/basic/release/outputs.data" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/build/incremental/mergeAssets/basic/release/inputs.data" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/build/incremental/mergeAssets/basic/release/merger.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/build/incremental/mergeAssets/basic/release/outputs.data" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/build/incremental/mergeResources/basic/release/inputs.data" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/build/incremental/mergeResources/basic/release/merger.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/build/incremental/mergeResources/basic/release/outputs.data" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/build/libs/Slownik Jezyka Slaskiego-basic-release.ap_" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/build/libs/Slownik Jezyka Slaskiego-basic-release.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/build/manifests/basic/release/AndroidManifest.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/build/proguard/basic/release/aapt_rules.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/build/proguard/basic/release/dump.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/build/proguard/basic/release/mapping.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/build/proguard/basic/release/seeds.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/build/proguard/basic/release/usage.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/build/res/all/basic/release/drawable-hdpi/ic_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/build/res/all/basic/release/drawable-mdpi/arrow.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/build/res/all/basic/release/drawable-mdpi/button_ok.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/build/res/all/basic/release/drawable-mdpi/ic_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/build/res/all/basic/release/drawable-mdpi/topbar.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/build/res/all/basic/release/drawable-xhdpi/ic_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/build/res/all/basic/release/drawable-xxhdpi/ic_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/build/res/all/basic/release/drawable/list_item.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/build/res/all/basic/release/layout/activity_search_dictionary.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/build/res/all/basic/release/layout/activity_starting_point.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/build/res/all/basic/release/layout/activity_suggest_word.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/build/res/all/basic/release/layout/adapter_list_item.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/build/res/all/basic/release/layout/title_bar.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/build/res/all/basic/release/layout/title_bar_no_searchbar.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/build/res/all/basic/release/menu/search_dictionary.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/build/res/all/basic/release/menu/starting_point.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/build/res/all/basic/release/values-sw720dp-land/values.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/build/res/all/basic/release/values-v11/values.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/build/res/all/basic/release/values-v14/values.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/build/res/all/basic/release/values/values.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/build/source/buildConfig/basic/release/pl/rafalmanka/slownikjezykaslaskiego/BuildConfig.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/src/basic/AndroidManifest.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/src/basic/java/pl/rafalmanka/slownikjezykaslaskiego/FlavourUtils.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/src/main/res/drawable-hdpi/ic_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/src/main/res/drawable-mdpi/ic_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/src/main/res/drawable-xhdpi/ic_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/src/main/res/drawable-xxhdpi/ic_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/src/main/res/values/ApplicationStyle.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/src/pro/java/pl/rafalmanka/slownikjezykaslaskiego/FlavourUtils.java" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/src/main/java/pl/rafalmanka/slownikjezykaslaskiego/ActivityUtils.java" afterPath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/src/main/java/pl/rafalmanka/sjs/old/ActivityUtils.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/src/main/java/pl/rafalmanka/slownikjezykaslaskiego/Constants.java" afterPath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/src/main/java/pl/rafalmanka/sjs/old/Constants.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/src/main/java/pl/rafalmanka/slownikjezykaslaskiego/DatabaseHandler.java" afterPath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/src/main/java/pl/rafalmanka/sjs/old/DatabaseHandler.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/src/main/java/pl/rafalmanka/slownikjezykaslaskiego/SearchDictionary.java" afterPath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/src/main/java/pl/rafalmanka/sjs/old/SearchDictionary.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/src/main/java/pl/rafalmanka/slownikjezykaslaskiego/SuggestWordActivity.java" afterPath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/src/main/java/pl/rafalmanka/sjs/old/SuggestWordActivity.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/src/main/java/pl/rafalmanka/slownikjezykaslaskiego/WordListAdapter.java" afterPath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/src/main/java/pl/rafalmanka/sjs/old/WordListAdapter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/src/main/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/src/instrumentTest/java/pl/rafalmanka/slownikjezykaslaskiego/DatabaseHandlerTest.java" afterPath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/src/instrumentTest/java/pl/rafalmanka/slownikjezykaslaskiego/DatabaseHandlerTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/Slownik Jezyka Slaskiego.iml" afterPath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/Slownik Jezyka Slaskiego.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/build.gradle" afterPath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/build/intermediates/classes/debug/pl/rafalmanka/sjs/R$color.class" afterPath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/build/intermediates/classes/debug/pl/rafalmanka/sjs/R$color.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/build/intermediates/classes/debug/pl/rafalmanka/sjs/R$dimen.class" afterPath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/build/intermediates/classes/debug/pl/rafalmanka/sjs/R$dimen.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/build/intermediates/classes/debug/pl/rafalmanka/sjs/R$drawable.class" afterPath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/build/intermediates/classes/debug/pl/rafalmanka/sjs/R$drawable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/build/intermediates/classes/debug/pl/rafalmanka/sjs/R$id.class" afterPath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/build/intermediates/classes/debug/pl/rafalmanka/sjs/R$id.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/build/intermediates/classes/debug/pl/rafalmanka/sjs/R$layout.class" afterPath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/build/intermediates/classes/debug/pl/rafalmanka/sjs/R$layout.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/build/intermediates/classes/debug/pl/rafalmanka/sjs/R$menu.class" afterPath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/build/intermediates/classes/debug/pl/rafalmanka/sjs/R$menu.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/build/intermediates/classes/debug/pl/rafalmanka/sjs/R$mipmap.class" afterPath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/build/intermediates/classes/debug/pl/rafalmanka/sjs/R$mipmap.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/build/intermediates/classes/debug/pl/rafalmanka/sjs/R$string.class" afterPath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/build/intermediates/classes/debug/pl/rafalmanka/sjs/R$string.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/build/intermediates/classes/debug/pl/rafalmanka/sjs/R$style.class" afterPath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/build/intermediates/classes/debug/pl/rafalmanka/sjs/R$style.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/build/intermediates/classes/debug/pl/rafalmanka/sjs/R.class" afterPath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/build/intermediates/classes/debug/pl/rafalmanka/sjs/R.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/build/outputs/apk/Slownik Jezyka Slaskiego-debug-unaligned.apk" afterPath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/build/outputs/apk/Slownik Jezyka Slaskiego-debug-unaligned.apk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/build/outputs/apk/Slownik Jezyka Slaskiego-debug.apk" afterPath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/build/outputs/apk/Slownik Jezyka Slaskiego-debug.apk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/build/intermediates/classes/debug/pl/rafalmanka/sjs/old/WordListAdapter$1.class" afterPath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/build/intermediates/classes/debug/pl/rafalmanka/sjs/old/WordListAdapter$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/cache.properties.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/build/intermediates/dex/debug/classes.dex" afterPath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/build/intermediates/dex/debug/classes.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/fileHashes.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/fileSnapshots.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/build/intermediates/resources/resources-debug.ap_" afterPath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/build/intermediates/resources/resources-debug.ap_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/taskArtifacts.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/build/generated/source/r/debug/pl/rafalmanka/sjs/R.java" afterPath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/build/generated/source/r/debug/pl/rafalmanka/sjs/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/build/intermediates/symbols/debug/R.txt" afterPath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/build/intermediates/symbols/debug/R.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/src/main/res/values/colors.xml" afterPath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/src/main/res/values/colors.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/gradle.xml" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local.properties" afterPath="$PROJECT_DIR$/local.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/build/intermediates/incremental/mergeResources/debug/merger.xml" afterPath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/build/intermediates/incremental/mergeResources/debug/merger.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/src/main/res/values/styles.xml" afterPath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/src/main/res/values/styles.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/src/main/res/values-v14/styles.xml" afterPath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/src/main/res/values-v14/styles.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/src/main/res/layout/title_bar.xml" afterPath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/src/main/res/layout/title_bar.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/build/intermediates/res/debug/values/values.xml" afterPath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/build/intermediates/res/debug/values/values.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Slownik Jezyka Slaskiego.iws" />
@@ -260,15 +135,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Slownik Jezyka Slaskiego/src/main/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6857143">
-              <caret line="24" column="11" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="13" column="44" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
               <folding>
                 <element signature="e#260#278#0" expanded="true" />
                 <element signature="e#414#432#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="styles.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Slownik Jezyka Slaskiego/src/main/res/values/styles.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.51428574">
+              <caret line="18" column="37" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -1655,14 +1540,14 @@
         <option value="$PROJECT_DIR$/Slownik Jezyka Slaskiego/src/main/res/layout/title_bar.xml" />
         <option value="$PROJECT_DIR$/Slownik Jezyka Slaskiego/src/main/java/pl/rafalmanka/sjs/SplashScreenActivity.java" />
         <option value="$PROJECT_DIR$/Slownik Jezyka Slaskiego/src/main/res/values/ApplicationStyle.xml" />
-        <option value="$PROJECT_DIR$/Slownik Jezyka Slaskiego/src/main/res/values/styles.xml" />
         <option value="$PROJECT_DIR$/Slownik Jezyka Slaskiego/src/main/res/values-v14/styles.xml" />
         <option value="$PROJECT_DIR$/Slownik Jezyka Slaskiego/src/main/res/values-v11/styles.xml" />
         <option value="$PROJECT_DIR$/Slownik Jezyka Slaskiego/src/main/res/drawable/background.xml" />
         <option value="$PROJECT_DIR$/Slownik Jezyka Slaskiego/src/main/res/color/primary_500.xml" />
-        <option value="$PROJECT_DIR$/Slownik Jezyka Slaskiego/src/main/res/values/colors.xml" />
         <option value="$PROJECT_DIR$/Slownik Jezyka Slaskiego/build.gradle" />
         <option value="$PROJECT_DIR$/Slownik Jezyka Slaskiego/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/Slownik Jezyka Slaskiego/src/main/res/values/colors.xml" />
+        <option value="$PROJECT_DIR$/Slownik Jezyka Slaskiego/src/main/res/values/styles.xml" />
       </list>
     </option>
   </component>
@@ -2282,23 +2167,23 @@
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Statistic" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.40443215" sideWeight="0.6342246" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32941177" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287841" sideWeight="0.49713877" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3957219" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32941177" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="true" content_ui="tabs" />
-      <window_info id="Build Variants" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3138958" sideWeight="0.5701001" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30024815" sideWeight="0.48569384" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3138958" sideWeight="0.42989987" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3138958" sideWeight="0.5729614" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30024815" sideWeight="0.4828326" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3138958" sideWeight="0.42703864" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3301179" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2512535" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25894135" sideWeight="0.6342246" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32754344" sideWeight="0.4914163" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32754344" sideWeight="0.48855507" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32941177" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2498615" sideWeight="0.67058825" order="2" side_tool="false" content_ui="combo" />
@@ -2530,26 +2415,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Slownik Jezyka Slaskiego/src/main/res/values/styles.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4857143">
-          <caret line="17" column="66" selection-start-line="17" selection-start-column="66" selection-end-line="17" selection-end-column="66" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Slownik Jezyka Slaskiego/src/main/res/drawable/background.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.14285715">
           <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Slownik Jezyka Slaskiego/src/main/res/values/colors.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.22857143">
-          <caret line="8" column="58" selection-start-line="8" selection-start-column="58" selection-end-line="8" selection-end-column="58" />
           <folding />
         </state>
       </provider>
@@ -2564,12 +2433,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Slownik Jezyka Slaskiego/src/main/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6857143">
-          <caret line="24" column="11" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="44" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
           <folding>
             <element signature="e#260#278#0" expanded="true" />
             <element signature="e#414#432#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Slownik Jezyka Slaskiego/src/main/res/values/colors.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.41520467">
+          <caret line="24" column="44" selection-start-line="24" selection-start-column="44" selection-end-line="24" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Slownik Jezyka Slaskiego/src/main/res/values/styles.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.51428574">
+          <caret line="18" column="37" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
+          <folding />
         </state>
       </provider>
     </entry>
