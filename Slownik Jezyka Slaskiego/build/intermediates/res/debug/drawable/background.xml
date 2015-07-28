@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/primary_500" />
+        </shape>
+    </item>
+    <item>
+        <bitmap xmlns:android="http://schemas.android.com/apk/res/android"
+            android:gravity="center"
+            android:src="@drawable/img_background" />
+    </item>
+</layer-list>
+<!-- From: file:/Users/rafalmanka/Documents/pjwstk/touch_test/slownik-jezyka-slaskiego/Slownik%20Jezyka%20Slaskiego/src/main/res/drawable/background.xml -->

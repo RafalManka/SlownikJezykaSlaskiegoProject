@@ -1,52 +1,28 @@
-buildscript {
-
-    repositories {
-        mavenCentral()
-    }
-
-    dependencies {
-        classpath 'com.android.tools.build:gradle:0.5.+'
-    }
-}
-
-apply plugin: 'android'
-
-repositories {
-    mavenCentral()
-}
-
-dependencies {
-    compile 'com.android.support:support-v4:13.0.0'
-
-    compile files('src/main/libs/appflood-1.60.jar')
-    instrumentTestCompile 'com.jayway.android.robotium:robotium-solo:4.2'
-    instrumentTestCompile 'org.robolectric:robolectric:2.1'
-    instrumentTestCompile 'org.roboguice:roboguice:2.0'
-    instrumentTestCompile 'junit:junit:4.8.2'
-
-
-}
+apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 17
-    buildToolsVersion "17.0.0"
+
+    compileSdkVersion 22
+    buildToolsVersion "22.0.1"
 
     defaultConfig {
-
-        versionName "2.0.0-Bytom"
+        applicationId "pl.rafalmanka.slownikslaski"
+        versionName "3.0.0"
         versionCode 4
 
         minSdkVersion 7
-        targetSdkVersion 16
+        targetSdkVersion 22
     }
 
     signingConfigs {
-        myConfig {
+
+        release {
             storeFile file("SlownikJezykaSlaskiego_keystore")
             storePassword "***"
             keyAlias "słownik języka śląskiego"
             keyPassword "***"
         }
+
     }
 
     sourceSets {
@@ -54,25 +30,27 @@ android {
     }
 
     buildTypes {
+
         debug {
-            packageNameSuffix ".debug"
+            applicationIdSuffix ".debug"
         }
+
         release {
-            signingConfig signingConfigs.myConfig
-            runProguard true
-            proguardFile getDefaultProguardFile('proguard-android.txt')
+            signingConfig signingConfigs.release
         }
+
     }
 
-    productFlavors {
-        basic {
-            packageName "pl.rafalmanka.slownikslaski"
-        }
-
-        pro {
-            packageName "pl.rafalmanka.slownikjezykaslaskiegopro"
-        }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_7
+        targetCompatibility JavaVersion.VERSION_1_7
     }
 }
 
-
+dependencies {
+    compile 'com.android.support:support-v4:22.2.1'
+    instrumentTestCompile 'com.jayway.android.robotium:robotium-solo:4.2'
+    instrumentTestCompile 'org.robolectric:robolectric:2.1'
+    instrumentTestCompile 'org.roboguice:roboguice:2.0'
+    instrumentTestCompile 'junit:junit:4.8.2'
+}

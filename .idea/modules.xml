@@ -3,8 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Slownik Jezyka Slaskiego/Slownik Jezyka Slaskiego.iml" filepath="$PROJECT_DIR$/Slownik Jezyka Slaskiego/Slownik Jezyka Slaskiego.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Slownik Jezyka Slaskiego Project.iml" filepath="$PROJECT_DIR$/Slownik Jezyka Slaskiego Project.iml" />
+      <module fileurl="file://$PROJECT_DIR$/slownik-jezyka-slaskiego.iml" filepath="$PROJECT_DIR$/slownik-jezyka-slaskiego.iml" />
     </modules>
   </component>
 </project>
-

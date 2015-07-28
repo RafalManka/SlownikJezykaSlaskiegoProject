@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Applications/adt-bundle-mac-x86_64-20140702/sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.1/support-annotations-22.2.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="61a0ff5c29295ec56d7e0bd3d25d95dbf71b4b2b">
+        <dex dex="/Users/rafalmanka/Documents/pjwstk/touch_test/slownik-jezyka-slaskiego/Slownik Jezyka Slaskiego/build/intermediates/pre-dexed/debug/support-annotations-22.2.1-5b22cc9173cfe6d58e99cd022d27d8124ccf2245.jar" />
+    </item>
+    <item
+        jar="/Users/rafalmanka/Documents/pjwstk/touch_test/slownik-jezyka-slaskiego/Slownik Jezyka Slaskiego/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="f8efd0096475e0daf054267b61544e10dc776503">
+        <dex dex="/Users/rafalmanka/Documents/pjwstk/touch_test/slownik-jezyka-slaskiego/Slownik Jezyka Slaskiego/build/intermediates/pre-dexed/debug/classes-d0c131ce27bc7fc9c3dd39ed88dae7b34183e8e2.jar" />
+    </item>
+    <item
+        jar="/Users/rafalmanka/Documents/pjwstk/touch_test/slownik-jezyka-slaskiego/Slownik Jezyka Slaskiego/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/jars/libs/internal_impl-22.2.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c471eaaba13ff64f6e0383d1c30a9cdc9a97efeb">
+        <dex dex="/Users/rafalmanka/Documents/pjwstk/touch_test/slownik-jezyka-slaskiego/Slownik Jezyka Slaskiego/build/intermediates/pre-dexed/debug/internal_impl-22.2.1-307bddd099f617134a2640f1ec1d029a555414e6.jar" />
+    </item>
+
+</items>

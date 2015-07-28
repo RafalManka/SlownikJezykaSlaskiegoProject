@@ -60,7 +60,7 @@
                             android:layout_width="0dip"
                         android:layout_weight="1"
                             android:layout_height="fill_parent"
-                            android:src="@drawable/ic_launcher"
+                            android:src="@mipmap/ic_launcher"
                             android:background="@android:color/transparent"
                             android:id="@+id/imageView2"
                         android:layout_margin="0dip"
@@ -73,7 +73,6 @@
                     android:layout_weight="1"
                         android:layout_height="15dip"
                         android:background="@android:color/transparent"
-                        android:src="@drawable/right_arrow"
                         android:id="@+id/titlebar_arrow_tap_to_change_directions"
                     android:layout_margin="0dip"
                     android:padding="0dip" />
@@ -91,7 +90,6 @@
                             android:layout_width="0dip"
                             android:layout_height="fill_parent"
                             android:background="@android:color/transparent"
-                            android:src="@drawable/icon_pl"
                         android:layout_margin="0dip"
                         android:padding="2dip" />
 

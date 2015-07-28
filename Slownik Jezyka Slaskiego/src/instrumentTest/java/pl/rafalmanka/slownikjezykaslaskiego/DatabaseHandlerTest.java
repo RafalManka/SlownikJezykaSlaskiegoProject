@@ -1,10 +1,14 @@
-package pl.rafalmanka.slownikjezykaslaskiego;
+package pl.rafalmanka.sjs;
 
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.test.ActivityInstrumentationTestCase2;
 
 import com.jayway.android.robotium.solo.Solo;
+
+import pl.rafalmanka.sjs.old.Constants;
+import pl.rafalmanka.sjs.old.DatabaseHandler;
+import pl.rafalmanka.sjs.old.SearchDictionary;
 
 /**
  * Created by rafal on 8/23/13.
